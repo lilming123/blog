@@ -1,13 +1,21 @@
 {
+  "promptDelete": false,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "newLinkFormat": "relative",
   "newFileLocation": "folder",
   "newFileFolderPath": "source/_posts",
   "attachmentFolderPath": "source/_posts/static",
-  "newLinkFormat": "relative",
-  "useMarkdownLinks": true,
   "userIgnoreFilters": [
     "node_modules/",
     "public/",
     "scaffolds/",
     "themes/"
-  ]
+  ],
+  "useMarkdownLinks": true
 }
