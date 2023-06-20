@@ -1,1 +1,13 @@
-{}
+{
+  "newFileLocation": "folder",
+  "newFileFolderPath": "source/_posts",
+  "attachmentFolderPath": "source/_posts/static",
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
+  "userIgnoreFilters": [
+    "node_modules/",
+    "public/",
+    "scaffolds/",
+    "themes/"
+  ]
+}

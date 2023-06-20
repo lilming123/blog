@@ -1,5 +1,5 @@
 # 格式化字符串
-1
+123
 ```typescript
 let name: string = 'tom';
 let hello: string = `my name is ${name}`
