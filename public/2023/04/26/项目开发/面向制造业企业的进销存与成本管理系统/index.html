@@ -1,0 +1,337 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><title>lilming的小窝 | lilming的小窝</title><meta name="author" content="lilming"><meta name="copyright" content="lilming"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="PC端功能模块设计企业组织架构管理角色管理 有财务主管、会计、出纳、系统管理员等 操作：设置权限，增删改查  用户管理 设置角色，姓名，年龄，性别，部门，职务等信息 操作：增删改查  菜单管理 管理员权限，设置菜单路由 操作：增删改查  部门管理 树状结构 操作：增删改查  我的部门 根据当前登录的用户来显示对应的部门 操作：增删改查  职务管理 根据公司的组织架构来决定 操作：增删改查  员工管">
+<meta property="og:type" content="article">
+<meta property="og:title" content="lilming的小窝">
+<meta property="og:url" content="http://example.com/2023/04/26/%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91/%E9%9D%A2%E5%90%91%E5%88%B6%E9%80%A0%E4%B8%9A%E4%BC%81%E4%B8%9A%E7%9A%84%E8%BF%9B%E9%94%80%E5%AD%98%E4%B8%8E%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/index.html">
+<meta property="og:site_name" content="lilming的小窝">
+<meta property="og:description" content="PC端功能模块设计企业组织架构管理角色管理 有财务主管、会计、出纳、系统管理员等 操作：设置权限，增删改查  用户管理 设置角色，姓名，年龄，性别，部门，职务等信息 操作：增删改查  菜单管理 管理员权限，设置菜单路由 操作：增删改查  部门管理 树状结构 操作：增删改查  我的部门 根据当前登录的用户来显示对应的部门 操作：增删改查  职务管理 根据公司的组织架构来决定 操作：增删改查  员工管">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png">
+<meta property="article:published_time" content="2023-04-26T07:16:18.361Z">
+<meta property="article:modified_time" content="2023-03-27T10:28:17.383Z">
+<meta property="article:author" content="lilming">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/2023/04/26/%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91/%E9%9D%A2%E5%90%91%E5%88%B6%E9%80%A0%E4%B8%9A%E4%BC%81%E4%B8%9A%E7%9A%84%E8%BF%9B%E9%94%80%E5%AD%98%E4%B8%8E%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  }
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'lilming的小窝',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2023-03-27 18:28:17'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="lilming的小窝" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">20</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr/></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="lilming的小窝"><span class="site-name">lilming的小窝</span></a></span><div id="menus"><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">无题</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-04-26T07:16:18.361Z" title="发表于 2023-04-26 15:16:18">2023-04-26</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-03-27T10:28:17.383Z" title="更新于 2023-03-27 18:28:17">2023-03-27</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="PC端功能模块设计"><a href="#PC端功能模块设计" class="headerlink" title="PC端功能模块设计"></a>PC端功能模块设计</h1><h2 id="企业组织架构管理"><a href="#企业组织架构管理" class="headerlink" title="企业组织架构管理"></a>企业组织架构管理</h2><h3 id="角色管理"><a href="#角色管理" class="headerlink" title="角色管理"></a>角色管理</h3><ul>
+<li>有财务主管、会计、出纳、系统管理员等</li>
+<li>操作：设置权限，增删改查</li>
+</ul>
+<h3 id="用户管理"><a href="#用户管理" class="headerlink" title="用户管理"></a>用户管理</h3><ul>
+<li>设置角色，姓名，年龄，性别，部门，职务等信息</li>
+<li>操作：增删改查</li>
+</ul>
+<h3 id="菜单管理"><a href="#菜单管理" class="headerlink" title="菜单管理"></a>菜单管理</h3><ul>
+<li>管理员权限，设置菜单路由</li>
+<li>操作：增删改查</li>
+</ul>
+<h3 id="部门管理"><a href="#部门管理" class="headerlink" title="部门管理"></a>部门管理</h3><ul>
+<li>树状结构</li>
+<li>操作：增删改查</li>
+</ul>
+<h3 id="我的部门"><a href="#我的部门" class="headerlink" title="我的部门"></a>我的部门</h3><ul>
+<li>根据当前登录的用户来显示对应的部门</li>
+<li>操作：增删改查</li>
+</ul>
+<h3 id="职务管理"><a href="#职务管理" class="headerlink" title="职务管理"></a>职务管理</h3><ul>
+<li>根据公司的组织架构来决定</li>
+<li>操作：增删改查</li>
+</ul>
+<h2 id="员工管理"><a href="#员工管理" class="headerlink" title="员工管理"></a>员工管理</h2><h3 id="工种管理"><a href="#工种管理" class="headerlink" title="工种管理"></a>工种管理</h3><ul>
+<li>企业自定义工种，比如送货员、焊接工、维修工</li>
+</ul>
+<h3 id="人员基本信息"><a href="#人员基本信息" class="headerlink" title="人员基本信息"></a>人员基本信息</h3><ul>
+<li>性别、姓名、联系方式，工种，部门，是否部门负责人</li>
+<li>操作：增删改查，查看考勤，修改考勤</li>
+</ul>
+<h3 id="人员考勤"><a href="#人员考勤" class="headerlink" title="人员考勤"></a>人员考勤</h3><ul>
+<li>按月份显示人员列表，请假天数，缺勤天数</li>
+<li>操作：按月份查找，增删改查，</li>
+</ul>
+<h3 id="请假管理"><a href="#请假管理" class="headerlink" title="请假管理"></a>请假管理</h3><ul>
+<li>请假人，请假理由，是否通过</li>
+<li>操作：增删改查</li>
+</ul>
+<h2 id="采购管理"><a href="#采购管理" class="headerlink" title="采购管理"></a>采购管理</h2><ul>
+<li>一份订单有四个状态，未审批，已审批，已导出，已入库，根据这四个来决定在哪个功能模块显示。这里的导出订单和验收入库功能相当于财务机器人，即使这里的财务机器人很不成熟，也可以作为该系统的一大亮点和创新点</li>
+</ul>
+<h3 id="采购价格管理"><a href="#采购价格管理" class="headerlink" title="采购价格管理"></a>采购价格管理</h3><ul>
+<li>采购的明细项目，如铆钉，轮子，钢筋等，规格、单位、单价、供应商</li>
+<li>操作：增删改查</li>
+</ul>
+<h3 id="产品BOM"><a href="#产品BOM" class="headerlink" title="产品BOM"></a>产品BOM</h3><ul>
+<li>指生产一件产品所需要的材料的明细单</li>
+<li>操作：增删改查</li>
+</ul>
+<h3 id="生成采购订单（根据采购价格和BOM）"><a href="#生成采购订单（根据采购价格和BOM）" class="headerlink" title="生成采购订单（根据采购价格和BOM）"></a>生成采购订单（根据采购价格和BOM）</h3><ul>
+<li>根据要生产的产品数量和上面BOM单的信息，来确定要采购的订单，最终生成的采购订单的数量是根据BOM单内供应商的数量</li>
+<li>订单状态：所有的采购订单</li>
+<li>操作：生成采购订单，修改采购订单</li>
+</ul>
+<h3 id="采购审批"><a href="#采购审批" class="headerlink" title="采购审批"></a>采购审批</h3><ul>
+<li>在生成之后的采购订单会在这里显示</li>
+<li>订单状态：未审批的订单</li>
+<li>操作：通过，删除生成的订单，修改</li>
+</ul>
+<h3 id="导出采购订单"><a href="#导出采购订单" class="headerlink" title="导出采购订单"></a>导出采购订单</h3><ul>
+<li>根据采购订单的信息，和Exel模板来导出采购订单，Exel模板可以自定义</li>
+<li>订单状态：已审批的订单</li>
+<li>操作：取消审批会回退到采购审批，想要删除在采购审批删除；选择对应的记录来导出采购订单，并且打印全部订单。</li>
+</ul>
+<h3 id="导出入库单"><a href="#导出入库单" class="headerlink" title="导出入库单"></a>导出入库单</h3><ul>
+<li>选择采购记录，点击导出入库订单后要求填写仓库名和存放位置，之后生成入库单（excel格式，可以打印）并且一条填写完存放位置后保持填写窗口继续填写，保证效率</li>
+<li>订单状态：已导出的订单</li>
+</ul>
+<h3 id="验收入库"><a href="#验收入库" class="headerlink" title="验收入库"></a>验收入库</h3><ul>
+<li>根据导出入库单模块生成的入库单来导入excel，实现入库</li>
+<li>但可能不是所有的原材料入库都是通过采购订单的方式来实现的，因此有第二种方法录入：根据发票OCR识别录入，这里只做简单的识别，发票的模板可能各式各样会影响识别结果，因此准确率不高，时间和能力有限不准备优化，能把固定的一套模板发票录入即可。注意：导入的发票是没有仓库的信息的，要自己手动录入</li>
+<li>第三种方法:可以手动录入，来应对第二种情况不准确</li>
+<li>列表显示操作记录：操作方式（人工、财务机器人），入库材料，数量，含税金额，不含税金额，存放的仓库信息等</li>
+<li>操作：增删改查，导入入库单，导入发票，手动修改</li>
+</ul>
+<h3 id="供应商管理"><a href="#供应商管理" class="headerlink" title="供应商管理"></a>供应商管理</h3><ul>
+<li>地点，联系人，联系人电话，备注等</li>
+<li>操作：增删改查</li>
+</ul>
+<h2 id="销售管理"><a href="#销售管理" class="headerlink" title="销售管理"></a>销售管理</h2><ul>
+<li>订单的两个状态：是否出库，是否送达</li>
+</ul>
+<h3 id="订单管理"><a href="#订单管理" class="headerlink" title="订单管理"></a>订单管理</h3><ul>
+<li>填写订单基本信息，订单与产品之间是一对多的关系，订单是主表，产品是附表，一条订单记录包含多个商品。采购订单的数据库设计也是类似</li>
+<li>订单状态：全部</li>
+<li>操作：增删改查</li>
+</ul>
+<h3 id="导出订单"><a href="#导出订单" class="headerlink" title="导出订单"></a>导出订单</h3><ul>
+<li>根据销售订单的信息，和Exel模板来导出销售订单，Exel模板可以自定义</li>
+<li>订单状态：未出库</li>
+<li>操作：选择对应的记录来导出销售订单，可以筛选已导出的订单和未生成的订单，也可以删除订单</li>
+</ul>
+<h3 id="生成出库二维码"><a href="#生成出库二维码" class="headerlink" title="生成出库二维码"></a>生成出库二维码</h3><ul>
+<li>根据订单附表信息打印产品出库二维码，这里对应到产品上的，导出订单但是对应到订单上的，不能混淆</li>
+<li>订单状态：未出库</li>
+<li>操作: 增删改查，打印二维码</li>
+</ul>
+<h3 id="出库管理"><a href="#出库管理" class="headerlink" title="出库管理"></a>出库管理</h3><ul>
+<li>PC端操作：可以手动填写出库记录</li>
+<li>小程序端操作：扫描二维码，增加一条记录，实现出库</li>
+<li>出库后，根据附表下的商品明细，来减少商品的库存</li>
+<li>订单状态： 已出库</li>
+</ul>
+<h3 id="送货管理"><a href="#送货管理" class="headerlink" title="送货管理"></a>送货管理</h3><ul>
+<li>这里的功能暂且是简单的手动填写是否送到，校赛过了后再去考虑增加物联网功能并且和小程序联动，司机接收订单，显示位置，是否送达</li>
+<li>订单状态：已出库，未送达</li>
+</ul>
+<h3 id="客户管理"><a href="#客户管理" class="headerlink" title="客户管理"></a>客户管理</h3><ul>
+<li>客户的基本信息</li>
+<li>操作：增删改查</li>
+</ul>
+<h2 id="仓库管理"><a href="#仓库管理" class="headerlink" title="仓库管理"></a>仓库管理</h2><h3 id="库位管理"><a href="#库位管理" class="headerlink" title="库位管理"></a>库位管理</h3><ul>
+<li>仓库的基本信息，仓库名：如半成品库、原材料库、成品库等；货架号：自定义；层数：货架层数：数字，一共有几层。手动录入太麻烦，excel直接导入</li>
+<li>操作：增删改查，excel导入</li>
+</ul>
+<h3 id="原材料盘点"><a href="#原材料盘点" class="headerlink" title="原材料盘点"></a>原材料盘点</h3><h4 id="原材料库位盘点"><a href="#原材料库位盘点" class="headerlink" title="原材料库位盘点"></a>原材料库位盘点</h4><ul>
+<li>显示仓库库位上存放的原材料</li>
+<li>以列表显示</li>
+</ul>
+<h4 id="原材料数量盘点"><a href="#原材料数量盘点" class="headerlink" title="原材料数量盘点"></a>原材料数量盘点</h4><ul>
+<li>显示原材料数量</li>
+<li>以柱状图或列表显示</li>
+</ul>
+<h3 id="原材料盘亏盘盈"><a href="#原材料盘亏盘盈" class="headerlink" title="原材料盘亏盘盈"></a>原材料盘亏盘盈</h3><ul>
+<li>录入月份和盘亏\盘盈的原材料和数量，填写盘亏\盘盈原因</li>
+</ul>
+<h3 id="产品盘点"><a href="#产品盘点" class="headerlink" title="产品盘点"></a>产品盘点</h3><h4 id="产品库位盘点"><a href="#产品库位盘点" class="headerlink" title="产品库位盘点"></a>产品库位盘点</h4><ul>
+<li>显示仓库库位上存放的产品</li>
+<li>以列表显示</li>
+</ul>
+<h4 id="产品数量盘点"><a href="#产品数量盘点" class="headerlink" title="产品数量盘点"></a>产品数量盘点</h4><ul>
+<li>显示产品数量</li>
+<li>以柱状图或列表显示</li>
+</ul>
+<h3 id="产品盘亏盘盈"><a href="#产品盘亏盘盈" class="headerlink" title="产品盘亏盘盈"></a>产品盘亏盘盈</h3><ul>
+<li>录入月份和盘亏\盘盈的产品和数量，填写盘亏\盘盈原因</li>
+</ul>
+<h2 id="生产管理"><a href="#生产管理" class="headerlink" title="生产管理"></a>生产管理</h2><h3 id="生产入库"><a href="#生产入库" class="headerlink" title="生产入库"></a>生产入库</h3><ul>
+<li>PC端：手动填写产品入库单</li>
+<li>小程序端：扫描入库二维码，增加一条记录，实现入库</li>
+<li>操作：增删改查</li>
+</ul>
+<h3 id="产品生产流程"><a href="#产品生产流程" class="headerlink" title="产品生产流程"></a>产品生产流程</h3><ul>
+<li>暂且只采用一种成本计算方法，综合结转分布法不按仓库收发，产品对结转路劲是一对多的关系。一个产品对应多条结转记录，填写每条结转路径的名称、在产品完工程度</li>
+</ul>
+<h3 id="人工费用管理"><a href="#人工费用管理" class="headerlink" title="人工费用管理"></a>人工费用管理</h3><ul>
+<li>所属的产品，生产路径，单位工时（元&#x2F;小时）</li>
+</ul>
+<h3 id="固定制造费用管理"><a href="#固定制造费用管理" class="headerlink" title="固定制造费用管理"></a>固定制造费用管理</h3><ul>
+<li>因为固定制造费用和变动制造费用的成本计算方式不同，所以分开</li>
+<li>固定资产名：如机器，设备，厂房</li>
+</ul>
+<h3 id="变动制造费用管理"><a href="#变动制造费用管理" class="headerlink" title="变动制造费用管理"></a>变动制造费用管理</h3><h3 id="成本报表"><a href="#成本报表" class="headerlink" title="成本报表"></a>成本报表</h3><ul>
+<li>所有产品的可视化报表，纵坐标产品的成本，横坐标是产品名</li>
+<li>单个产品的成本组成，分成直接材料、直接人工、制造费用的饼图</li>
+</ul>
+<h2 id="本量利分析"><a href="#本量利分析" class="headerlink" title="本量利分析"></a>本量利分析</h2><h3 id="保本点分析"><a href="#保本点分析" class="headerlink" title="保本点分析"></a>保本点分析</h3><h3 id="利润预测分析"><a href="#利润预测分析" class="headerlink" title="利润预测分析"></a>利润预测分析</h3><h2 id="经营决策"><a href="#经营决策" class="headerlink" title="经营决策"></a>经营决策</h2><h3 id="生产决策"><a href="#生产决策" class="headerlink" title="生产决策"></a>生产决策</h3><h3 id="定价决策"><a href="#定价决策" class="headerlink" title="定价决策"></a>定价决策</h3><h2 id="预测分析"><a href="#预测分析" class="headerlink" title="预测分析"></a>预测分析</h2><h3 id="销售预测分析"><a href="#销售预测分析" class="headerlink" title="销售预测分析"></a>销售预测分析</h3><h3 id="成本预测分析"><a href="#成本预测分析" class="headerlink" title="成本预测分析"></a>成本预测分析</h3><h3 id="资金预测分析"><a href="#资金预测分析" class="headerlink" title="资金预测分析"></a>资金预测分析</h3><h2 id="智能报表"><a href="#智能报表" class="headerlink" title="智能报表"></a>智能报表</h2><h3 id="销售收入统计"><a href="#销售收入统计" class="headerlink" title="销售收入统计"></a>销售收入统计</h3><ul>
+<li>根据销售订单，权责发生制来确认收入。在销售管理-送货管理确认到货了才确认一笔收入</li>
+</ul>
+<h3 id="采购统计分析"><a href="#采购统计分析" class="headerlink" title="采购统计分析"></a>采购统计分析</h3><ul>
+<li>采购数量报表，饼图和柱状图</li>
+</ul>
+<h3 id="库存统计分析"><a href="#库存统计分析" class="headerlink" title="库存统计分析"></a>库存统计分析</h3><ul>
+<li>这里是产品库存统计不是原材料，若产品入库后很长时间没有出库，会有显示库存积压</li>
+<li>展现的形式有图形化（饼图和柱状图）；也有列表（显示仓库库位上存放的产品，会多出来一列显示库存积压）</li>
+</ul>
+<h3 id="生存销售监控大屏"><a href="#生存销售监控大屏" class="headerlink" title="生存销售监控大屏"></a>生存销售监控大屏</h3><ul>
+<li>已经有模板了</li>
+</ul>
+<h3 id="智慧物流生产大屏"><a href="#智慧物流生产大屏" class="headerlink" title="智慧物流生产大屏"></a>智慧物流生产大屏</h3><ul>
+<li>已经有模板了</li>
+</ul>
+<h2 id="绩效评价"><a href="#绩效评价" class="headerlink" title="绩效评价"></a>绩效评价</h2><h3 id="平衡计分卡"><a href="#平衡计分卡" class="headerlink" title="平衡计分卡"></a>平衡计分卡</h3></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="http://example.com">lilming</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://example.com/2023/04/26/%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91/%E9%9D%A2%E5%90%91%E5%88%B6%E9%80%A0%E4%B8%9A%E4%BC%81%E4%B8%9A%E7%9A%84%E8%BF%9B%E9%94%80%E5%AD%98%E4%B8%8E%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/">http://example.com/2023/04/26/%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91/%E9%9D%A2%E5%90%91%E5%88%B6%E9%80%A0%E4%B8%9A%E4%BC%81%E4%B8%9A%E7%9A%84%E8%BF%9B%E9%94%80%E5%AD%98%E4%B8%8E%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://example.com" target="_blank">lilming的小窝</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2023/04/26/Python%E7%88%AC%E8%99%AB/python%E7%88%AC%E8%99%AB----BeautifulSoup%E5%BA%93/" title=""><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info"></div></div></a></div><div class="next-post pull-right"><a href="/2023/04/26/%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91/%E9%83%A8%E7%BD%B2/" title=""><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">下一篇</div><div class="next_info"></div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">lilming</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">20</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#PC%E7%AB%AF%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97%E8%AE%BE%E8%AE%A1"><span class="toc-number">1.</span> <span class="toc-text">PC端功能模块设计</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BC%81%E4%B8%9A%E7%BB%84%E7%BB%87%E6%9E%B6%E6%9E%84%E7%AE%A1%E7%90%86"><span class="toc-number">1.1.</span> <span class="toc-text">企业组织架构管理</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%92%E8%89%B2%E7%AE%A1%E7%90%86"><span class="toc-number">1.1.1.</span> <span class="toc-text">角色管理</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%94%A8%E6%88%B7%E7%AE%A1%E7%90%86"><span class="toc-number">1.1.2.</span> <span class="toc-text">用户管理</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%8F%9C%E5%8D%95%E7%AE%A1%E7%90%86"><span class="toc-number">1.1.3.</span> <span class="toc-text">菜单管理</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%83%A8%E9%97%A8%E7%AE%A1%E7%90%86"><span class="toc-number">1.1.4.</span> <span class="toc-text">部门管理</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%88%91%E7%9A%84%E9%83%A8%E9%97%A8"><span class="toc-number">1.1.5.</span> <span class="toc-text">我的部门</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%81%8C%E5%8A%A1%E7%AE%A1%E7%90%86"><span class="toc-number">1.1.6.</span> <span class="toc-text">职务管理</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%91%98%E5%B7%A5%E7%AE%A1%E7%90%86"><span class="toc-number">1.2.</span> <span class="toc-text">员工管理</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B7%A5%E7%A7%8D%E7%AE%A1%E7%90%86"><span class="toc-number">1.2.1.</span> <span class="toc-text">工种管理</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%BA%E5%91%98%E5%9F%BA%E6%9C%AC%E4%BF%A1%E6%81%AF"><span class="toc-number">1.2.2.</span> <span class="toc-text">人员基本信息</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%BA%E5%91%98%E8%80%83%E5%8B%A4"><span class="toc-number">1.2.3.</span> <span class="toc-text">人员考勤</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AF%B7%E5%81%87%E7%AE%A1%E7%90%86"><span class="toc-number">1.2.4.</span> <span class="toc-text">请假管理</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%87%87%E8%B4%AD%E7%AE%A1%E7%90%86"><span class="toc-number">1.3.</span> <span class="toc-text">采购管理</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%87%87%E8%B4%AD%E4%BB%B7%E6%A0%BC%E7%AE%A1%E7%90%86"><span class="toc-number">1.3.1.</span> <span class="toc-text">采购价格管理</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%A7%E5%93%81BOM"><span class="toc-number">1.3.2.</span> <span class="toc-text">产品BOM</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%94%9F%E6%88%90%E9%87%87%E8%B4%AD%E8%AE%A2%E5%8D%95%EF%BC%88%E6%A0%B9%E6%8D%AE%E9%87%87%E8%B4%AD%E4%BB%B7%E6%A0%BC%E5%92%8CBOM%EF%BC%89"><span class="toc-number">1.3.3.</span> <span class="toc-text">生成采购订单（根据采购价格和BOM）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%87%87%E8%B4%AD%E5%AE%A1%E6%89%B9"><span class="toc-number">1.3.4.</span> <span class="toc-text">采购审批</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AF%BC%E5%87%BA%E9%87%87%E8%B4%AD%E8%AE%A2%E5%8D%95"><span class="toc-number">1.3.5.</span> <span class="toc-text">导出采购订单</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AF%BC%E5%87%BA%E5%85%A5%E5%BA%93%E5%8D%95"><span class="toc-number">1.3.6.</span> <span class="toc-text">导出入库单</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%AA%8C%E6%94%B6%E5%85%A5%E5%BA%93"><span class="toc-number">1.3.7.</span> <span class="toc-text">验收入库</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BE%9B%E5%BA%94%E5%95%86%E7%AE%A1%E7%90%86"><span class="toc-number">1.3.8.</span> <span class="toc-text">供应商管理</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%94%80%E5%94%AE%E7%AE%A1%E7%90%86"><span class="toc-number">1.4.</span> <span class="toc-text">销售管理</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AE%A2%E5%8D%95%E7%AE%A1%E7%90%86"><span class="toc-number">1.4.1.</span> <span class="toc-text">订单管理</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AF%BC%E5%87%BA%E8%AE%A2%E5%8D%95"><span class="toc-number">1.4.2.</span> <span class="toc-text">导出订单</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%94%9F%E6%88%90%E5%87%BA%E5%BA%93%E4%BA%8C%E7%BB%B4%E7%A0%81"><span class="toc-number">1.4.3.</span> <span class="toc-text">生成出库二维码</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%87%BA%E5%BA%93%E7%AE%A1%E7%90%86"><span class="toc-number">1.4.4.</span> <span class="toc-text">出库管理</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%80%81%E8%B4%A7%E7%AE%A1%E7%90%86"><span class="toc-number">1.4.5.</span> <span class="toc-text">送货管理</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%A2%E6%88%B7%E7%AE%A1%E7%90%86"><span class="toc-number">1.4.6.</span> <span class="toc-text">客户管理</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%93%E5%BA%93%E7%AE%A1%E7%90%86"><span class="toc-number">1.5.</span> <span class="toc-text">仓库管理</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BA%93%E4%BD%8D%E7%AE%A1%E7%90%86"><span class="toc-number">1.5.1.</span> <span class="toc-text">库位管理</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8E%9F%E6%9D%90%E6%96%99%E7%9B%98%E7%82%B9"><span class="toc-number">1.5.2.</span> <span class="toc-text">原材料盘点</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8E%9F%E6%9D%90%E6%96%99%E5%BA%93%E4%BD%8D%E7%9B%98%E7%82%B9"><span class="toc-number">1.5.2.1.</span> <span class="toc-text">原材料库位盘点</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8E%9F%E6%9D%90%E6%96%99%E6%95%B0%E9%87%8F%E7%9B%98%E7%82%B9"><span class="toc-number">1.5.2.2.</span> <span class="toc-text">原材料数量盘点</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8E%9F%E6%9D%90%E6%96%99%E7%9B%98%E4%BA%8F%E7%9B%98%E7%9B%88"><span class="toc-number">1.5.3.</span> <span class="toc-text">原材料盘亏盘盈</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%A7%E5%93%81%E7%9B%98%E7%82%B9"><span class="toc-number">1.5.4.</span> <span class="toc-text">产品盘点</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%A7%E5%93%81%E5%BA%93%E4%BD%8D%E7%9B%98%E7%82%B9"><span class="toc-number">1.5.4.1.</span> <span class="toc-text">产品库位盘点</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%A7%E5%93%81%E6%95%B0%E9%87%8F%E7%9B%98%E7%82%B9"><span class="toc-number">1.5.4.2.</span> <span class="toc-text">产品数量盘点</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%A7%E5%93%81%E7%9B%98%E4%BA%8F%E7%9B%98%E7%9B%88"><span class="toc-number">1.5.5.</span> <span class="toc-text">产品盘亏盘盈</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%94%9F%E4%BA%A7%E7%AE%A1%E7%90%86"><span class="toc-number">1.6.</span> <span class="toc-text">生产管理</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%94%9F%E4%BA%A7%E5%85%A5%E5%BA%93"><span class="toc-number">1.6.1.</span> <span class="toc-text">生产入库</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%A7%E5%93%81%E7%94%9F%E4%BA%A7%E6%B5%81%E7%A8%8B"><span class="toc-number">1.6.2.</span> <span class="toc-text">产品生产流程</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%BA%E5%B7%A5%E8%B4%B9%E7%94%A8%E7%AE%A1%E7%90%86"><span class="toc-number">1.6.3.</span> <span class="toc-text">人工费用管理</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9B%BA%E5%AE%9A%E5%88%B6%E9%80%A0%E8%B4%B9%E7%94%A8%E7%AE%A1%E7%90%86"><span class="toc-number">1.6.4.</span> <span class="toc-text">固定制造费用管理</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%98%E5%8A%A8%E5%88%B6%E9%80%A0%E8%B4%B9%E7%94%A8%E7%AE%A1%E7%90%86"><span class="toc-number">1.6.5.</span> <span class="toc-text">变动制造费用管理</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%88%90%E6%9C%AC%E6%8A%A5%E8%A1%A8"><span class="toc-number">1.6.6.</span> <span class="toc-text">成本报表</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%AC%E9%87%8F%E5%88%A9%E5%88%86%E6%9E%90"><span class="toc-number">1.7.</span> <span class="toc-text">本量利分析</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BF%9D%E6%9C%AC%E7%82%B9%E5%88%86%E6%9E%90"><span class="toc-number">1.7.1.</span> <span class="toc-text">保本点分析</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%A9%E6%B6%A6%E9%A2%84%E6%B5%8B%E5%88%86%E6%9E%90"><span class="toc-number">1.7.2.</span> <span class="toc-text">利润预测分析</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BB%8F%E8%90%A5%E5%86%B3%E7%AD%96"><span class="toc-number">1.8.</span> <span class="toc-text">经营决策</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%94%9F%E4%BA%A7%E5%86%B3%E7%AD%96"><span class="toc-number">1.8.1.</span> <span class="toc-text">生产决策</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9A%E4%BB%B7%E5%86%B3%E7%AD%96"><span class="toc-number">1.8.2.</span> <span class="toc-text">定价决策</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%A2%84%E6%B5%8B%E5%88%86%E6%9E%90"><span class="toc-number">1.9.</span> <span class="toc-text">预测分析</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%94%80%E5%94%AE%E9%A2%84%E6%B5%8B%E5%88%86%E6%9E%90"><span class="toc-number">1.9.1.</span> <span class="toc-text">销售预测分析</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%88%90%E6%9C%AC%E9%A2%84%E6%B5%8B%E5%88%86%E6%9E%90"><span class="toc-number">1.9.2.</span> <span class="toc-text">成本预测分析</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%B5%84%E9%87%91%E9%A2%84%E6%B5%8B%E5%88%86%E6%9E%90"><span class="toc-number">1.9.3.</span> <span class="toc-text">资金预测分析</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%99%BA%E8%83%BD%E6%8A%A5%E8%A1%A8"><span class="toc-number">1.10.</span> <span class="toc-text">智能报表</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%94%80%E5%94%AE%E6%94%B6%E5%85%A5%E7%BB%9F%E8%AE%A1"><span class="toc-number">1.10.1.</span> <span class="toc-text">销售收入统计</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%87%87%E8%B4%AD%E7%BB%9F%E8%AE%A1%E5%88%86%E6%9E%90"><span class="toc-number">1.10.2.</span> <span class="toc-text">采购统计分析</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BA%93%E5%AD%98%E7%BB%9F%E8%AE%A1%E5%88%86%E6%9E%90"><span class="toc-number">1.10.3.</span> <span class="toc-text">库存统计分析</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%94%9F%E5%AD%98%E9%94%80%E5%94%AE%E7%9B%91%E6%8E%A7%E5%A4%A7%E5%B1%8F"><span class="toc-number">1.10.4.</span> <span class="toc-text">生存销售监控大屏</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%99%BA%E6%85%A7%E7%89%A9%E6%B5%81%E7%94%9F%E4%BA%A7%E5%A4%A7%E5%B1%8F"><span class="toc-number">1.10.5.</span> <span class="toc-text">智慧物流生产大屏</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BB%A9%E6%95%88%E8%AF%84%E4%BB%B7"><span class="toc-number">1.11.</span> <span class="toc-text">绩效评价</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B9%B3%E8%A1%A1%E8%AE%A1%E5%88%86%E5%8D%A1"><span class="toc-number">1.11.1.</span> <span class="toc-text">平衡计分卡</span></a></li></ol></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/04/26/%E5%90%8E%E7%AB%AF%E6%A1%86%E6%9E%B6/Spring%20Boot%E5%85%A5%E9%97%A8/" title="无题">无题</a><time datetime="2023-04-26T07:16:18.448Z" title="发表于 2023-04-26 15:16:18">2023-04-26</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/04/26/SQL%E6%95%B0%E6%8D%AE%E5%BA%93/SQL%E8%BF%9B%E9%98%B6/" title="无题">无题</a><time datetime="2023-04-26T07:16:18.387Z" title="发表于 2023-04-26 15:16:18">2023-04-26</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/04/26/SQL%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL%E5%9F%BA%E7%A1%80/" title="无题">无题</a><time datetime="2023-04-26T07:16:18.382Z" title="发表于 2023-04-26 15:16:18">2023-04-26</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/04/26/Python%E7%88%AC%E8%99%AB/python%E7%88%AC%E8%99%AB----Requests%E5%BA%93/" title="无题">无题</a><time datetime="2023-04-26T07:16:18.373Z" title="发表于 2023-04-26 15:16:18">2023-04-26</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/04/26/Python%E7%88%AC%E8%99%AB/python%E7%88%AC%E8%99%AB----BeautifulSoup%E5%BA%93/" title="无题">无题</a><time datetime="2023-04-26T07:16:18.370Z" title="发表于 2023-04-26 15:16:18">2023-04-26</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By lilming</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
