@@ -8,7 +8,6 @@ let hello: string = `my name is ${name}`
 let age : number | String;
 age = 1
 age = '1'
-
 ```
 # 接口
 - 接口的属性用分号隔开

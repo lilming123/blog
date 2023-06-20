@@ -11,8 +11,12 @@
             "id": "3b1b121ce7385d7e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "计算机语言知识库/TypeScript.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -60,6 +64,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "1f502c1f19e5f113",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -81,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "计算机语言知识库/TypeScript.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "计算机语言知识库/TypeScript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "计算机语言知识库/TypeScript.md"
+              }
             }
           },
           {
@@ -148,21 +164,31 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c3a598d11d0c51b8",
+  "active": "3b1b121ce7385d7e",
   "lastOpenFiles": [
-    "前端框架/前端鉴权.md",
-    "static/Pastedimage20221219221309.png.md",
+    "计算机语言知识库/TypeScript基础入门.md",
+    "前端框架/React基础知识入门.md",
     "前端框架/VUE.md",
-    "static",
+    "前端框架/前端鉴权.md",
     "数学建模/Matlab.md",
-    "数学建模/仿真复习.md",
-    "项目开发/中医药食堂管理.md",
-    "项目开发/服务器配置.md",
-    "项目开发/部署.md",
-    "Python爬虫/python爬虫----Requests库.md",
+    "项目开发/代码思路.md",
+    "项目开发/面向制造业企业的进销存与成本管理系统.md",
     "Python爬虫/python爬虫----BeautifulSoup库.md",
+    "Python爬虫/python爬虫----Requests库.md",
     "SQL数据库/MySQL基础.md",
     "SQL数据库/SQL进阶.md",
+    "计算机语言知识库/深入理解TypeScript.md",
+    "计算机语言知识库/Go语言基础入门.md",
+    "项目开发/面向制造业企业的进销存与成本管理系统.html",
+    "项目开发/部署流程.md",
+    "项目开发/服务器配置.md",
+    "项目开发/在校学生表和开课明细表的Exel导入的格式.md",
+    "未命名",
+    "static/Pastedimage20221219221309.png.md",
+    "static",
+    "数学建模/仿真复习.md",
+    "项目开发/中医药食堂管理.md",
+    "项目开发/部署.md",
     "火车出栈问题.md",
     "PPT.7z",
     "未命名 1.md",
@@ -172,21 +198,12 @@
     "javaScript.md",
     "demo_230208_132910.sdocx",
     "demo_230208_132910.docx",
-    "Excalidraw/Drawing 2023-03-28 21.26.53.excalidraw.md",
     "Pasted image 20230306214315.png",
     "Pasted image 20230425220604.png",
     "a060aae92746c2eeda97cbf65634bef.png",
-    "未命名",
     "Excalidraw",
-    "一元多项式的加减乘除.md",
-    "5e5de841d76197296ed23007b5c5a29.png.md",
     "未命名.canvas",
-    "未命名.md",
     "未命名 1.canvas",
-    "计算机基础/软件工程.md",
-    "计算机基础/计算机网络.md",
-    "计算机基础/git命令.md",
-    "计算机基础/UML.md",
     "447204abc1cec27e648995fbdd3270a.png",
     "25581b7cb2eaab04260e7f8a4b286ff.png",
     "a28bf67f4b5a2380a6bcefe6a5e791f.png",

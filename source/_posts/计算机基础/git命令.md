@@ -58,6 +58,11 @@ git branch 分支名                 -- 创建分支
  git checkout master
  git merge 分支名                  --合并分支
 ```
+## 上传到 main 分支
+需要合并到 main 分支
+1.  git fetch origin
+2.  git checkout main
+3.  git merge master --allow-unrelated-histories（合并分支解决冲突）
 - 有可能两个文件有冲突，要人为决定
 - 此处有[解决方案](https://blog.csdn.net/qq_35077107/article/details/108025911)
 # 添加安全权限
