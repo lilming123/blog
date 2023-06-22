@@ -8,14 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3b1b121ce7385d7e",
+            "id": "f3d1cd628dc978db",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "source/_posts/SQL数据库/SQL进阶.md",
-                "mode": "source",
-                "source": false
+                "file": "source/_posts/static/9660e442326d8ec9d21c3c34384c06a.png"
               }
             }
           }
@@ -93,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/SQL数据库/SQL进阶.md",
+                "file": "source/_posts/static/9660e442326d8ec9d21c3c34384c06a.png",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/_posts/SQL数据库/SQL进阶.md",
+                "file": "source/_posts/static/9660e442326d8ec9d21c3c34384c06a.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/_posts/SQL数据库/SQL进阶.md"
+                "file": "source/_posts/static/9660e442326d8ec9d21c3c34384c06a.png"
               }
             }
           },
@@ -164,8 +162,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3b1b121ce7385d7e",
+  "active": "c3a598d11d0c51b8",
   "lastOpenFiles": [
+    "source/_posts/男友答卷.md",
+    "source/_posts/未命名 1.md",
+    "source/_posts/项目开发/OrginOne.md",
+    "source/_posts/static/9660e442326d8ec9d21c3c34384c06a.png",
+    "source/_posts/项目开发/未命名.md",
+    "source/_posts/SQL数据库/SQL进阶.md",
     "deploy.bat",
     "新建 Markdown.md",
     "source/_posts/SQL数据库/MySQL基础.md",
@@ -175,7 +179,6 @@
     "scaffolds/page.md",
     "scaffolds/draft.md",
     "source/_posts/前端框架/VUE.md",
-    "source/_posts/SQL数据库/SQL进阶.md",
     "source/_posts/计算机语言知识库/CSS.md",
     "source/_posts/计算机语言知识库/HTML.md",
     "source/_posts/前端框架/未命名.md",
@@ -183,7 +186,6 @@
     "source/_posts/Python爬虫/python爬虫----Requests库.md",
     "source/_posts/Python爬虫/python爬虫----BeautifulSoup库.md",
     "source/_posts/abc.md",
-    "source/_posts/未命名.md",
     "未命名.md",
     "static",
     "新建文件夹",
@@ -192,8 +194,6 @@
     "前端框架/VUE.md",
     "前端框架/前端鉴权.md",
     "数学建模/Matlab.md",
-    "项目开发/代码思路.md",
-    "项目开发/面向制造业企业的进销存与成本管理系统.md",
     "项目开发/面向制造业企业的进销存与成本管理系统.html",
     "未命名",
     "PPT.7z",
@@ -211,7 +211,6 @@
     "143e54b8ac4d7a1db286a70033f6a97.png",
     "36a1e1809897e6f6ce5754dacf43590.png",
     "17b6330ecb967e9d62c023e98db5e11.png",
-    "7d7db09d1f8541b6845619272cf8824.png",
     "PPT.7z.tmp"
   ]
 }
