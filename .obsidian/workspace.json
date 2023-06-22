@@ -11,9 +11,11 @@
             "id": "f3d1cd628dc978db",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "source/_posts/static/9660e442326d8ec9d21c3c34384c06a.png"
+                "file": "source/_posts/demo.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -91,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/static/9660e442326d8ec9d21c3c34384c06a.png",
+                "file": "source/_posts/demo.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/_posts/static/9660e442326d8ec9d21c3c34384c06a.png",
+                "file": "source/_posts/demo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/_posts/static/9660e442326d8ec9d21c3c34384c06a.png"
+                "file": "source/_posts/demo.md"
               }
             }
           },
@@ -142,13 +144,21 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "2e88c18b6f2d9531",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 387.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,12 +174,13 @@
   },
   "active": "c3a598d11d0c51b8",
   "lastOpenFiles": [
+    "source/_posts/SQL数据库/SQL进阶.md",
+    "source/_posts/demo.md",
+    "source/_posts/static/9660e442326d8ec9d21c3c34384c06a.png",
     "source/_posts/男友答卷.md",
     "source/_posts/未命名 1.md",
     "source/_posts/项目开发/OrginOne.md",
-    "source/_posts/static/9660e442326d8ec9d21c3c34384c06a.png",
     "source/_posts/项目开发/未命名.md",
-    "source/_posts/SQL数据库/SQL进阶.md",
     "deploy.bat",
     "新建 Markdown.md",
     "source/_posts/SQL数据库/MySQL基础.md",
@@ -193,7 +204,6 @@
     "前端框架/React基础知识入门.md",
     "前端框架/VUE.md",
     "前端框架/前端鉴权.md",
-    "数学建模/Matlab.md",
     "项目开发/面向制造业企业的进销存与成本管理系统.html",
     "未命名",
     "PPT.7z",
