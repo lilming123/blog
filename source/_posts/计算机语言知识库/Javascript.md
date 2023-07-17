@@ -1,3 +1,9 @@
+---
+title: Javascript
+date: 2023-07-17 09:33:21
+tags:
+categories:
+---
 
 # 语法
 javascript的语法比较简单，类似与python与C的结合，阅读文档自行了解：[javascript教程](https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
@@ -50,4 +56,4 @@ cars[0] = "Opel";
 <a name="rtAIM"></a>
 # 对象
 <a name="XRB4R"></a>
-## <br />
+

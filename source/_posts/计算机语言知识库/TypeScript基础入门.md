@@ -1,3 +1,9 @@
+---
+title: TypeScript基础入门
+date: 2023-07-17 09:32:51
+tags:
+categories:
+---
 # 前言
 
 官方文档：[TypeScript中文网 ](https://www.tslang.cn/docs/home.html)
@@ -931,3 +937,4 @@ padding(1, 1, 1, 1); // Okay: top, right, bottom, left
 
 padding(1, 1, 1); // Error: Not a part of the available overloads
 ```
+64 4 16 20 16 

@@ -1,3 +1,9 @@
+---
+title: python爬虫----BeautifulSoup库
+date: 2023-07-17 09:34:53
+tags:
+categories:
+---
 <a name="c024c16d"></a>
 # 导入beautifulsoup
 

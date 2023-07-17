@@ -1,3 +1,9 @@
+---
+title: python爬虫----Requests库
+date: 2023-07-17 09:34:56
+tags:
+categories:
+---
 <a name="6b474650"></a>
 # requests库的基本使用
 

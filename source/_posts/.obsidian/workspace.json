@@ -1,0 +1,163 @@
+{
+  "main": {
+    "id": "b26d0d62792ffc11",
+    "type": "split",
+    "children": [
+      {
+        "id": "a092a3a21ea03211",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f56e9b13cebf5c35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "项目开发/部署.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e7f771650eb63308",
+    "type": "split",
+    "children": [
+      {
+        "id": "4b992f65cae77af7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f1248b8f96fbbe8a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "247626d272ea0edb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2aa8a7cb222790e3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1ccaeec19a30f893",
+    "type": "split",
+    "children": [
+      {
+        "id": "bd8bae82839f0356",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b9b906a455baf46b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "项目开发/部署.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "782e3855a4e8aa0c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "项目开发/部署.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1a6d869adafcf92c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6b7b9bdad60bdf0e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "项目开发/部署.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "f1248b8f96fbbe8a",
+  "lastOpenFiles": [
+    "2023-07-17.md",
+    "orginone平台解析——SignalR通信.md",
+    "2023-07-04.md",
+    "2023-07-05.md",
+    "7.5-7.11.md",
+    "计算机语言知识库/CSS.md",
+    "2023-07-10.md",
+    "查看后台数据过程.md",
+    "会议记录.md",
+    "anystore解析.md",
+    "计算机语言知识库/深入理解TypeScript.md"
+  ]
+}

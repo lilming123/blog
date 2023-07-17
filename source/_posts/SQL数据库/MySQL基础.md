@@ -1,6 +1,8 @@
 ---
-quickshare-date: 2023-02-04 16:26:03
-quickshare-url: "https://noteshare.space/note/cldpoxwng1577201pjii2ut814#BwJH5QUTLI3BF90MPPm9dj38NE4uyaRSwlfwJHN6QRY"
+title: MySQL基础
+date: 2023-06-22 12:20:43
+tags:
+categories:
 ---
 # 数据库基本操作
 
