@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/后端学习/Spring Boot入门.md",
+                "file": "source/_posts/orginone实习经历/orginone平台解析——沟通和储存.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/后端学习/Spring Boot入门.md",
+                "file": "source/_posts/orginone实习经历/orginone平台解析——沟通和储存.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/_posts/后端学习/Spring Boot入门.md",
+                "file": "source/_posts/orginone实习经历/orginone平台解析——沟通和储存.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/_posts/后端学习/Spring Boot入门.md"
+                "file": "source/_posts/orginone实习经历/orginone平台解析——沟通和储存.md"
               }
             }
           },
@@ -152,13 +152,21 @@
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "9631386b3a9afc27",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 234.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -170,58 +178,59 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
   "active": "788e6673804ec430",
   "lastOpenFiles": [
-    "source/_posts/踩坑记录/React路由踩坑.md",
+    "source/_posts/orginone实习经历/orginone平台解析——SignalR通信.md",
     "source/_posts/Python爬虫/python爬虫----Requests库.md",
-    "source/_posts/Python爬虫/python爬虫----BeautifulSoup库.md",
-    "source/_posts/SQL数据库/MySQL基础.md",
-    "source/_posts/项目开发/部署.md",
-    "source/_posts/项目开发/部署流程.md",
-    "source/_posts/项目开发/服务器配置.md",
-    "source/_posts/项目开发/代码思路.md",
-    "source/_posts/项目开发/基于uniapp的天气播报微信小程序.md",
-    "source/_posts/项目开发/面向制造业企业的进销存与成本管理系统.md",
-    "source/_posts/项目开发/在校学生表和开课明细表的Exel导入的格式.md",
-    "source/_posts/项目开发/中医药食堂管理.md",
-    "source/_posts/项目开发/OrginOne.md",
-    "source/_posts/后端学习/Spring Boot入门.md",
-    "source/_posts/计算机基础/计算机网络.md",
-    "source/_posts/计算机基础/软件工程.md",
     "source/_posts/计算机基础/git命令.md",
-    "source/_posts/计算机基础/UML.md",
-    "source/_posts/计算机语言知识库/深入理解TypeScript.md",
-    "source/_posts/计算机语言知识库/CSS.md",
-    "source/_posts/计算机语言知识库/Go语言基础入门.md",
-    "source/_posts/计算机语言知识库/HTML.md",
-    "source/_posts/计算机语言知识库/JAVA基础速查速记.md",
-    "source/_posts/计算机语言知识库/Javascript.md",
+    "source/_posts/orginone实习经历/orginone平台解析——沟通和储存.md",
+    "source/_posts/orginone实习经历/orginone平台解析——沟通.docx",
+    "source/_posts/static/Pasted image 20230719131959.png",
+    "source/_posts/static/未命名文件 (7).png",
+    "source/_posts/static/35ad699bf6330070c9fc37f6d946bd8.png",
+    "source/_posts/static/81ea2e0afdaa8a7d16720dafe120077.png",
+    "source/_posts/static/Pasted image 20230719105359.png",
+    "source/_posts/orginone实习经历/orginone平台解析——聊天模块功能结构.md",
+    "source/_posts/踩坑记录/orginone项目启动后一直在加载.md",
     "source/_posts/2023-07-17.md",
-    "source/_posts/计算机语言知识库/TypeScript基础入门.md",
+    "source/_posts/未命名.md",
+    "source/_posts/项目开发/OrginOne.md",
+    "source/_posts/orginone实习经历",
+    "public/2023/06/22/SQL数据库/MySQL基础/index.html",
+    "public/2023/06/21/项目开发/OrginOne/index.html",
+    "public/2023/06/20/项目开发/面向制造业企业的进销存与成本管理系统/index.html",
+    "public/2023/06/20/项目开发/部署流程/index.html",
+    "public/2023/06/20/项目开发/服务器配置/index.html",
+    "public/2023/06/20/项目开发/在校学生表和开课明细表的Exel导入的格式/index.html",
+    "public/2023/06/22/SQL数据库/MySQL基础",
+    "public/2023/06/21/项目开发/OrginOne",
+    "node_modules/socket.io-adapter/node_modules/ws/README.md",
+    "node_modules/hexo-butterfly-clock-anzhiyu/node_modules/promise/Readme.md",
+    "node_modules/send/node_modules/mime/CHANGELOG.md",
+    "node_modules/constantinople/node_modules/acorn/README.md",
+    "node_modules/send/node_modules/on-finished/README.md",
+    "node_modules/browser-sync/node_modules/mime/README.md",
+    "node_modules/browser-sync/node_modules/depd/Readme.md",
+    "node_modules/browser-sync/node_modules/depd/History.md",
+    "node_modules/engine.io/node_modules/ws/README.md",
+    "node_modules/raw-body/node_modules/http-errors/README.md",
+    "node_modules/jade/node_modules/asap/README.md",
+    "node_modules/acorn-globals/node_modules/acorn/README.md",
+    "node_modules/acorn-globals/node_modules/acorn/CHANGELOG.md",
+    "node_modules/@babel/parser/README.md",
+    "node_modules/@babel/parser/CHANGELOG.md",
+    "node_modules/@babel/types/node_modules/to-fast-properties/readme.md",
+    "node_modules/hexo-butterfly-clock-anzhiyu/lib/loading.gif",
+    "node_modules/hexo-butterfly-clock-anzhiyu/node_modules/acorn/README.md",
     "未命名.canvas",
-    "Excalidraw",
-    "未命名 1",
-    "未命名",
-    "static",
     "source/_posts/static/Pasted image 20230705191245.png",
     "source/_posts/static/Pasted image 20230705191218.png",
     "source/_posts/static/Pasted image 20230705191136.png",
     "source/_posts/static/Pasted image 20230705191046.png",
-    "source/_posts/static/Pasted image 20230705190918.png",
-    "source/_posts/static/1688554877670.png",
-    "source/_posts/static/b24892dd9835eb2a9e448a2316133ac.png",
-    "source/_posts/static/4de625346bf19512226e566f6df935b.png",
-    "source/_posts/static/3bcdcea86eae9f08184e7ce830cdc99.png",
-    "source/_posts/static/957cca9406f2870cc04e3cf43a57498.png",
-    "source/_posts/踩坑记录",
-    "deploy.bat",
-    "新建文件夹",
-    "项目开发/面向制造业企业的进销存与成本管理系统.html",
-    "PPT.7z",
-    "demo_230208_132910.sdocx",
     "未命名 1.canvas"
   ]
 }

@@ -43,12 +43,20 @@ git revert <commit>	                      -- 撤销提交
 <a name="tDAWL"></a>
 # 分支
 ## 添加远程分支
-```git
+```bash
 git remote add origin https://XXX
 ```
-  ## 查看分支
-  ```git
-  git branch -v                   --查看分支
+## 查看分支
+```bash
+git branch -a                   --查看本地分支和远程分支
+```
+## 查看远程分支 URL
+```bash
+git remote show origin
+```
+## 更新远程分支 URL
+```bash
+git remote set-url origin https://github.com/user/new-repo.git
 ```
 ## 创建分支
 ```git

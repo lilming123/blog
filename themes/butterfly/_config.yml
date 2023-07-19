@@ -664,7 +664,7 @@ aside:
   enable: true
   hide: false
   button: true
-  mobile: true # display on mobile
+  mobile: false # display on mobile
   position: right # left or right
   display:
     archive: true
@@ -672,15 +672,19 @@ aside:
     category: true
   card_author:
     enable: true
-    description:
+    description: Talk is cheap. Show me the code.
     button:
       enable: true
       icon: fab fa-github
-      text: Follow Me
-      link: https://github.com/xxxxxx
+      text: github
+      link: https://github.com/lilming123
   card_announcement:
     enable: true
-    content: This is my Blog
+    content:
+      <b><font color="#e66b6d">热</font> <font color="#e66d98">爱</font> <font color="#e66cc6">可</font> <font color="#cc6de6">抵</font> <font color="#9770e6">岁</font> <font color="#6d93e6">月</font> <font color="#6fcde6">漫</font> <font color="#72e6b6">长</font> </b>
+      <p align="center"><img src="https://haiyong.site/img/img-blog.csdnimg.cn/f7384c88956d4378b72e47548e19c9f8.gif" width="50" alt="mao"></p>
+      <p align="center">微信号：hqswhqzz</p>
+      <p align="center">QQ号：3139457157</p>
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -694,7 +698,7 @@ aside:
   card_tags:
     enable: true
     limit: 40 # if set 0 will show all
-    color: false
+    color: true
     orderby: random # Order of tags, random/name/length
     order: 1 # Sort of order. 1, asc for ascending; -1, desc for descending
     sort_order: # Don't modify the setting unless you know how it works
@@ -721,8 +725,8 @@ busuanzi:
 # Time difference between publish date and now (網頁運行時間)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
-  enable: false
-  publish_date:
+  enable: true
+  publish_date: 6/7/2020 00:00:00
 
 # Aside widget - Newest Comments
 newest_comments:
@@ -969,3 +973,24 @@ CDN:
     # artalk_js:
     # artalk_css:
     # busuanzi:
+# electric_clock
+# see https://anzhiy.cn/posts/fc18.html
+electric_clock:
+  enable: true # 开关
+  priority: 5 #过滤器优先权
+  enable_page: all # 应用页面
+  exclude:
+  # - /posts/
+  # - /about/
+  layout: # 挂载容器类型
+    type: class
+    name: sticky_layout
+    index: 0
+  loading: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/loading.gif #加载动画自定义
+  clock_css: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.css
+  clock_js: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.js
+  ip_api: https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0
+  qweather_key: 71cb1295daf64c3293a9e20a1372b31f
+  gaud_map_key: # 高得地图web服务key
+  default_rectangle: false # 开启后将一直显示rectangle位置的天气，否则将获取访问者的地理位置与天气
+  rectangle: 112.982279,28.19409 # 获取访问者位置失败时会显示该位置的天气，同时该位置为开启default_rectangle后的位置
