@@ -8,5 +8,6 @@
   "obsius-publish",
   "obsidian-emoji-toolbar",
   "mermaid-tools",
-  "obsidian-pandoc"
+  "obsidian-pandoc",
+  "templater-obsidian"
 ]

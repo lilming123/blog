@@ -52,7 +52,7 @@
   isHome: true,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2023-07-17 13:20:29'
+  postUpdate: '2023-09-08 13:08:54'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -157,7 +157,51 @@
     }
     detectApple()
     })(window)</script><!-- hexo injector head_end start --><link rel="stylesheet" href="https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.css" /><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="lilming的小窝" type="application/atom+xml">
-</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">33</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr/></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="lilming的小窝"><span class="site-name">lilming的小窝</span></a></span><div id="menus"><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">lilming的小窝</h1></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/07/17/Python%E7%88%AC%E8%99%AB/python%E7%88%AC%E8%99%AB----Requests%E5%BA%93/" title="python爬虫----Requests库">python爬虫----Requests库</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-07-17T01:34:56.000Z" title="发表于 2023-07-17 09:34:56">2023-07-17</time></span></div><div class="content">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">36</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">9</div></a></div><hr/></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="lilming的小窝"><span class="site-name">lilming的小窝</span></a></span><div id="menus"><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">lilming的小窝</h1></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/09/08/test/" title="无题">无题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-09-08T03:48:18.571Z" title="发表于 2023-09-08 11:48:18">2023-09-08</time></span></div><div class="content"></div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/08/29/%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91/%E9%AB%98%E6%A0%A1%E7%94%9F%E5%9D%87%E6%88%90%E6%9C%AC%E6%A0%B8%E7%AE%97%E7%B3%BB%E7%BB%9F/" title="高校生均成本核算系统">高校生均成本核算系统</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-08-29T15:09:00.000Z" title="发表于 2023-08-29 23:09:00">2023-08-29</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91/">项目开发</a></span></div><div class="content">遇到的问题和自己的思考🤔
+学科是在成本中心表中还是在学科专业目录表中？虽然学科专业目录表带了学科二字但我觉得应该是在成本中心表中，因为学院到学科是存在分配路径的，也涉及到了成本动因，应该也属于成本中心。那么学科专业目录树结构也就没有意义了，也要更名为专业目录表。学科是指下面的学科： 
+如果第一个想法是对的话，学科专业目录中的成本中心 id 就应该有多个成本中心 id，用逗号分隔。在成本动因采集的自动取数中，动因量是依据填入的成本中心 id 自动读表计算得到的，假设是读取在校学生人数表，在校学生人数表只有专业 ID，就要先从学科专业目录表中选取对应成本中心的 id 值，然而学科也算成本中心，会计学的成本中心就是管理学和会计学院。
+马克思学院、外国语学院和理学院有基础教学功能的学院要区分公共课与专业课，按照课时比例，在本学院和全校范围进行分摊。然而动因采集表只有成本中心 ID，动因量这两个关键字段，没办法区分是哪个学院开始的公共课，那么是否是通过设置多个成本动因来解决的，比如：理学院授课时长、外国语学院授课时长、理学院授课时长。其次，开课明细表缺少成本中心 id，比如概率论由理学院开课， ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/08/07/orginone%E5%AE%9E%E4%B9%A0%E7%BB%8F%E5%8E%86/orginone%E5%8A%9F%E8%83%BD%E5%BC%80%E5%8F%91%E2%80%94%E2%80%94%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C/" title="orginone功能开发——应用开发手册">orginone功能开发——应用开发手册</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-08-07T13:21:00.000Z" title="发表于 2023-08-07 21:21:00">2023-08-07</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/orginone%E5%AE%9E%E4%B9%A0%E7%BB%8F%E5%8E%86/">orginone实习经历</a></span></div><div class="content">本教程将引导你逐步实现一个简单的大型仪器预约应用，实现新增大型仪器以及对仪器进行预约申请。在此过程中你会学习到基于 orginone 平台进行应用开发的基本过程，同时又助于让你对 orginone 平台有更深入的理解。
+设置属性所谓 属性 是指表单中各个字段的标签，用于标识表单中每个字段的类型和名称。一个 属性 可以添加到多个表单中，为表单添加一项字段，而表单中的字段被称为 特性，若将 属性 比作父母，则 特性 就好比孩子。
+在该应用中我们需要两个表单，分别是 仪器列表 和 预约申请，接下来我们为这两个表单创建属性。
+为了方便创建应用，我们先在个人页面中创建一个单位，命名为 功能示范，在该单位下创建目录 大型仪器共享，在该目录下创建目录 属性，用来存放该应用下的所有属性。
+
+右键目录空白处，依次点击 新建更多&gt;新建属性。
+在弹出的表单中填写我们的第一个属性：
+创建好了仪器的名称属性后，我们再一一创建单位、分类、价值属性，单位和分类我们选择 描述型，价值我们选择 数值型。
+设置好 仪器列表 的属性后，我们设置 预约申请 的属性。预约申请 的属性只需开始时间和结束时间，添加开始时间和 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/07/31/orginone%E5%AE%9E%E4%B9%A0%E7%BB%8F%E5%8E%86/orginone%E2%80%94%E2%80%94%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C%EF%BC%88%E6%B2%9F%E9%80%9A+%E5%AD%98%E5%82%A8+%E5%8A%9E%E4%BA%8B%EF%BC%89/" title="orginone——用户手册（沟通+存储+办事）">orginone——用户手册（沟通+存储+办事）</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-07-31T05:38:00.000Z" title="发表于 2023-07-31 13:38:00">2023-07-31</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/orginone%E5%AE%9E%E4%B9%A0%E7%BB%8F%E5%8E%86/">orginone实习经历</a></span></div><div class="content">沟通模块点击右上角的聊天图标，进入沟通页面
+群聊用户可以在侧边栏中选择群聊，或者在列表中选择群聊，另外单位也可以作为群聊，属于全员群在单位和个人下存在着超级管理权群，单位下有着超级管理权的人员都会加入到该群。因为个人对自己有着最高的权限，个人页面下也会显示超级管理权群，且只有自己一人点击群聊图标，进入聊天页面之后即可开始聊天
+单聊同样在沟通页面下，点击个人的头像，则可显示好友以及个人，可以与好友或或者自己聊天在加入的组织下，可以查看和您处于同一组织的人员，并选择与同一组织的人员聊天
+文件传输和存储在聊天输入框的上方，点击文件图标即可选择文件上传上传的文件会在聊天框中显示，可以点击文件，打开并预览文件若是右击文件，还可以选择将文件下载到本地所有聊天时所发送的文件都会保存在存储中，用户可以点击共享目录在存储查看
+查询聊天记录同样在聊天的详情下，点击查找聊天记录，在弹窗的搜索框中可以模糊搜索聊天记录
+存储模块文件上传点击右上角的存储图标，进入存储页面可以在侧边栏中右击目录，点击上传文件，在弹窗中选择上传文件，可以选择点击或拖拽的方式上传文件
+文件管理右击文件，可以对文件进行操作，如：下载，复 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/07/23/orginone%E5%AE%9E%E4%B9%A0%E7%BB%8F%E5%8E%86/orginone%E5%B9%B3%E5%8F%B0%E8%A7%A3%E6%9E%90%E2%80%94%E2%80%94anystore%E7%9A%84api/" title="orginone平台解析——anystore的api">orginone平台解析——anystore的api</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-07-23T04:04:00.000Z" title="发表于 2023-07-23 12:04:00">2023-07-23</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/orginone%E5%AE%9E%E4%B9%A0%E7%BB%8F%E5%8E%86/">orginone实习经历</a></span></div><div class="content">AnyStore 类getInstance获取任意数据存储单例。
+请求方式：Post
+参数：
+123456789101112131415&#123;    &quot;methodName&quot;:&quot;getInstance&quot;,    &quot;args&quot;:&#123;        &quot;url&quot;: string,//远端地址，默认为&quot;/orginone/anydata/hub&quot;    &#125;,    &quot;timeout&quot;:2&#125;
+
+
+isOnline判断是否在线。
+请求方式：Post
+123456789&#123;    &quot;methodName&quot;:&quot;isOnline&quot;,    &quot;args&quot;:&#123;        //无参数    &#125;,    &quot;timeout&quot;:2&#125;
+
+updateToken更新 token。
+请求方式：Post
+参数：
+1234567&#123;    &qu ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/07/18/orginone%E5%AE%9E%E4%B9%A0%E7%BB%8F%E5%8E%86/orginone%E5%B9%B3%E5%8F%B0%E8%A7%A3%E6%9E%90%E2%80%94%E2%80%94%E6%B2%9F%E9%80%9A%E5%92%8C%E5%82%A8%E5%AD%98/" title="orginone平台解析——沟通和储存">orginone平台解析——沟通和储存</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-07-18T01:49:00.000Z" title="发表于 2023-07-18 09:49:00">2023-07-18</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/orginone%E5%AE%9E%E4%B9%A0%E7%BB%8F%E5%8E%86/">orginone实习经历</a></span></div><div class="content">沟通模块奥集能平台的聊天模块提供用户在群聊和单聊中进行自由沟通的功能。此外，也支持文件和聊天记录的储存以及查询。以下是详细的功能描述：
+
+群聊功能用户可以在群聊中与多名用户同时进行聊天，实现集体讨论与交流。群聊功能非常适合处理工作协调、团队讨论等多人参与的情况。
+
+单聊功能若用户希望与单位下的特定成员进行一对一的沟通，可以使用单聊功能。这个功能可以帮助用户进行更为私密或者针对性的交流。
+
+文件传输在聊天过程中，用户可以发送各类文件给其他用户，该文件传输功能支持多种常见的文件格式，如文档、图片、音频、视频等，并且传输的所有文件可在共享文件中查看和下载。
+
+聊天记录储存功能所有的聊天记录都将储存在数据内核中，用户可以根据关键词查找并定位到对应的聊天记录
+
+
+从用户发送消息，再到接收方显示消息的具体时序图如下：
+储存模块奥集能平台的储存模块秉承Linux系统中一切皆文件的概念，将平台所有的对象都抽象成了文件，包括单位、群组、用户、办事等。用户可以在储存模块下上传文件，并且支持多种常见文件格式的打开，为用户提供了一种简洁而统一的资源管理方式。以下是详细的功能描述：
+
+文件化抽象储存模块将所有的 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/07/17/Python%E7%88%AC%E8%99%AB/python%E7%88%AC%E8%99%AB----Requests%E5%BA%93/" title="python爬虫----Requests库">python爬虫----Requests库</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-07-17T01:34:56.000Z" title="发表于 2023-07-17 09:34:56">2023-07-17</time></span></div><div class="content">
 requests库的基本使用
 response对象
 对象属性
@@ -194,70 +238,80 @@ beautifulsoup库的基本元素
 所有的bs4库的解析器
 lxml的HTML解析器条件：pip install lmxl使用方法：BeautifulSoup(mk,”lmxl”)
 lmxl的XML解析器条件：pip install lxml使用方法：BeautifulSoup(mk,”xml”)
-html5lib的解析器条件：pip ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/07/17/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" title="计算机网络">计算机网络</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-07-17T01:34:05.000Z" title="发表于 2023-07-17 09:34:05">2023-07-17</time></span></div><div class="content">网络基础知识http协议Web 使用一种名为 HTTP（超文本传输协议）的协议作为规范，完成从客户端到服务器端等一系列运作流程。而协议是指规则的约定。可以说，Web 是建立在 HTTP 协议上通 信的。
-TCP&#x2F; IP协议
-TCP&#x2F;IP 是互联网相关的各类协议族的总称
+html5lib的解析器条件：pip ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/07/17/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80%E7%9F%A5%E8%AF%86%E5%BA%93/Javascript/" title="Javascript">Javascript</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-07-17T01:33:21.000Z" title="发表于 2023-07-17 09:33:21">2023-07-17</time></span></div><div class="content">语法javascript的语法比较简单，类似与python与C的结合，阅读文档自行了解：javascript教程
+数据类型深入数组
+数组是一种特殊的变量，它能够一次存放一个以上的值。
 
-通常使用的网络（包括互联网）是在 TCP&#x2F;IP 协议族的基础上运作 的。而 HTTP 属于它内部的一个子集。
-分层原理
-应用层 应用层决定了向用户提供应用服务时通信的活动。 比如： - FTP（File Transfer Protocol，文件传输协议 - DNS（Domain Name System，域 名系统） - HTTP 协议也处于该层。
-表示层 设置固有格式和网络标准数据格式的转换
-会话层
-通信管理，负责建立和断开通信连接
-管理传输层以下的分层
+12345var cars = [  &quot;Saab&quot;,  &quot;Volvo&quot;,  &quot;BMW&quot;];
+请不要最后一个元素之后写逗号（比如 “BMW”,）,可能存在跨浏览器兼容性问题。
+访问数组元素12var cars = [&quot;Saab&quot;, &quot;Volvo&quot;, &quot;BMW&quot;];document.getElementById(&quot;demo&quot;).innerHTML = cars[0]; 
+
+修改数组元素1cars[0] = &quot;Opel&quot;;
+
+数组方法
+数组长度length()
+转换成字符串toString()，join()
+增加和删除pop(),push(),shift(),unshift(),delete(),splice()
+拼接与剪切 concat(),slic ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/07/13/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80%E7%9F%A5%E8%AF%86%E5%BA%93/JAVA%E5%9F%BA%E7%A1%80%E9%80%9F%E6%9F%A5%E9%80%9F%E8%AE%B0/" title="JAVA基础速查速记">JAVA基础速查速记</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-07-13T01:56:00.000Z" title="发表于 2023-07-13 09:56:00">2023-07-13</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80%E7%9F%A5%E8%AF%86%E5%BA%93/">计算机语言知识库</a></span></div><div class="content">基本数据类型内置类型和包装类
 
 
-传输层 起着可靠传输的作用。只在通信双方节点上进行处理，而无需在路由器上处理。 比如： - TCP（Transmission Control Protocol，传输控制协议） - UDP（User Data Protocol，用户数据 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/07/17/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/" title="软件工程">软件工程</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-07-17T01:34:02.000Z" title="发表于 2023-07-17 09:34:02">2023-07-17</time></span></div><div class="content">需求结构化分析UML面向对象编码实现敏捷开发软件测试</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/07/17/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/git%E5%91%BD%E4%BB%A4/" title="git命令">git命令</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-07-17T01:33:59.000Z" title="发表于 2023-07-17 09:33:59">2023-07-17</time></span></div><div class="content">
-拉取与建立仓库用户签名123git config          --global user.name 用户名git config          --global user.email 邮箱cat ~/.gitconfig
-
-拉取代码1git clone 远程仓库地址
-
-初始化仓库12git init                    -- 初始化本地仓库git status               --查询本地库状态
-
-会建立并转到master分支下
-
-提交代码提交1234git add .                    -- 将改动提交至暂存区git commit -m &quot;日志信息&quot;             -- 提交所有改动过的文件git push origin mastergit reflog                   --   查看历史记录
-
-撤销123git reset --hard HEAD                     -- 撤销所有未提交文件的修改内容git checkout HEAD 文件名       ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/07/17/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/UML/" title="UML">UML</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-07-17T01:33:56.000Z" title="发表于 2023-07-17 09:33:56">2023-07-17</time></span></div><div class="content"></div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/07/17/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80%E7%9F%A5%E8%AF%86%E5%BA%93/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3TypeScript/" title="深入理解TypeScript">深入理解TypeScript</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-07-17T01:33:45.000Z" title="发表于 2023-07-17 09:33:45">2023-07-17</time></span></div><div class="content"></div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/07/17/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80%E7%9F%A5%E8%AF%86%E5%BA%93/CSS/" title="CSS">CSS</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-07-17T01:33:43.000Z" title="发表于 2023-07-17 09:33:43">2023-07-17</time></span></div><div class="content">
-CSS基础
-CSS是对HTML标签的属性设置方式，其特点有便于维护、增强表现力、使得网页风格统一表现方式：
-
-写在HTML文件里：一是写在某个元素的属性部分，作为style属性的值；另一种是写在style标记内，style标记又在head标记里面
-写在单独的CSS文件内，文件后缀为.css。这种方法更推荐，使得表现与内容分离
+包装类
+基本数据类型
 
 
 
-CSS基本语法</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/07/17/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80%E7%9F%A5%E8%AF%86%E5%BA%93/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/" title="Go语言基础入门">Go语言基础入门</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-07-17T01:33:36.000Z" title="发表于 2023-07-17 09:33:36">2023-07-17</time></span></div><div class="content"></div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/07/17/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80%E7%9F%A5%E8%AF%86%E5%BA%93/HTML/" title="HTML">HTML</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-07-17T01:33:33.000Z" title="发表于 2023-07-17 09:33:33">2023-07-17</time></span></div><div class="content">
-元素根元素
- 是一个声明，表示该文档是由 HTML5 进行编写的。&lt;!DOCTYPE&gt; 声明必须是 HTML 文档的第一行，位于 &lt; html&gt; 标签之前
+Boolean
+boolean
 
 
+Byte
+byte
 
 
-主根元素
-html
-html 元素用于告诉告诉浏览器其自身是一个 HTML 文档
+Short
+short
 
 
-
-分区根元素
-body
-表明这是文档的主体部分
+Integer
+int
 
 
-123456789&lt;!doctype html&gt;&lt;html lang=&quot;en&quot;&gt;  &lt;head&gt;    这是文档的头部  &lt;/head&gt;  &lt;body&gt;    这是文档的主体  &lt;/body&gt;&lt;/html&gt;
-
-元数据
-head标签
-&lt; head&gt; 标签用于定义文档的头部，它是所有头部元素的容器
+Long
+long
 
 
-title标签
-&lt; title&gt; 标签用于定义文档的标题。
+Character
+char
 
 
-&lt; title&gt; 标签必须位于 &lt; head&gt;标签内部。
-会在浏览器的窗口或选项卡的顶部显示1&lt;title&gt;显示在浏览器的标题栏上&lt;/ti ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/#content-inner">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/4/#content-inner">4</a><a class="extend next" rel="next" href="/page/2/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">lilming</div><div class="author-info__description">Talk is cheap. Show me the code.</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">33</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/lilming123"><i class="fab fa-github"></i><span>github摸鱼</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content"><b><font color="#e66b6d">热</font> <font color="#e66d98">爱</font> <font color="#e66cc6">可</font> <font color="#cc6de6">抵</font> <font color="#9770e6">岁</font> <font color="#6d93e6">月</font> <font color="#6fcde6">漫</font> <font color="#72e6b6">长</font> </b> <p align="center"><img src="https://haiyong.site/img/img-blog.csdnimg.cn/f7384c88956d4378b72e47548e19c9f8.gif" width="50" alt="mao"></p> <p align="center">微信号：hqswhqzz</p> <p align="center">QQ号：3139457157</p></div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/07/17/Python%E7%88%AC%E8%99%AB/python%E7%88%AC%E8%99%AB----Requests%E5%BA%93/" title="python爬虫----Requests库">python爬虫----Requests库</a><time datetime="2023-07-17T01:34:56.000Z" title="发表于 2023-07-17 09:34:56">2023-07-17</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/07/17/Python%E7%88%AC%E8%99%AB/python%E7%88%AC%E8%99%AB----BeautifulSoup%E5%BA%93/" title="python爬虫----BeautifulSoup库">python爬虫----BeautifulSoup库</a><time datetime="2023-07-17T01:34:53.000Z" title="发表于 2023-07-17 09:34:53">2023-07-17</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/07/17/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" title="计算机网络">计算机网络</a><time datetime="2023-07-17T01:34:05.000Z" title="发表于 2023-07-17 09:34:05">2023-07-17</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/07/17/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/" title="软件工程">软件工程</a><time datetime="2023-07-17T01:34:02.000Z" title="发表于 2023-07-17 09:34:02">2023-07-17</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/07/17/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/git%E5%91%BD%E4%BB%A4/" title="git命令">git命令</a><time datetime="2023-07-17T01:33:59.000Z" title="发表于 2023-07-17 09:33:59">2023-07-17</time></div></div></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/07/"><span class="card-archive-list-date">七月 2023</span><span class="card-archive-list-count">19</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/06/"><span class="card-archive-list-date">六月 2023</span><span class="card-archive-list-count">6</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/04/"><span class="card-archive-list-date">四月 2023</span><span class="card-archive-list-count">8</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">33</div></div><div class="webinfo-item"><div class="item-name">已运行时间 :</div><div class="item-count" id="runtimeshow" data-publishDate="2020-06-06T16:00:00.000Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2023-07-17T05:20:29.433Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By lilming</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><!-- hexo injector body_end start --><script data-pjax>
+Float
+float
+
+
+Double
+double
+
+
+Number 与 Math
+java 将一个内置类型直接赋值给一个包装类是可以的，叫做自动装箱，反之叫拆箱。
+
+1234567char c = &#x27;a&#x27;;Character ch = c;System.out.println(ch);  // 输出：aCharacter ch = &#x27;a&#x27;;char c = ch;System.out.println(c);  // 输出：a
+
+Number 常用的方法：
+
+XXX.valueOf: 返回一个 Number 对象指定的数据类型
+equals()：判断是非相等（类型和值都要相同才返回true）
+compareTo()：与 number 对象相比较
+toString()：转换成字符串
+Integer.parseIn ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/#content-inner">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/4/#content-inner">4</a><a class="extend next" rel="next" href="/page/2/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">lilming</div><div class="author-info__description">Talk is cheap. Show me the code.</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">36</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">9</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/lilming123"><i class="fab fa-github"></i><span>github</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content"><b><font color="#e66b6d">热</font> <font color="#e66d98">爱</font> <font color="#e66cc6">可</font> <font color="#cc6de6">抵</font> <font color="#9770e6">岁</font> <font color="#6d93e6">月</font> <font color="#6fcde6">漫</font> <font color="#72e6b6">长</font> </b> <p align="center"><img src="https://haiyong.site/img/img-blog.csdnimg.cn/f7384c88956d4378b72e47548e19c9f8.gif" width="50" alt="mao"></p> <p align="center">微信号：hqswhqzz</p> <p align="center">QQ号：3139457157</p></div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/09/08/test/" title="无题">无题</a><time datetime="2023-09-08T03:48:18.571Z" title="发表于 2023-09-08 11:48:18">2023-09-08</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/08/29/%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91/%E9%AB%98%E6%A0%A1%E7%94%9F%E5%9D%87%E6%88%90%E6%9C%AC%E6%A0%B8%E7%AE%97%E7%B3%BB%E7%BB%9F/" title="高校生均成本核算系统">高校生均成本核算系统</a><time datetime="2023-08-29T15:09:00.000Z" title="发表于 2023-08-29 23:09:00">2023-08-29</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/08/07/orginone%E5%AE%9E%E4%B9%A0%E7%BB%8F%E5%8E%86/orginone%E5%8A%9F%E8%83%BD%E5%BC%80%E5%8F%91%E2%80%94%E2%80%94%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C/" title="orginone功能开发——应用开发手册">orginone功能开发——应用开发手册</a><time datetime="2023-08-07T13:21:00.000Z" title="发表于 2023-08-07 21:21:00">2023-08-07</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/07/31/orginone%E5%AE%9E%E4%B9%A0%E7%BB%8F%E5%8E%86/orginone%E2%80%94%E2%80%94%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C%EF%BC%88%E6%B2%9F%E9%80%9A+%E5%AD%98%E5%82%A8+%E5%8A%9E%E4%BA%8B%EF%BC%89/" title="orginone——用户手册（沟通+存储+办事）">orginone——用户手册（沟通+存储+办事）</a><time datetime="2023-07-31T05:38:00.000Z" title="发表于 2023-07-31 13:38:00">2023-07-31</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/07/23/orginone%E5%AE%9E%E4%B9%A0%E7%BB%8F%E5%8E%86/orginone%E5%B9%B3%E5%8F%B0%E8%A7%A3%E6%9E%90%E2%80%94%E2%80%94anystore%E7%9A%84api/" title="orginone平台解析——anystore的api">orginone平台解析——anystore的api</a><time datetime="2023-07-23T04:04:00.000Z" title="发表于 2023-07-23 12:04:00">2023-07-23</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            <a class="card-more-btn" href="/categories/" title="查看更多">
+    <i class="fas fa-angle-right"></i></a>
+            </div>
+            <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/SQL%E6%95%B0%E6%8D%AE%E5%BA%93/"><span class="card-category-list-name">SQL数据库</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/orginone%E5%AE%9E%E4%B9%A0%E7%BB%8F%E5%8E%86/"><span class="card-category-list-name">orginone实习经历</span><span class="card-category-list-count">5</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"><span class="card-category-list-name">前端学习</span><span class="card-category-list-count">4</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%90%8E%E7%AB%AF%E5%AD%A6%E4%B9%A0/"><span class="card-category-list-name">后端学习</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/"><span class="card-category-list-name">数学建模</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/"><span class="card-category-list-name">计算机基础</span><span class="card-category-list-count">4</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80%E7%9F%A5%E8%AF%86%E5%BA%93/"><span class="card-category-list-name">计算机语言知识库</span><span class="card-category-list-count">6</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/"><span class="card-category-list-name">踩坑记录</span><span class="card-category-list-count">1</span></a></li>
+            </ul></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/09/"><span class="card-archive-list-date">九月 2023</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/08/"><span class="card-archive-list-date">八月 2023</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/07/"><span class="card-archive-list-date">七月 2023</span><span class="card-archive-list-count">10</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/06/"><span class="card-archive-list-date">六月 2023</span><span class="card-archive-list-count">7</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/04/"><span class="card-archive-list-date">四月 2023</span><span class="card-archive-list-count">16</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">36</div></div><div class="webinfo-item"><div class="item-name">已运行时间 :</div><div class="item-count" id="runtimeshow" data-publishDate="2020-06-06T16:00:00.000Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2023-09-08T05:08:53.832Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By lilming</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><!-- hexo injector body_end start --><script data-pjax>
   function butterfly_clock_anzhiyu_injector_config(){
     var parent_div_git = document.getElementsByClassName('sticky_layout')[0];
     var item_html = '<div class="card-widget card-clock"><div class="card-glass"><div class="card-background"><div class="card-content"><div id="hexo_electric_clock"><img class="entered loading" id="card-clock-loading" src="https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/loading.gif" style="height: 120px; width: 100%;" data-ll-status="loading"/></div></div></div></div></div>';

@@ -1,9 +1,15 @@
 ---
 title: orginone平台解析——SignalR通信
-date: 2023-07-17 09:31:35
-tags:
-categories:
+date: 2023-07-04 16:21
+updated: 星期一 17日 七月 2023 09:31:37
+tags: []
+categories: [orginone实习经历]
+keywords:
+description: 
 ---
+
+
+
 
 # Storehub
 > 关于 SignalR.HubConnection 的官方文档（不过官方貌似没有中文版的）： https://learn.microsoft.com/zh-cn/javascript/api/@microsoft/signalr/hubconnection?view=signalr-js-latest

@@ -17,5 +17,8 @@
     "scaffolds/",
     "themes/"
   ],
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "vimMode": false,
+  "strictLineBreaks": false,
+  "livePreview": false
 }

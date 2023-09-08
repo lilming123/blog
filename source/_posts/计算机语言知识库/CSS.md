@@ -1,9 +1,15 @@
 ---
 title: CSS
-date: 2023-07-17 09:33:43
-tags:
-categories:
+date: 2023-04-26 15:16
+updated: 星期一 17日 七月 2023 09:33:44
+tags: []
+categories: [计算机语言知识库]
+keywords:
+description: 
 ---
+
+
+
 <a name="qvVOh"></a>
 # CSS基础
 > CSS是对HTML标签的属性设置方式，其特点有便于维护、增强表现力、使得网页风格统一

@@ -1,4 +1,15 @@
-<a name="bpYi6"></a>
+---
+title: 基于uniapp的天气播报微信小程序
+date: 2023-04-26 15:16
+updated: 星期三 26日 四月 2023 15:18:02
+tags: []
+categories: [项目开发]
+keywords:
+description: 
+---
+
+
+
 # 项目介绍
 项目开源仓库：[https://github.com/lilming0505/lmweather](https://github.com/lilming0505/lmweather)<br />首先这是一个基于uniapp框架开发的天气查询项目，目前呢只适配移动端，且仅在微信小程序上线<br />芝士二维码：<br />![gh_be15d61fcc12_258 (1).jpg](https://cdn.nlark.com/yuque/0/2022/jpeg/28499732/1665149991995-6fd36cf5-1509-410c-ae0d-eb7e73acebdf.jpeg#clientId=u71dd48f8-494e-4&crop=0&crop=0&crop=1&crop=1&errorMessage=unknown%20error&from=drop&id=u04101577&margin=%5Bobject%20Object%5D&name=gh_be15d61fcc12_258%20%281%29.jpg&originHeight=258&originWidth=258&originalType=binary&ratio=1&rotation=0&showTitle=false&size=48147&status=error&style=none&taskId=u72cdd35e-bff1-4ec3-9845-405b323ac4e&title=)
 <a name="CkuKj"></a>

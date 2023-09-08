@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "b5edf675d9044edb",
+        "id": "173ac6b572b450ee",
         "type": "tabs",
         "children": [
           {
-            "id": "788e6673804ec430",
+            "id": "73dba0e18773fbbd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/orginone实习经历/orginone平台解析——沟通和储存.md",
+                "file": "source/_posts/踩坑记录/React路由踩坑.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.50432205200195
+    "width": 245.50432205200195
   },
   "right": {
     "id": "521105735f5a461b",
@@ -88,13 +88,23 @@
         "type": "tabs",
         "children": [
           {
+            "id": "c6bc893f79ff0562",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "source/_posts/踩坑记录/React路由踩坑.md"
+              }
+            }
+          },
+          {
             "id": "2e9d012c15951819",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/orginone实习经历/orginone平台解析——沟通和储存.md",
-                "collapseAll": true,
+                "file": "source/_posts/踩坑记录/React路由踩坑.md",
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -110,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/_posts/orginone实习经历/orginone平台解析——沟通和储存.md",
+                "file": "source/_posts/踩坑记录/React路由踩坑.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,16 +134,6 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "c6bc893f79ff0562",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "source/_posts/orginone实习经历/orginone平台解析——沟通和储存.md"
               }
             }
           },
@@ -154,83 +154,85 @@
             }
           },
           {
-            "id": "9631386b3a9afc27",
+            "id": "9bde328bd01401ad",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
               "state": {}
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 234.5,
-    "collapsed": true
+    "width": 274.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "templates:插入模板": false,
       "canvas:新建白板": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "templater-obsidian:Templater": false,
+      "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "788e6673804ec430",
+  "active": "73dba0e18773fbbd",
   "lastOpenFiles": [
-    "source/_posts/orginone实习经历/orginone平台解析——SignalR通信.md",
-    "source/_posts/Python爬虫/python爬虫----Requests库.md",
+    "source/_posts/后端学习/Spring Boot入门.md",
+    "source/_posts/踩坑记录/React路由踩坑.md",
+    "source/tags/index.md",
+    "source/_posts/test.md",
+    "public/archives/2023/04/page/2/index.html",
+    "source/link/index.md",
+    "source/categories/index.md",
+    "public/tags/index.html",
+    "public/tags",
+    "public/categories/项目开发/index.html",
+    "public/categories/踩坑记录/index.html",
+    "public/categories/计算机基础/index.html",
+    "public/categories/计算机语言知识库/index.html",
+    "public/categories/数学建模/index.html",
+    "public/categories/后端学习/index.html",
+    "public/categories/前端学习/index.html",
+    "scaffolds/post.md",
+    "source/_posts/计算机基础/计算机网络.md",
+    "source/_posts/计算机基础/软件工程.md",
     "source/_posts/计算机基础/git命令.md",
-    "source/_posts/orginone实习经历/orginone平台解析——沟通和储存.md",
-    "source/_posts/orginone实习经历/orginone平台解析——沟通.docx",
-    "source/_posts/static/Pasted image 20230719131959.png",
-    "source/_posts/static/未命名文件 (7).png",
-    "source/_posts/static/35ad699bf6330070c9fc37f6d946bd8.png",
-    "source/_posts/static/81ea2e0afdaa8a7d16720dafe120077.png",
-    "source/_posts/static/Pasted image 20230719105359.png",
-    "source/_posts/orginone实习经历/orginone平台解析——聊天模块功能结构.md",
-    "source/_posts/踩坑记录/orginone项目启动后一直在加载.md",
-    "source/_posts/2023-07-17.md",
-    "source/_posts/未命名.md",
-    "source/_posts/项目开发/OrginOne.md",
-    "source/_posts/orginone实习经历",
-    "public/2023/06/22/SQL数据库/MySQL基础/index.html",
-    "public/2023/06/21/项目开发/OrginOne/index.html",
-    "public/2023/06/20/项目开发/面向制造业企业的进销存与成本管理系统/index.html",
-    "public/2023/06/20/项目开发/部署流程/index.html",
-    "public/2023/06/20/项目开发/服务器配置/index.html",
-    "public/2023/06/20/项目开发/在校学生表和开课明细表的Exel导入的格式/index.html",
-    "public/2023/06/22/SQL数据库/MySQL基础",
-    "public/2023/06/21/项目开发/OrginOne",
-    "node_modules/socket.io-adapter/node_modules/ws/README.md",
-    "node_modules/hexo-butterfly-clock-anzhiyu/node_modules/promise/Readme.md",
-    "node_modules/send/node_modules/mime/CHANGELOG.md",
-    "node_modules/constantinople/node_modules/acorn/README.md",
-    "node_modules/send/node_modules/on-finished/README.md",
-    "node_modules/browser-sync/node_modules/mime/README.md",
-    "node_modules/browser-sync/node_modules/depd/Readme.md",
-    "node_modules/browser-sync/node_modules/depd/History.md",
-    "node_modules/engine.io/node_modules/ws/README.md",
-    "node_modules/raw-body/node_modules/http-errors/README.md",
-    "node_modules/jade/node_modules/asap/README.md",
-    "node_modules/acorn-globals/node_modules/acorn/README.md",
-    "node_modules/acorn-globals/node_modules/acorn/CHANGELOG.md",
-    "node_modules/@babel/parser/README.md",
-    "node_modules/@babel/parser/CHANGELOG.md",
-    "node_modules/@babel/types/node_modules/to-fast-properties/readme.md",
-    "node_modules/hexo-butterfly-clock-anzhiyu/lib/loading.gif",
-    "node_modules/hexo-butterfly-clock-anzhiyu/node_modules/acorn/README.md",
-    "未命名.canvas",
-    "source/_posts/static/Pasted image 20230705191245.png",
-    "source/_posts/static/Pasted image 20230705191218.png",
-    "source/_posts/static/Pasted image 20230705191136.png",
-    "source/_posts/static/Pasted image 20230705191046.png",
-    "未命名 1.canvas"
+    "source/_posts/计算机基础/UML.md",
+    "source/_posts/计算机语言知识库/深入理解TypeScript.md",
+    "source/_posts/计算机语言知识库/CSS.md",
+    "source/_posts/计算机语言知识库/Go语言基础入门.md",
+    "source/_posts/计算机语言知识库/JAVA基础速查速记.md",
+    "source/_posts/计算机语言知识库/HTML.md",
+    "source/_posts/计算机语言知识库/Javascript.md",
+    "source/_posts/计算机语言知识库/TypeScript基础入门.md",
+    "source/_posts/项目开发/在校学生表和开课明细表的Exel导入的格式.md",
+    "source/_posts/项目开发/基于uniapp的天气播报微信小程序.md",
+    "source/_posts/项目开发/高校生均成本核算系统.md",
+    "source/_posts/数学建模/Matlab.md",
+    "source/_posts/数学建模/仿真复习.md",
+    "source/_posts/前端学习/VUE.md",
+    "source/_posts/前端学习/React基础知识入门.md",
+    "source/_posts/前端学习/清除浮动的三种常用方式.md",
+    "source/_posts/static/Pasted image 20230830220841.png",
+    "source/_posts/static/Pasted image 20230830213301.png",
+    "source/_posts/static/Pasted image 20230808194453.png",
+    "source/_posts/static/Pasted image 20230815141110.png",
+    "source/_posts/static/Pasted image 20230815140921.png",
+    "source/_posts/static/Pasted image 20230815140234.png",
+    "source/_posts/static/Pasted image 20230815140212.png",
+    "source/_posts/static/Pasted image 20230815140119.png",
+    "source/_posts/static/Pasted image 20230815135908.png",
+    "source/_posts/static/Pasted image 20230815135509.png",
+    "未命名 3.canvas",
+    "未命名 2.canvas",
+    "未命名 1.canvas",
+    "未命名.canvas"
   ]
 }

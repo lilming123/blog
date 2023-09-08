@@ -1,9 +1,14 @@
 ---
 title: Spring Boot入门
-date: 2023-07-01 22:44:04
-tags:
-categories:
+date: 2023-04-26 15:16
+updated: 星期五 8日 九月 2023 11:59:37
+tags: []
+categories: [后端学习]
+keywords:
+description: 
 ---
+
+
 # 环境搭建
 ## Spring Initializr
 [Spring Initializr](https://start.spring.io/)创建开发框架

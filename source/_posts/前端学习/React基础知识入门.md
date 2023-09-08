@@ -1,7 +1,14 @@
 ---
 title: React基础知识入门
-date: 2023-07-17 09:32:34
-tags:
+date: 2023-06-20 13:19
+updated: 星期一 17日 七月 2023 09:32:36
+tags: []
+categories: [前端学习]
+keywords:
+description: 
+---
+
+
 categories:
 ---
 这篇 React 基础入门是结合 React 和 TS 来使用的，会比一般的 JS 加 React 的项目复杂的多，不过就我目前接触到的项目，采用 TS 居多，JS 越来越少了，大厂或许 TS 用的更多吧（我猜的）。

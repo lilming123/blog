@@ -1,3 +1,14 @@
+---
+title: Matlab
+date: 2023-04-26 15:16
+updated: 星期三 26日 四月 2023 15:18:02
+tags: []
+categories: [数学建模]
+keywords:
+description: 
+---
+
+
 <a name="SJaac"></a>
 # 可视化
 <a name="EsaD1"></a>

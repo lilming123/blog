@@ -1,9 +1,13 @@
 ---
 title: React路由踩坑
-date: 2023-07-01 22:44:37
-tags:
-categories:
+date: 2023-07-01 22:43
+updated: 星期五 8日 九月 2023 11:59:50
+tags: []
+categories: [踩坑记录]
+keywords:
+description: 
 ---
+
 # 错误实例
 在一些版本较老的 React 的项目里你可能会看到这样的路由跳转方法
 ```jsx

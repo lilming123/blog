@@ -1,9 +1,15 @@
 ---
 title: MySQL基础
-date: 2023-06-22 12:20:43
-tags:
-categories:
+date: 2023-04-26 15:16
+updated: 星期五 8日 九月 2023 11:55:05
+tags: []
+categories: [SQL数据库]
+keywords:
+description: 
 ---
+
+
+
 # 数据库基本操作
 
 ```sql

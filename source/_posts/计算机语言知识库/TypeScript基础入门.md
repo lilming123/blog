@@ -1,9 +1,15 @@
 ---
 title: TypeScript基础入门
-date: 2023-07-17 09:32:51
-tags:
-categories:
+date: 2023-06-20 13:19
+updated: 星期一 17日 七月 2023 09:32:53
+tags: []
+categories: [计算机语言知识库]
+keywords:
+description: 
 ---
+
+
+
 # 前言
 
 官方文档：[TypeScript中文网 ](https://www.tslang.cn/docs/home.html)

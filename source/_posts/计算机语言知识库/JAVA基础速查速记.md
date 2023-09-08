@@ -1,9 +1,15 @@
 ---
 title: JAVA基础速查速记
-date: 2023-07-17 09:33:29
-tags:
-categories:
+date: 2023-07-13 09:56
+updated: 星期一 17日 七月 2023 09:33:31
+tags: []
+categories: [计算机语言知识库]
+keywords:
+description: 
 ---
+
+
+
 # 基本数据类型
 
 ## 内置类型和包装类

@@ -1,0 +1,284 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><title>orginone平台解析——anystore的api | lilming的小窝</title><meta name="author" content="lilming"><meta name="copyright" content="lilming"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="AnyStore 类getInstance获取任意数据存储单例。 请求方式：Post 参数： 123456789101112131415&amp;#123;    &quot;methodName&quot;:&quot;getInstance&quot;,    &quot;args&quot;:&amp;#123;        &quot;url&quot;: string,&#x2F;&#x2F;远端地址，默认为&quot;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="orginone平台解析——anystore的api">
+<meta property="og:url" content="http://example.com/2023/07/23/orginone%E5%AE%9E%E4%B9%A0%E7%BB%8F%E5%8E%86/orginone%E5%B9%B3%E5%8F%B0%E8%A7%A3%E6%9E%90%E2%80%94%E2%80%94anystore%E7%9A%84api/index.html">
+<meta property="og:site_name" content="lilming的小窝">
+<meta property="og:description" content="AnyStore 类getInstance获取任意数据存储单例。 请求方式：Post 参数： 123456789101112131415&amp;#123;    &quot;methodName&quot;:&quot;getInstance&quot;,    &quot;args&quot;:&amp;#123;        &quot;url&quot;: string,&#x2F;&#x2F;远端地址，默认为&quot;">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png">
+<meta property="article:published_time" content="2023-07-23T04:04:00.000Z">
+<meta property="article:modified_time" content="2023-09-08T03:55:38.825Z">
+<meta property="article:author" content="lilming">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/2023/07/23/orginone%E5%AE%9E%E4%B9%A0%E7%BB%8F%E5%8E%86/orginone%E5%B9%B3%E5%8F%B0%E8%A7%A3%E6%9E%90%E2%80%94%E2%80%94anystore%E7%9A%84api/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  }
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'orginone平台解析——anystore的api',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2023-09-08 11:55:38'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><!-- hexo injector head_end start --><link rel="stylesheet" href="https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.css" /><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="lilming的小窝" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">36</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">9</div></a></div><hr/></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="lilming的小窝"><span class="site-name">lilming的小窝</span></a></span><div id="menus"><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">orginone平台解析——anystore的api</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-07-23T04:04:00.000Z" title="发表于 2023-07-23 12:04:00">2023-07-23</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-09-08T03:55:38.825Z" title="更新于 2023-09-08 11:55:38">2023-09-08</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/orginone%E5%AE%9E%E4%B9%A0%E7%BB%8F%E5%8E%86/">orginone实习经历</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="orginone平台解析——anystore的api"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="AnyStore-类"><a href="#AnyStore-类" class="headerlink" title="AnyStore 类"></a>AnyStore 类</h1><h2 id="getInstance"><a href="#getInstance" class="headerlink" title="getInstance"></a>getInstance</h2><p>获取任意数据存储单例。</p>
+<p><strong>请求方式</strong>：Post</p>
+<p><strong>参数</strong>：</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line"></span><br><span class="line">    <span class="attr">&quot;methodName&quot;</span><span class="punctuation">:</span><span class="string">&quot;getInstance&quot;</span><span class="punctuation">,</span></span><br><span class="line"></span><br><span class="line">    <span class="attr">&quot;args&quot;</span><span class="punctuation">:</span><span class="punctuation">&#123;</span></span><br><span class="line"></span><br><span class="line">        <span class="attr">&quot;url&quot;</span><span class="punctuation">:</span> string<span class="punctuation">,</span><span class="comment">//远端地址，默认为&quot;/orginone/anydata/hub&quot;</span></span><br><span class="line"></span><br><span class="line">    <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line"></span><br><span class="line">    <span class="attr">&quot;timeout&quot;</span><span class="punctuation">:</span><span class="number">2</span></span><br><span class="line"></span><br><span class="line"><span class="punctuation">&#125;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+<h2 id="isOnline"><a href="#isOnline" class="headerlink" title="isOnline"></a>isOnline</h2><p>判断是否在线。</p>
+<p><strong>请求方式</strong>：Post</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;methodName&quot;</span><span class="punctuation">:</span><span class="string">&quot;isOnline&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;args&quot;</span><span class="punctuation">:</span><span class="punctuation">&#123;</span></span><br><span class="line">        <span class="comment">//无参数</span></span><br><span class="line">    <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;timeout&quot;</span><span class="punctuation">:</span><span class="number">2</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="updateToken"><a href="#updateToken" class="headerlink" title="updateToken"></a>updateToken</h2><p>更新 token。</p>
+<p><strong>请求方式</strong>：Post</p>
+<p><strong>参数</strong>：</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;methodName&quot;</span><span class="punctuation">:</span><span class="string">&quot;updateToken&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;args&quot;</span><span class="punctuation">:</span><span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;accessToken&quot;</span><span class="punctuation">:</span> string</span><br><span class="line">    <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;timeout&quot;</span><span class="punctuation">:</span><span class="number">2</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="subscribed"><a href="#subscribed" class="headerlink" title="subscribed"></a>subscribed</h2><p>订阅对象变更。</p>
+<p><strong>请求方式</strong>：Post</p>
+<p><strong>参数</strong>：</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;methodName&quot;</span><span class="punctuation">:</span><span class="string">&quot;subscribed&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;args&quot;</span><span class="punctuation">:</span><span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;belongId&quot;</span><span class="punctuation">:</span> string<span class="punctuation">,</span><span class="comment">//对象所在域</span></span><br><span class="line">        <span class="attr">&quot;key&quot;</span><span class="punctuation">:</span> string<span class="punctuation">,</span><span class="comment">//对象名称</span></span><br><span class="line">        <span class="attr">&quot;callback&quot;</span><span class="punctuation">:</span> (data<span class="punctuation">:</span> any) =&gt; void<span class="comment">//变更回调函数</span></span><br><span class="line">    <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;timeout&quot;</span><span class="punctuation">:</span><span class="number">2</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="unSubscribed"><a href="#unSubscribed" class="headerlink" title="unSubscribed"></a>unSubscribed</h2><p>取消订阅对象变更。</p>
+<p><strong>请求方式</strong>：Post</p>
+<p><strong>参数</strong>：</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;methodName&quot;</span><span class="punctuation">:</span><span class="string">&quot;unSubscribed&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;args&quot;</span><span class="punctuation">:</span><span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;belongId&quot;</span><span class="punctuation">:</span> string<span class="punctuation">,</span><span class="comment">//对象所在域</span></span><br><span class="line">        <span class="attr">&quot;key&quot;</span><span class="punctuation">:</span> string<span class="punctuation">,</span><span class="comment">//对象名称</span></span><br><span class="line">    <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;timeout&quot;</span><span class="punctuation">:</span><span class="number">2</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="get"><a href="#get" class="headerlink" title="get"></a>get</h2><p>查询对象。</p>
+<p><strong>请求地址</strong>：’&#x2F;orginone&#x2F;anydata&#x2F;Object&#x2F;Get&#x2F;‘</p>
+<p><strong>请求方式</strong>：Post</p>
+<p><strong>参数</strong>：</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;methodName&quot;</span><span class="punctuation">:</span><span class="string">&quot;get&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;args&quot;</span><span class="punctuation">:</span><span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;belongId&quot;</span><span class="punctuation">:</span> string<span class="punctuation">,</span><span class="comment">//对象所在域</span></span><br><span class="line">        <span class="attr">&quot;key&quot;</span><span class="punctuation">:</span> string<span class="punctuation">,</span><span class="comment">//对象名称</span></span><br><span class="line">    <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;timeout&quot;</span><span class="punctuation">:</span><span class="number">2</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+<h2 id="set"><a href="#set" class="headerlink" title="set"></a>set</h2><p>修改对象。</p>
+<p><strong>请求地址</strong>：’&#x2F;orginone&#x2F;anydata&#x2F;Object&#x2F;Set&#x2F;‘</p>
+<p><strong>请求方式</strong>：Post</p>
+<p><strong>参数</strong>：</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;methodName&quot;</span><span class="punctuation">:</span><span class="string">&quot;set&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;args&quot;</span><span class="punctuation">:</span><span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;belongId&quot;</span><span class="punctuation">:</span> string<span class="punctuation">,</span><span class="comment">//对象所在域</span></span><br><span class="line">        <span class="attr">&quot;key&quot;</span><span class="punctuation">:</span> string<span class="punctuation">,</span><span class="comment">//对象名称</span></span><br><span class="line">        <span class="attr">&quot;setData&quot;</span><span class="punctuation">:</span> any<span class="punctuation">,</span><span class="comment">//对象新的值</span></span><br><span class="line">    <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;timeout&quot;</span><span class="punctuation">:</span><span class="number">2</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="delete"><a href="#delete" class="headerlink" title="delete"></a>delete</h2><p>删除对象。 </p>
+<p><strong>请求地址</strong>：’&#x2F;orginone&#x2F;anydata&#x2F;Object&#x2F;Delete&#x2F;‘</p>
+<p><strong>请求方式</strong>：Post</p>
+<p><strong>参数</strong>：</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;methodName&quot;</span><span class="punctuation">:</span><span class="string">&quot;delete&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;args&quot;</span><span class="punctuation">:</span><span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;belongId&quot;</span><span class="punctuation">:</span> string<span class="punctuation">,</span><span class="comment">//对象所在域</span></span><br><span class="line">        <span class="attr">&quot;key&quot;</span><span class="punctuation">:</span> string<span class="punctuation">,</span><span class="comment">//对象名称</span></span><br><span class="line">    <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;timeout&quot;</span><span class="punctuation">:</span><span class="number">2</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="insert"><a href="#insert" class="headerlink" title="insert"></a>insert</h2><p>添加数据到数据集。</p>
+<p><strong>请求地址</strong>：’&#x2F;orginone&#x2F;anydata&#x2F;Collection&#x2F;Update&#x2F;‘</p>
+<p><strong>请求方式</strong>：Post</p>
+<p><strong>参数</strong>：</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;methodName&quot;</span><span class="punctuation">:</span><span class="string">&quot;insert&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;args&quot;</span><span class="punctuation">:</span><span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;belongId&quot;</span><span class="punctuation">:</span> string<span class="punctuation">,</span><span class="comment">//对象所在域</span></span><br><span class="line">        <span class="attr">&quot;collName&quot;</span><span class="punctuation">:</span> string<span class="punctuation">,</span><span class="comment">//数据集名称</span></span><br><span class="line">        <span class="attr">&quot;data&quot;</span><span class="punctuation">:</span> any<span class="punctuation">,</span><span class="comment">//要添加的数据，对象/数组</span></span><br><span class="line">    <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;timeout&quot;</span><span class="punctuation">:</span><span class="number">2</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+<h2 id="update"><a href="#update" class="headerlink" title="update"></a>update</h2><p>更新数据到数据集。</p>
+<p><strong>请求地址</strong>：’&#x2F;orginone&#x2F;anydata&#x2F;Collection&#x2F;Update&#x2F;‘</p>
+<p><strong>请求方式</strong>：Post</p>
+<p><strong>参数</strong>：</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;methodName&quot;</span><span class="punctuation">:</span><span class="string">&quot;update&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;args&quot;</span><span class="punctuation">:</span><span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;belongId&quot;</span><span class="punctuation">:</span> string<span class="punctuation">,</span><span class="comment">//对象所在域</span></span><br><span class="line">        <span class="attr">&quot;collName&quot;</span><span class="punctuation">:</span> string<span class="punctuation">,</span><span class="comment">//数据集名称</span></span><br><span class="line">        <span class="attr">&quot;update&quot;</span><span class="punctuation">:</span> any<span class="punctuation">,</span><span class="comment">//更新操作（match匹配，update变更,options参数）</span></span><br><span class="line">    <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;timeout&quot;</span><span class="punctuation">:</span><span class="number">2</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+<h2 id="remove"><a href="#remove" class="headerlink" title="remove"></a>remove</h2><p>从数据集移除数据。</p>
+<p><strong>请求地址</strong>：’&#x2F;orginone&#x2F;anydata&#x2F;Collection&#x2F;Remove&#x2F;‘</p>
+<p><strong>请求方式</strong>：Post</p>
+<p><strong>参数</strong>：</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;methodName&quot;</span><span class="punctuation">:</span><span class="string">&quot;remove&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;args&quot;</span><span class="punctuation">:</span><span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;belongId&quot;</span><span class="punctuation">:</span> string<span class="punctuation">,</span><span class="comment">//对象所在域</span></span><br><span class="line">        <span class="attr">&quot;collName&quot;</span><span class="punctuation">:</span> string<span class="punctuation">,</span><span class="comment">//数据集名称</span></span><br><span class="line">        <span class="attr">&quot;match&quot;</span><span class="punctuation">:</span> any<span class="punctuation">,</span><span class="comment">//匹配信息</span></span><br><span class="line">    <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;timeout&quot;</span><span class="punctuation">:</span><span class="number">2</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="aggregate"><a href="#aggregate" class="headerlink" title="aggregate"></a>aggregate</h2><p>从数据集查询数据。</p>
+<p><strong>请求地址</strong>：’&#x2F;orginone&#x2F;anydata&#x2F;Collection&#x2F;Aggregate&#x2F;‘</p>
+<p><strong>请求方式</strong>：Post</p>
+<p><strong>参数</strong>：</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;methodName&quot;</span><span class="punctuation">:</span><span class="string">&quot;aggregate&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;args&quot;</span><span class="punctuation">:</span><span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;belongId&quot;</span><span class="punctuation">:</span> string<span class="punctuation">,</span><span class="comment">//对象所在域</span></span><br><span class="line">        <span class="attr">&quot;collName&quot;</span><span class="punctuation">:</span> string<span class="punctuation">,</span><span class="comment">//数据集名称</span></span><br><span class="line">        <span class="attr">&quot;options&quot;</span><span class="punctuation">:</span> any<span class="punctuation">,</span><span class="comment">//聚合管道(例如：&#123;match:&#123;a:1&#125;,skip:10,limit:10&#125;)</span></span><br><span class="line">    <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;timeout&quot;</span><span class="punctuation">:</span><span class="number">2</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="pageRequest"><a href="#pageRequest" class="headerlink" title="pageRequest"></a>pageRequest</h2><p>从数据集查询数据并进行分页。</p>
+<p><strong>请求方式</strong>：Post</p>
+<p><strong>参数</strong>：</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;methodName&quot;</span><span class="punctuation">:</span><span class="string">&quot;pageRequest&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;args&quot;</span><span class="punctuation">:</span><span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;belongId&quot;</span><span class="punctuation">:</span> string<span class="punctuation">,</span><span class="comment">//对象所在域</span></span><br><span class="line">        <span class="attr">&quot;collName&quot;</span><span class="punctuation">:</span> string<span class="punctuation">,</span><span class="comment">//数据集名称</span></span><br><span class="line">        <span class="attr">&quot;options&quot;</span><span class="punctuation">:</span> any<span class="punctuation">,</span><span class="comment">//聚合管道(例如：&#123;match:&#123;a:1&#125;,skip:10,limit:10&#125;)</span></span><br><span class="line">        <span class="attr">&quot;page&quot;</span><span class="punctuation">:</span> PageModel <span class="comment">//分页模型</span></span><br><span class="line">    <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;timeout&quot;</span><span class="punctuation">:</span><span class="number">2</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="bucketOpreate"><a href="#bucketOpreate" class="headerlink" title="bucketOpreate"></a>bucketOpreate</h2><p>进行桶操作。</p>
+<p><strong>请求地址</strong>：’&#x2F;orginone&#x2F;anydata&#x2F;Bucket&#x2F;Operate&#x2F;‘</p>
+<p><strong>请求方式</strong>：Post</p>
+<p><strong>参数</strong>：</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;methodName&quot;</span><span class="punctuation">:</span><span class="string">&quot;bucketOpreate&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;args&quot;</span><span class="punctuation">:</span><span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;belongId&quot;</span><span class="punctuation">:</span> string<span class="punctuation">,</span><span class="comment">//对象所在域</span></span><br><span class="line">        <span class="attr">&quot;data&quot;</span><span class="punctuation">:</span> BucketOpreateModel<span class="punctuation">,</span><span class="comment">//桶操作模型</span></span><br><span class="line">    <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;timeout&quot;</span><span class="punctuation">:</span><span class="number">2</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+<h2 id="fileUpdate"><a href="#fileUpdate" class="headerlink" title="fileUpdate"></a>fileUpdate</h2><p>文件上传。</p>
+<p><strong>请求地址</strong>：’&#x2F;orginone&#x2F;anydata&#x2F;Bucket&#x2F;Operate&#x2F;‘</p>
+<p><strong>请求方式</strong>：Post</p>
+<p><strong>参数</strong>：</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;methodName&quot;</span><span class="punctuation">:</span><span class="string">&quot;fileUpdateOpreate&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;args&quot;</span><span class="punctuation">:</span><span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;belongId&quot;</span><span class="punctuation">:</span> string<span class="punctuation">,</span><span class="comment">//对象所在域</span></span><br><span class="line">        <span class="attr">&quot;file&quot;</span><span class="punctuation">:</span> Blob<span class="punctuation">,</span><span class="comment">//要上传的文件</span></span><br><span class="line">        <span class="attr">&quot;key&quot;</span><span class="punctuation">:</span> string<span class="punctuation">,</span><span class="comment">//文件的路径</span></span><br><span class="line">        <span class="attr">&quot;progress&quot;</span><span class="punctuation">:</span> ProgressEvent<span class="comment">//进度事件</span></span><br><span class="line">    <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;timeout&quot;</span><span class="punctuation">:</span><span class="number">2</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="loadThing"><a href="#loadThing" class="headerlink" title="loadThing"></a>loadThing</h2><p>加载数据。</p>
+<p><strong>请求地址</strong>：’&#x2F;orginone&#x2F;anydata&#x2F;Thing&#x2F;Load&#x2F;‘</p>
+<p><strong>请求方式</strong>：Post</p>
+<p><strong>参数</strong>：</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;methodName&quot;</span><span class="punctuation">:</span><span class="string">&quot;loadThing&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;args&quot;</span><span class="punctuation">:</span><span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;belongId&quot;</span><span class="punctuation">:</span> string<span class="punctuation">,</span><span class="comment">//对象所在域</span></span><br><span class="line">        <span class="attr">&quot;options&quot;</span><span class="punctuation">:</span> any<span class="comment">//加载选项</span></span><br><span class="line">    <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;timeout&quot;</span><span class="punctuation">:</span><span class="number">2</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+<h2 id="createThing"><a href="#createThing" class="headerlink" title="createThing"></a>createThing</h2><p>创建数据。</p>
+<p><strong>请求地址</strong>：’&#x2F;orginone&#x2F;anydata&#x2F;Thing&#x2F;Create&#x2F;‘</p>
+<p><strong>请求方式</strong>：Post</p>
+<p><strong>参数</strong>：</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;methodName&quot;</span><span class="punctuation">:</span><span class="string">&quot;createThing&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;args&quot;</span><span class="punctuation">:</span><span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;belongId&quot;</span><span class="punctuation">:</span> string<span class="punctuation">,</span><span class="comment">//对象所在域</span></span><br><span class="line">        <span class="attr">&quot;name&quot;</span><span class="punctuation">:</span> string<span class="comment">//数据名称</span></span><br><span class="line">    <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;timeout&quot;</span><span class="punctuation">:</span><span class="number">2</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="http://example.com">lilming</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://example.com/2023/07/23/orginone%E5%AE%9E%E4%B9%A0%E7%BB%8F%E5%8E%86/orginone%E5%B9%B3%E5%8F%B0%E8%A7%A3%E6%9E%90%E2%80%94%E2%80%94anystore%E7%9A%84api/">http://example.com/2023/07/23/orginone%E5%AE%9E%E4%B9%A0%E7%BB%8F%E5%8E%86/orginone%E5%B9%B3%E5%8F%B0%E8%A7%A3%E6%9E%90%E2%80%94%E2%80%94anystore%E7%9A%84api/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://example.com" target="_blank">lilming的小窝</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2023/07/31/orginone%E5%AE%9E%E4%B9%A0%E7%BB%8F%E5%8E%86/orginone%E2%80%94%E2%80%94%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C%EF%BC%88%E6%B2%9F%E9%80%9A+%E5%AD%98%E5%82%A8+%E5%8A%9E%E4%BA%8B%EF%BC%89/" title="orginone——用户手册（沟通+存储+办事）"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">orginone——用户手册（沟通+存储+办事）</div></div></a></div><div class="next-post pull-right"><a href="/2023/07/18/orginone%E5%AE%9E%E4%B9%A0%E7%BB%8F%E5%8E%86/orginone%E5%B9%B3%E5%8F%B0%E8%A7%A3%E6%9E%90%E2%80%94%E2%80%94%E6%B2%9F%E9%80%9A%E5%92%8C%E5%82%A8%E5%AD%98/" title="orginone平台解析——沟通和储存"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">orginone平台解析——沟通和储存</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">lilming</div><div class="author-info__description">Talk is cheap. Show me the code.</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">36</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">9</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/lilming123"><i class="fab fa-github"></i><span>github</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content"><b><font color="#e66b6d">热</font> <font color="#e66d98">爱</font> <font color="#e66cc6">可</font> <font color="#cc6de6">抵</font> <font color="#9770e6">岁</font> <font color="#6d93e6">月</font> <font color="#6fcde6">漫</font> <font color="#72e6b6">长</font> </b> <p align="center"><img src="https://haiyong.site/img/img-blog.csdnimg.cn/f7384c88956d4378b72e47548e19c9f8.gif" width="50" alt="mao"></p> <p align="center">微信号：hqswhqzz</p> <p align="center">QQ号：3139457157</p></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#AnyStore-%E7%B1%BB"><span class="toc-number">1.</span> <span class="toc-text">AnyStore 类</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#getInstance"><span class="toc-number">1.1.</span> <span class="toc-text">getInstance</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#isOnline"><span class="toc-number">1.2.</span> <span class="toc-text">isOnline</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#updateToken"><span class="toc-number">1.3.</span> <span class="toc-text">updateToken</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#subscribed"><span class="toc-number">1.4.</span> <span class="toc-text">subscribed</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#unSubscribed"><span class="toc-number">1.5.</span> <span class="toc-text">unSubscribed</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#get"><span class="toc-number">1.6.</span> <span class="toc-text">get</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#set"><span class="toc-number">1.7.</span> <span class="toc-text">set</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#delete"><span class="toc-number">1.8.</span> <span class="toc-text">delete</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#insert"><span class="toc-number">1.9.</span> <span class="toc-text">insert</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#update"><span class="toc-number">1.10.</span> <span class="toc-text">update</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#remove"><span class="toc-number">1.11.</span> <span class="toc-text">remove</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#aggregate"><span class="toc-number">1.12.</span> <span class="toc-text">aggregate</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#pageRequest"><span class="toc-number">1.13.</span> <span class="toc-text">pageRequest</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#bucketOpreate"><span class="toc-number">1.14.</span> <span class="toc-text">bucketOpreate</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#fileUpdate"><span class="toc-number">1.15.</span> <span class="toc-text">fileUpdate</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#loadThing"><span class="toc-number">1.16.</span> <span class="toc-text">loadThing</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#createThing"><span class="toc-number">1.17.</span> <span class="toc-text">createThing</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/09/08/test/" title="无题">无题</a><time datetime="2023-09-08T03:48:18.571Z" title="发表于 2023-09-08 11:48:18">2023-09-08</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/08/29/%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91/%E9%AB%98%E6%A0%A1%E7%94%9F%E5%9D%87%E6%88%90%E6%9C%AC%E6%A0%B8%E7%AE%97%E7%B3%BB%E7%BB%9F/" title="高校生均成本核算系统">高校生均成本核算系统</a><time datetime="2023-08-29T15:09:00.000Z" title="发表于 2023-08-29 23:09:00">2023-08-29</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/08/07/orginone%E5%AE%9E%E4%B9%A0%E7%BB%8F%E5%8E%86/orginone%E5%8A%9F%E8%83%BD%E5%BC%80%E5%8F%91%E2%80%94%E2%80%94%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C/" title="orginone功能开发——应用开发手册">orginone功能开发——应用开发手册</a><time datetime="2023-08-07T13:21:00.000Z" title="发表于 2023-08-07 21:21:00">2023-08-07</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/07/31/orginone%E5%AE%9E%E4%B9%A0%E7%BB%8F%E5%8E%86/orginone%E2%80%94%E2%80%94%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C%EF%BC%88%E6%B2%9F%E9%80%9A+%E5%AD%98%E5%82%A8+%E5%8A%9E%E4%BA%8B%EF%BC%89/" title="orginone——用户手册（沟通+存储+办事）">orginone——用户手册（沟通+存储+办事）</a><time datetime="2023-07-31T05:38:00.000Z" title="发表于 2023-07-31 13:38:00">2023-07-31</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/07/23/orginone%E5%AE%9E%E4%B9%A0%E7%BB%8F%E5%8E%86/orginone%E5%B9%B3%E5%8F%B0%E8%A7%A3%E6%9E%90%E2%80%94%E2%80%94anystore%E7%9A%84api/" title="orginone平台解析——anystore的api">orginone平台解析——anystore的api</a><time datetime="2023-07-23T04:04:00.000Z" title="发表于 2023-07-23 12:04:00">2023-07-23</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By lilming</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><!-- hexo injector body_end start --><script data-pjax>
+  function butterfly_clock_anzhiyu_injector_config(){
+    var parent_div_git = document.getElementsByClassName('sticky_layout')[0];
+    var item_html = '<div class="card-widget card-clock"><div class="card-glass"><div class="card-background"><div class="card-content"><div id="hexo_electric_clock"><img class="entered loading" id="card-clock-loading" src="https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/loading.gif" style="height: 120px; width: 100%;" data-ll-status="loading"/></div></div></div></div></div>';
+    console.log('已挂载butterfly_clock_anzhiyu')
+    if(parent_div_git) {
+      parent_div_git.insertAdjacentHTML("afterbegin",item_html)
+    }
+  }
+  var elist = 'null'.split(',');
+  var cpage = location.pathname;
+  var epage = 'all';
+  var qweather_key = '71cb1295daf64c3293a9e20a1372b31f';
+  var gaud_map_key = 'e2b04289e870b005374ee030148d64fd&s=rsv3';
+  var baidu_ak_key = 'undefined';
+  var flag = 0;
+  var clock_rectangle = '112.982279,28.19409';
+  var clock_default_rectangle_enable = 'false';
+
+  for (var i=0;i<elist.length;i++){
+    if (cpage.includes(elist[i])){
+      flag++;
+    }
+  }
+
+  if ((epage ==='all')&&(flag == 0)){
+    butterfly_clock_anzhiyu_injector_config();
+  }
+  else if (epage === cpage){
+    butterfly_clock_anzhiyu_injector_config();
+  }
+  </script><script src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script><script data-pjax src="https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.js"></script><!-- hexo injector body_end end --></body></html>
