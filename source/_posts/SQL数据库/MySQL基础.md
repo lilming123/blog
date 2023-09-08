@@ -2,7 +2,9 @@
 title: MySQL基础
 date: 2023-04-26 15:16
 updated: 星期五 8日 九月 2023 11:55:05
-tags: []
+tags: 
+- 后端
+- 语言基础
 categories: [SQL数据库]
 keywords:
 description: 

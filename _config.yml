@@ -4,16 +4,16 @@
 
 # Site
 title: lilming的小窝
-subtitle: ''
-description: ''
-keywords:
+subtitle:
+description: 分享技术文章，记录学习的历程
+keywords: ''
 author: lilming
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://coding.lilming.top
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -40,7 +40,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
