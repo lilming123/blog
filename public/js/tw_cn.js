@@ -101,15 +101,13 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   function translateInitialization () {
-    translateButtonObject = document.getElementById('translateLink')
+    // translateButtonObject = document.getElementById('translateLink')
+    translateButtonObject = document.getElementById('translateLink').getElementsByTagName('i')[0]
     if (translateButtonObject) {
       if (currentEncoding !== targetEncoding) {
-        translateButtonObject.innerHTML =
-          targetEncoding === 1
-            ? msgToSimplifiedChinese
-            : msgToTraditionalChinese
-        setLang()
         setTimeout(translateBody, translateDelay)
+        if (targetEncoding === 1) translateButtonObject.innerHTML = msgToSimplifiedChinese
+        else translateButtonObject.innerHTML = msgToTraditionalChinese
       }
       translateButtonObject.addEventListener('click', translatePage, false)
     }

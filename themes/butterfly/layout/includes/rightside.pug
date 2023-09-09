@@ -6,29 +6,41 @@ mixin rightsideItem(array)
         if is_post() && readmode
           button#readmode(type="button" title=_p('rightside.readmode_title'))
             i.fas.fa-book-open
+            span=_p('rightside.readmode_title')
       when 'translate'
         if translate.enable
-          button#translateLink(type="button" title=_p('rightside.translate_title'))= translate.default
+          //button#translateLink(type="button" title=_p('rightside.translate_title'))= translate.default
+          button#translateLink(type="button" title=_p('rightside.translate_title'))
+            i= translate.default
+            span=_p('rightside.translate_title')
       when 'darkmode'
         if darkmode.enable && darkmode.button
           button#darkmode(type="button" title=_p('rightside.night_mode_title'))
             i.fas.fa-adjust
+            span=_p('rightside.night_mode_title')
+
       when 'hideAside'
         if aside.enable && aside.button && page.aside !== false
           button#hide-aside-btn(type="button" title=_p('rightside.aside'))
             i.fas.fa-arrows-alt-h
+            span=_p('rightside.aside')
       when 'toc'
         if showToc
           button#mobile-toc-button.close(type="button" title=_p("rightside.toc"))
             i.fas.fa-list-ul
+            span=_p('rightside.toc')
+
       when 'chat'
         if chat_btn
           button#chat_btn(type="button" title=_p("rightside.chat"))
             i.fas.fa-sms
+            span=_p('rightside.chat')
+
       when 'comment'
         if commentsJsLoad
           a#to_comment(href="#post-comment" title=_p("rightside.scroll_to_comment"))
             i.fas.fa-comments
+            span=_p('rightside.scroll_to_comment')
 
 #rightside
   - const { enable, hide, show } = theme.rightside_item_order
@@ -44,14 +56,18 @@ mixin rightsideItem(array)
       if hide
         button#rightside_config(type="button" title=_p("rightside.setting"))
           i.fas.fa-cog.fa-spin
+          span=_p('rightside.setting')
     else
       if is_post()
         if (readmode || translate.enable || (darkmode.enable && darkmode.button))
           button#rightside_config(type="button" title=_p("rightside.setting"))
             i.fas.fa-cog.fa-spin
+            span=_p('rightside.setting')
       else if translate.enable || (darkmode.enable && darkmode.button)
         button#rightside_config(type="button" title=_p("rightside.setting"))
           i.fas.fa-cog.fa-spin
+          span=_p('rightside.setting')
+
 
     if showArray
       +rightsideItem(showArray)
@@ -59,3 +75,4 @@ mixin rightsideItem(array)
     button#go-up(type="button" title=_p("rightside.back_to_top"))
       span.scroll-percent
       i.fas.fa-arrow-up
+      span=_p('rightside.back_to_top')
