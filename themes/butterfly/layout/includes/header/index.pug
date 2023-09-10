@@ -37,7 +37,7 @@ header#page-header(class=`${isHomeClass+isFixedClass}` style=bg_img)
       include ./post-info.pug
     else if is_home() 
       #site-info
-        h1#site-title=site_title
+        img#site-title(src="https://coding.lilming.top//img//title.jpg" alt=site_title)
         if theme.subtitle.enable
           - var loadSubJs = true
           #site-subtitle
