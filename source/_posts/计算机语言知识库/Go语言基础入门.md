@@ -1,14 +1,14 @@
 ---
 title: Go语言基础入门
-date: 2023-06-20 13:19
-updated: 星期一 17日 七月 2023 09:33:37
+date: 2023-9-7 13:19
+updated: 星期日 10日 九月 2023 20:21:34
 tags: 
-- 后端
-- 语言基础
+- 
 categories: [计算机语言知识库]
 keywords:
 description: 
 ---
+
 
 # Golang 内置类型和函数
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/碎碎念/写了三年博客，有一些想说的话.md",
+                "file": "source/_posts/计算机语言知识库/Go语言基础入门.md",
                 "mode": "source",
                 "source": true
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/_posts/碎碎念/写了三年博客，有一些想说的话.md"
+                "file": "source/_posts/计算机语言知识库/Go语言基础入门.md"
               }
             }
           },
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/碎碎念/写了三年博客，有一些想说的话.md",
+                "file": "source/_posts/计算机语言知识库/Go语言基础入门.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/_posts/碎碎念/写了三年博客，有一些想说的话.md",
+                "file": "source/_posts/计算机语言知识库/Go语言基础入门.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,6 +184,10 @@
   },
   "active": "73dba0e18773fbbd",
   "lastOpenFiles": [
+    "source/_posts/碎碎念/写了三年博客，有一些想说的话.md",
+    "source/_posts/碎碎念/未命名 5.md",
+    "source/_posts/碎碎念/未命名 2.md",
+    "source/_posts/碎碎念/未命名 1.md",
     "source/_posts/碎碎念/未命名.md",
     "db.json",
     "public/img/archive.png",
@@ -205,12 +209,8 @@
     "public/2023/07/31/orginone实习经历/orginone——用户手册（沟通+存储+办事）/index.html",
     "public/img/title.png",
     "public/img/wechat.jpg",
-    "source/_posts/碎碎念/写了三年博客，有一些想说的话.md",
-    "source/_posts/碎碎念/未命名 5.md",
     "source/_posts/碎碎念/未命名 4.md",
     "source/_posts/碎碎念/未命名 3.md",
-    "source/_posts/碎碎念/未命名 2.md",
-    "source/_posts/碎碎念/未命名 1.md",
     "source/_posts/SQL数据库/MySQL基础.md",
     "source/_posts/项目开发/高校生均成本核算系统.md",
     "source/_posts/未命名.md",
