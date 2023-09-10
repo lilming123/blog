@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/计算机语言知识库/Go语言基础入门.md",
+                "file": "source/_posts/碎碎念/写了三年博客，有一些想说的话.md",
                 "mode": "source",
                 "source": true
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/_posts/计算机语言知识库/Go语言基础入门.md"
+                "file": "source/_posts/碎碎念/写了三年博客，有一些想说的话.md"
               }
             }
           },
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/计算机语言知识库/Go语言基础入门.md",
+                "file": "source/_posts/碎碎念/写了三年博客，有一些想说的话.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/_posts/计算机语言知识库/Go语言基础入门.md",
+                "file": "source/_posts/碎碎念/写了三年博客，有一些想说的话.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,6 +184,7 @@
   },
   "active": "73dba0e18773fbbd",
   "lastOpenFiles": [
+    "source/_posts/计算机语言知识库/Go语言基础入门.md",
     "source/_posts/碎碎念/写了三年博客，有一些想说的话.md",
     "source/_posts/碎碎念/未命名 5.md",
     "source/_posts/碎碎念/未命名 2.md",
@@ -220,7 +221,6 @@
     "source/_posts/计算机语言知识库/Javascript.md",
     "source/_posts/计算机语言知识库/JAVA基础速查速记.md",
     "source/_posts/计算机语言知识库/HTML.md",
-    "source/_posts/计算机语言知识库/Go语言基础入门.md",
     "source/_posts/计算机语言知识库/CSS.md",
     "source/_posts/计算机语言知识库/深入理解TypeScript.md",
     "source/_posts/后端学习/Spring Boot入门.md",
