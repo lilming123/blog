@@ -184,6 +184,7 @@
   },
   "active": "73dba0e18773fbbd",
   "lastOpenFiles": [
+    "themes/butterfly/source/css/_layout/head.styl~",
     "public/archives/2023/04/page/2/index.html",
     "public/archives/2023/04/page/2",
     "public/archives/2023/page/3/index.html",
@@ -194,7 +195,6 @@
     "public/archives/page/3",
     "public/page/2/index.html",
     "public/page/2",
-    "db.json",
     "public/img/archive.png",
     "public/img/post3.png",
     "public/img/post2.png",
