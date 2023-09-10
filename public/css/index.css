@@ -1348,7 +1348,7 @@ canvas:not(#ribbon-canvas),
   --tab-button-active-bg: #fff;
   --card-bg: #fff;
   --sidebar-bg: #f6f8fa;
-  --btn-hover-color: #ff7242;
+  --btn-hover-color: #0b7595;
   --btn-color: #fff;
   --btn-bg: #49b1f5;
   --text-bg-hover: rgba(73,177,245,0.7);
@@ -1362,7 +1362,7 @@ canvas:not(#ribbon-canvas),
   --toc-link-color: #666261;
   --card-box-shadow: 0 3px 8px 6px rgba(7,17,27,0.05);
   --card-hover-box-shadow: 0 3px 8px 6px rgba(7,17,27,0.09);
-  --pseudo-hover: #ff7242;
+  --pseudo-hover: #0b7595;
   --headline-presudo: #a0a0a0;
   --scrollbar-color: #49b1f5;
   --default-bg-color: #49b1f5;
@@ -2705,11 +2705,11 @@ h1.page-title + .tag-cloud-list {
 }
 :root {
   --ark-post-item-transition: all 0.5s cubic-bezier(0.59, 0.01, 0.48, 1.17);
-  --ark-post-item-border: rgba(15,157,201,0.6);
+  --ark-post-item-border: rgba(0,134,176,0.6);
   --ark-post-item-background: rgba(67,66,65,0.8);
   --ark-post-item-screen: rgba(61,146,204,0.6);
   --ark-post-item-font-color: #fff;
-  --ark-post-item-font-hover: #d97f17;
+  --ark-post-item-font-hover: #00b0fe;
   --ark-post-item-box-shadow: rgba(111,160,225,0.8);
   --ark-post-item-text-shadow: rgba(50,51,50,0.7);
 }
@@ -6296,7 +6296,7 @@ h1.page-title + .tag-cloud-list {
 #waline-wrap {
   --waline-font-size: 1.1em;
   --waline-theme-color: #49b1f5;
-  --waline-active-color: #ff7242;
+  --waline-active-color: #0b7595;
 }
 #waline-wrap .wl-comment-actions > button:not(last-child) {
   padding-right: 4px;
