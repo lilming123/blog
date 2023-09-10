@@ -919,6 +919,7 @@ inject:
 
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
+    - <script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
     - <script async src="//at.alicdn.com/t/c/font_4244597_skt71r2k0h.js"></script>
 
 # CDN
