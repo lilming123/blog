@@ -1,0 +1,78 @@
+:root
+  --pagenumber-color: #fff;
+  --pagenumber-current-color: #1e7ee2;
+  --pagenumber-current-shadow-color: #104477;
+  --pagenumber-hover-color: #1e7ee2;
+  --pagenumber-background-color: rgba(55,112,143,0.5);
+[data-theme="dark"]
+  --pagenumber-color: #fff;
+  --pagenumber-current-color: #7a67c9;
+  --pagenumber-current-shadow-color: #301e82;
+  --pagenumber-hover-color: #7a67c9;
+  --pagenumber-background-color: rgba(80,80,80,0.85);
+#pagination {
+  font-family: UnidreamLED, TaikoMagic;
+}
+
+#pagination .pagination {
+  text-align: center;
+  position: relative;
+  -webkit-box-orient: horizontal;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  height: 35px;
+}
+
+#pagination .pagination > * {
+  z-index: 20;
+  display: inline-block;
+  margin: 0px 6px;
+  min-width: 30px;
+  width: auto;
+  height: 35px;
+  line-height: 35px;
+  padding: 0px 3px;
+  color: var(--pagenumber-color);
+}
+
+#pagination .pagination::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 25px;
+  left: 0px;
+  top: 5px;
+  z-index: -1;
+  background-image: linear-gradient(to right,rgba(0,0,0,0) 0,var(--pagenumber-background-color) 40%,var(--pagenumber-background-color) 50%,var(--pagenumber-background-color) 60%,rgba(0,0,0,0) 100%);
+}
+
+#pagination .pagination > :not(.space):hover {
+  background: var(--pagenumber-hover-color);
+  color: var(--pagenumber-color);
+}
+
+#pagination .pagination .page-number {
+  position: relative;
+}
+
+#pagination .pagination .page-number.current {
+  background: var(--pagenumber-current-color);
+  color: var(--pagenumber-color);
+  padding: 0px 3px;
+  height: 35px;
+}
+
+#pagination .pagination .page-number.current::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: -5px;
+  width: 40px;
+  height: 35px;
+  z-index: -1;
+  background: var(--pagenumber-current-shadow-color);
+  clip-path: polygon(0px 5px, 5px 0px, 35px 0px, 40px 5px, 0px 5px, 0px 30px, 5px 35px, 35px 35px, 40px 30px, 0px 30px);
+}
