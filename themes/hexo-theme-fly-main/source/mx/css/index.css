@@ -3445,7 +3445,7 @@ h1.page-title+.tag-cloud-list {
 
 .site-data>a .length-num {
     margin-top: -0.32em;
-    color: var(--text-highlight-color);
+    /*color: var(--text-highlight-color);*/
     font-size: 1.4em;
 }
 

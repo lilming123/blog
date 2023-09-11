@@ -5,7 +5,7 @@ updated: 星期五 8日 九月 2023 11:55:05
 tags: 
 - 后端
 - 语言基础
-categories: [SQL数据库]
+categories: [数据库]
 keywords:
 description: 
 ---
