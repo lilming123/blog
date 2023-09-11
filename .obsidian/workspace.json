@@ -184,6 +184,8 @@
   },
   "active": "73dba0e18773fbbd",
   "lastOpenFiles": [
+    "themes/butterfly/source/css/_layout/ark_card_weiget.styl~",
+    "themes/butterfly/layout/includes/widget/card_author.pug~",
     "_config.yml~",
     "source/_posts/计算机语言知识库/Go语言基础入门.md",
     "source/_posts/碎碎念/写了三年博客，有一些想说的话.md",
@@ -207,8 +209,6 @@
     "public/archives/2023/page/3/index.html",
     "public/archives/2023/page/3",
     "public/2023/09/10/碎碎念/未命名 4/index.html",
-    "public/2023/09/10/碎碎念/未命名 5/index.html",
-    "public/2023/07/31/orginone实习经历/orginone——用户手册（沟通+存储+办事）/index.html",
     "public/img/title.png",
     "public/img/wechat.jpg",
     "source/_posts/碎碎念/未命名 4.md",
