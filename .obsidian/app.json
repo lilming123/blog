@@ -20,5 +20,5 @@
   "useMarkdownLinks": true,
   "vimMode": false,
   "strictLineBreaks": false,
-  "livePreview": false
+  "livePreview": true
 }
