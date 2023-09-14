@@ -15,7 +15,9 @@ description: 本学期会计大数据课程的第一个小组作业，对材料�
 # 准备工作
 
 本教程需要先完成以下工作，若已完成可直接跳到第二部分
-1. 获取阿里云账号的 AccessKey 以及 AccessKey Secret。（建议使用）
+1. 获取阿里云账号的 AccessKey 以及 AccessKey Secret。（建议使用 RAM 访问控制，仅授权部分权限）
+2. 开通阿里云 SLS 服务，创建 Project 和 logstore
+
 {% hideToggle 准备工作 %}
 1. 要使用阿里云的云服务要先注册阿里云的账号，点击右上角的头像，进入 AccessKey，获取 AccessKey 以及 AccessKey Secret。官方建议使用 RAM 仅开放有限的权限，可查看官方文档的具体操作： [官方文档](https://help.aliyun.com/zh/ram/getting-started/create-a-ram-user-1)
 [sls 控制台，点击跳转](https://sls.console.aliyun.com/lognext/profile)
