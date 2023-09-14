@@ -91,6 +91,7 @@ SpringBoot 支持多种日志框架，如 JavaUtilLogging，Log4J，Log4J2和 Lo
 <!--阿里云SLS (end)-->
 ```
 > 以上配置之后还没有指定哪个模块输出的日志要上传的 sls 中，下面的配置根据项目的具体需求来选择，这里演示了两种:
+
 {% tabs Tab %}  
 <!-- tab 指定业务中的类才会接入sls-->  
 例如以下只有拦截器中的日志会被输入到 sls 中，其中 `loghubAppender` 是上面的配置的 appender name，会输入到 sls 中；STDOUT 是同时也在输出到控制台中
@@ -179,5 +180,4 @@ SLS 中一个十分好用的功能是 `自动生成索引`，在上面的例子�
 3. location：是程序输出的位置
 4. log：是程序控制台输出日志的内容
 5. message：是日志输出的内容
-## 
 
