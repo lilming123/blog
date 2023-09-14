@@ -9,7 +9,7 @@ tags:
 categories: [后端学习]
 keywords:
 description: 本学期会计大数据课程的第一个小组作业，对材料中利用云日志同一采集数据比较感兴趣，在这里基于springboot的logback日志输出的基础上，引入阿里云相关依赖，在指定的类
-中输出日志到阿里云SLS中
+中输出日志到阿里云SLS中，并储存到阿里云OSS中
 ---
 
 # 准备工作
@@ -170,14 +170,14 @@ private String getTableNameFromSql(String sql) {
 之后运行程序，在预览界面查看 sls 接受到的日志数据
 ![](../static/Pasted%20image%2020230913101935.png)
 
+SLS 中一个十分好用的功能是 `自动生成索引`，在上面的例子中我们把 CdCalcMain 对象的每个属性转换成了 `Json` 格式的字符串作为 message 的 value，点击 `自动生成索引`，SLS 能自动试别 message 为 `json` 格式，标记了每个 key 值
+![](../static/Pasted%20image%2020230913143106.png)
+![](../static/Pasted%20image%2020230913143354.png)
 观察输出的日志格式，有以下几个字段：
 1. \_\_source\_\_：表示发出日志的 ip 地址，在本实例中就是本机的 ip 地址
 2. \_\_topic\_\_：日志主题，可以在 `logback-spring.xml` 中配置
-```xml
-<appender name="loghubAppender" class="com.aliyun.openservices.log.logback.LoghubAppender">
-<!--其他代码省略，和上面的配置操作中一样，在下里插入即可-->
+3. location：是程序输出的位置
+4. log：是程序控制台输出日志的内容
+5. message：是日志输出的内容
+## 
 
-</appender>
-```
-
-确认无误后，点击下一步，在日志库页面可以查看获取到的所有数据，也可以调整时间段截取部分数据，还可以使用 sql 语法对数据进行进一步的加工处理
