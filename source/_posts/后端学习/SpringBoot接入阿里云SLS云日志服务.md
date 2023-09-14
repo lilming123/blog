@@ -8,7 +8,7 @@ tags:
   - 大数据
 categories:
   - 后端学习
-keywords: 
+keywords: 标签外挂
 description: 本学期会计大数据课程的第一个小组作业，对材料中利用云日志同一采集数据比较感兴趣，在这里基于springboot的logback日志输出的基础上，引入阿里云相关依赖，在指定的类中输出日志到阿里云SLS中，并储存到阿里云OSS中
 ---
 
@@ -22,16 +22,16 @@ description: 本学期会计大数据课程的第一个小组作业，对材料�
 1. 要使用阿里云的云服务要先注册阿里云的账号，点击右上角的头像，进入 AccessKey，获取 AccessKey 以及 AccessKey Secret。官方建议使用 RAM 仅开放有限的权限，可查看官方文档的具体操作： [官方文档](https://help.aliyun.com/zh/ram/getting-started/create-a-ram-user-1)
 [sls 控制台，点击跳转](https://sls.console.aliyun.com/lognext/profile)
 
-![](../static/Pasted%20image%2020230913082917.png)
-![](../static/Pasted%20image%2020230913082948.png)
+![](https://lilming-obsidian.oss-cn-hangzhou.aliyuncs.com/pic/Pasted%20image%2020230913082917.png)
+![](https://lilming-obsidian.oss-cn-hangzhou.aliyuncs.com/pic/Pasted%20image%2020230913082948.png)
 2. 开通阿里云 SLS，创建 Project,这里名字命名为 school-accounting，注意分隔符是 `-` 不是 `_` 
-![](../static/Pasted%20image%2020230913083948.png)
+![](https://lilming-obsidian.oss-cn-hangzhou.aliyuncs.com/pic/Pasted%20image%2020230913083948.png)
 **注意地域要选择和服务器同一地域的**
-![](../static/Pasted%20image%2020230913084052.png)
+![](https://lilming-obsidian.oss-cn-hangzhou.aliyuncs.com/pic/Pasted%20image%2020230913084052.png)
 3. 创建 Logstore，这里名字命名为 cost_center
-![](../static/Pasted%20image%2020230913084859.png)
+![](https://lilming-obsidian.oss-cn-hangzhou.aliyuncs.com/pic/Pasted%20image%2020230913084859.png)
 4. 在记下地域所属的 endpoint，之后会用到
-![](../static/Pasted%20image%2020230913084722.png)
+![](https://lilming-obsidian.oss-cn-hangzhou.aliyuncs.com/pic/Pasted%20image%2020230913084722.png)
 {% endhideToggle %}
 
 # 在 SpringBoot 中配置SLS
@@ -165,17 +165,17 @@ private String getTableNameFromSql(String sql) {
 
 ## 运行项目，预览数据接入情况
 点击右侧边栏数据接入的＋号
-![](../static/Pasted%20image%2020230913085917.png)
+![](https://lilming-obsidian.oss-cn-hangzhou.aliyuncs.com/pic/Pasted%20image%2020230913085917.png)
 
 阿里云的 SLS 支持 JAVA 的 Logback、Log4J 和 Log4J2，在弹出窗口中点击 `LogBack接入`
-![](../static/Pasted%20image%2020230913085712.png)
+![](https://lilming-obsidian.oss-cn-hangzhou.aliyuncs.com/pic/Pasted%20image%2020230913085712.png)
 
 之后运行程序，在预览界面查看 sls 接受到的日志数据
-![](../static/Pasted%20image%2020230913101935.png)
+![](https://lilming-obsidian.oss-cn-hangzhou.aliyuncs.com/pic/Pasted%20image%2020230913101935.png)
 
 SLS 中一个十分好用的功能是 `自动生成索引`，在上面的例子中我们把 CdCalcMain 对象的每个属性转换成了 `Json` 格式的字符串作为 message 的 value，点击 `自动生成索引`，SLS 能自动试别 message 为 `json` 格式，标记了每个 key 值
-![](../static/Pasted%20image%2020230913143106.png)
-![](../static/Pasted%20image%2020230913143354.png)
+![](https://lilming-obsidian.oss-cn-hangzhou.aliyuncs.com/pic/Pasted%20image%2020230913143106.png)
+![](https://lilming-obsidian.oss-cn-hangzhou.aliyuncs.com/pic/Pasted%20image%2020230913143354.png)
 观察输出的日志格式，有以下几个字段：
 1. \_\_source\_\_：表示发出日志的 ip 地址，在本实例中就是本机的 ip 地址
 2. \_\_topic\_\_：日志主题，可以在 `logback-spring.xml` 中配置
