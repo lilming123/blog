@@ -27,7 +27,7 @@ description:
 所有的聊天记录都将储存在数据内核中，用户可以根据关键词查找并定位到对应的聊天记录
 
 从用户发送消息，再到接收方显示消息的具体时序图如下：
-![](../static/Pasted%20image%2020230719131959.png)
+![](https://lilming-obsidian.oss-cn-hangzhou.aliyuncs.com/pic/Pasted%20image%2020230719131959.png)
 
 
 
