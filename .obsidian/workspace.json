@@ -193,8 +193,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "c3a598d11d0c51b8",
+  "active": "73dba0e18773fbbd",
   "lastOpenFiles": [
+    "themes/butterfly/source/css/_load_style/ark.styl",
+    "themes/butterfly/source/css/_load_style/arkLoading.styl",
     "source/_posts/orginone实习经历/orginone平台解析——沟通和储存.md",
     "source/_posts/orginone实习经历/orginone平台解析——anystore的api.md",
     "source/_posts/orginone实习经历/orginone平台解析——SignalR通信.md",
@@ -220,7 +222,6 @@
     "source/_posts/博客搭建与配置/hexo标签外挂.md",
     "source/_posts/5e5de841d76197296ed23007b5c5a29.png.md",
     "source/_posts/af8914eae9c2130b45fd4ac61c203e1.png.md",
-    "source/_posts/94a8a96071b56f6612e52f23600229d.png.md",
     "public/img/post_cover3.jpg",
     "public/img/avatar.png",
     "public/img/post_cover2.jpg",
@@ -240,7 +241,6 @@
     "public/tags/常用技巧/index.html",
     "public/tags/大数据/index.html",
     "public/tags/前端/index.html",
-    "public/categories/项目开发/index.html",
     "未命名 3.canvas",
     "未命名 2.canvas",
     "未命名 1.canvas",
