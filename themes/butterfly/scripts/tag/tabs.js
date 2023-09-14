@@ -21,9 +21,28 @@ function postTabs (args, content) {
 
   !tabName && hexo.log.warn('Tabs block must have unique name!')
 
-  while ((match = tabBlock.exec(content)) !== null) {
-    matches.push(match[1])
-    matches.push(match[2])
+  //获取tab的标题
+  const regex = /<!--\s*tab\s*(.*?)\s*-->/g;
+  let tabTitles = []
+  let tabTitleMatch
+  while(tabTitleMatch = regex.exec(content)){
+    tabTitles.push(tabTitleMatch[1])
+  }
+  console.log(tabTitles.join(','))
+
+  //获取tab的内容
+  const regex2 = /<!--\s*tab (.*?)\s*-->([\s\S]*?)<!--\s*endtab\s*-->/g;
+  let tabContentMatch;
+  let tabContents = [];
+
+  while ((tabContentMatch = regex2.exec(content)) !== null) {
+    tabContents.push(tabContentMatch[2]);
+  }
+  console.log(tabContents.join(';'))
+
+  for (let i = 0; i < tabTitles.length; i += 1) {
+    matches.push(tabTitles[i])
+    matches.push(tabContents[i])
   }
 
   for (let i = 0; i < matches.length; i += 2) {

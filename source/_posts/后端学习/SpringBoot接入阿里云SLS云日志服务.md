@@ -94,11 +94,11 @@ SpringBoot 支持多种日志框架，如 JavaUtilLogging，Log4J，Log4J2和 Lo
 ```
 > 以上配置之后还没有指定哪个模块输出的日志要上传的 sls 中，下面的配置根据项目的具体需求来选择，这里演示了两种:
 
+
 {% tabs sls %}  
-<!-- tab 指定业务中的类才会接入sls-->  
+<!-- tab 指定业务中的类才会接入sls -->  
 例如以下只有拦截器中的日志会被输入到 sls 中，其中 `loghubAppender` 是上面的配置的 appender name，会输入到 sls 中；STDOUT 是同时也在输出到控制台中
 ```xml
-<!--只有拦截器中的日志会被输入到sls中-->  
 <logger name="org.jeecg.config.mybatis.MybatisInterceptor" level="info" additivity="false">  
    <appender-ref ref="STDOUT" />  
    <appender-ref ref="loghubAppender" />  

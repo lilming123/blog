@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.50432205200195,
-    "collapsed": true
+    "width": 245.50432205200195
   },
   "right": {
     "id": "521105735f5a461b",
@@ -161,6 +160,16 @@
               "type": "mermaid-toolbar-view",
               "state": {}
             }
+          },
+          {
+            "id": "42ba9293b7072af3",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
         ]
       }
@@ -186,6 +195,27 @@
   },
   "active": "73dba0e18773fbbd",
   "lastOpenFiles": [
+    "public/img/post_cover3.jpg",
+    "public/img/avatar.png",
+    "public/img/post_cover2.jpg",
+    "public/img/friend_404.gif",
+    "public/img/favicon.png",
+    "public/img/title.png",
+    "public/img/wechat.jpg",
+    "themes/butterfly/scripts/tag/tabs.js~",
+    "public/index.html",
+    "public/tags/后端/index.html",
+    "public/tags/语言基础/index.html",
+    "public/img/404.jpg",
+    "public/img/post_cover1.jpg",
+    "public/img/alipay.jpg",
+    "public/tags/java/index.html",
+    "public/tags/云日志/index.html",
+    "public/tags/常用技巧/index.html",
+    "public/tags/大数据/index.html",
+    "public/tags/前端/index.html",
+    "public/categories/项目开发/index.html",
+    "public/img/archive.png",
     "source/_posts/后端学习/Spring Boot入门.md",
     "source/_posts/后端学习/SpringBoot接入阿里云SLS云日志服务.md",
     "source/_posts/计算机语言知识库/CSS.md",
@@ -193,32 +223,12 @@
     "source/_posts/计算机语言知识库/HTML.md",
     "source/_posts/计算机语言知识库/深入理解TypeScript.md",
     "source/_posts/项目开发/高校生均成本核算系统.md",
-    "source/_posts/static/Pasted image 20230913143354.png",
-    "source/_posts/static/Pasted image 20230913143106.png",
-    "source/_posts/static/Pasted image 20230913101935.png",
-    "source/_posts/static/Pasted image 20230913085917.png",
-    "source/_posts/static/Pasted image 20230913085712.png",
-    "source/_posts/static/Pasted image 20230913084859.png",
-    "source/_posts/static/Pasted image 20230913084722.png",
-    "source/_posts/static/Pasted image 20230913084052.png",
-    "source/_posts/static/Pasted image 20230913083948.png",
-    "source/_posts/static/Pasted image 20230913082948.png",
     "source/_posts/博客搭建与配置/hexo标签外挂.md",
-    "source/_posts/博客搭建与配置/未命名",
-    "source/_posts/博客搭建与配置",
     "source/_posts/数据库/MySQL基础.md",
     "source/_posts/计算机基础/git命令.md",
     "source/_posts/计算机基础/计算机网络.md",
     "source/_posts/碎碎念/写了三年博客，有一些想说的话.md",
     "source/_posts/数据库/MongoDB基础语法.md",
-    "db.json",
-    "public/index.html",
-    "public/2023/08/29/项目开发/高校生均成本核算系统/index.html",
-    "public/2023/09/11/数据库/MongoDB基础语法/index.html",
-    "public/2023/09/10/碎碎念/写了三年博客，有一些想说的话/index.html",
-    "public/2023/08/07/orginone实习经历/orginone功能开发——应用开发手册/index.html",
-    "public/2023/09/07/计算机语言知识库/Go语言基础入门/index.html",
-    "public/2023/07/23/orginone实习经历/orginone平台解析——anystore的api/index.html",
     "source/_posts/数据库/SQL进阶.md",
     "source/_posts/计算机语言知识库/Go语言基础入门.md",
     "source/_posts/碎碎念/未命名 5.md",
@@ -231,7 +241,6 @@
     "source/_posts/数学建模/Matlab.md",
     "source/_posts/数学建模/仿真复习.md",
     "source/_posts/计算机语言知识库/TypeScript基础入门.md",
-    "source/_posts/计算机语言知识库/Javascript.md",
     "未命名 3.canvas",
     "未命名 2.canvas",
     "未命名 1.canvas",
