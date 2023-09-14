@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/博客搭建与配置/hexo标签外挂.md",
+                "file": "source/_posts/数据库/MongoDB基础语法.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/_posts/博客搭建与配置/hexo标签外挂.md"
+                "file": "source/_posts/数据库/MongoDB基础语法.md"
               }
             }
           },
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/博客搭建与配置/hexo标签外挂.md",
+                "file": "source/_posts/数据库/MongoDB基础语法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/_posts/博客搭建与配置/hexo标签外挂.md",
+                "file": "source/_posts/数据库/MongoDB基础语法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,36 +195,37 @@
   },
   "active": "73dba0e18773fbbd",
   "lastOpenFiles": [
+    "source/_posts/数据库/MySQL基础.md",
+    "source/_posts/前端学习/VUE.md",
+    "source/_posts/前端学习/清除浮动的三种常用方式.md",
+    "source/_posts/前端学习/前端鉴权.md",
+    "source/_posts/数据库/MongoDB基础语法.md",
+    "source/_posts/数据库/SQL进阶.md",
+    "source/_posts/前端学习/React基础知识入门.md",
+    "source/_posts/计算机语言知识库/CSS.md",
+    "source/_posts/计算机语言知识库/深入理解TypeScript.md",
+    "source/_posts/计算机语言知识库/HTML.md",
+    "source/_posts/计算机语言知识库/JAVA基础速查速记.md",
+    "source/_posts/计算机语言知识库/Javascript.md",
+    "source/_posts/计算机语言知识库/TypeScript基础入门.md",
+    "source/_posts/博客搭建与配置/hexo标签外挂.md",
+    "source/_posts/踩坑记录/React路由踩坑.md",
+    "source/_posts/后端学习/Spring Boot入门.md",
+    "source/_posts/后端学习/SpringBoot接入阿里云SLS云日志服务.md",
+    "source/_posts/计算机基础/计算机网络.md",
+    "source/_posts/计算机基础/软件工程.md",
+    "source/_posts/计算机基础/git命令.md",
+    "source/_posts/计算机基础/UML.md",
+    "source/_posts/计算机语言知识库/Go语言基础入门.md",
     "themes/butterfly/layout/includes/loading/load_style/ark.pug",
     "db.json~",
     "source/_posts/博客搭建与配置/hexo标签外挂.md~",
     "themes/butterfly/source/css/_load_style/ark.styl",
-    "source/_posts/后端学习/Spring Boot入门.md",
-    "source/_posts/后端学习/SpringBoot接入阿里云SLS云日志服务.md",
     "source/_posts/orginone实习经历/orginone功能开发——应用开发手册.md",
     "themes/butterfly/source/css/_load_style/arkLoading.styl",
     "source/_posts/orginone实习经历/orginone平台解析——沟通和储存.md",
     "source/_posts/orginone实习经历/orginone平台解析——anystore的api.md",
     "source/_posts/orginone实习经历/orginone平台解析——SignalR通信.md",
-    "source/_posts/Python爬虫/python爬虫----Requests库.md",
-    "source/_posts/Python爬虫/python爬虫----BeautifulSoup库.md",
-    "source/_posts/项目开发/Springboot后端 + 前端部署流程.md",
-    "source/_posts/项目开发/中医药食堂管理.md",
-    "source/_posts/项目开发/高校生均成本核算系统.md",
-    "source/_posts/项目开发/基于uniapp的天气播报微信小程序.md",
-    "source/_posts/项目开发/面向制造业企业的进销存与成本管理系统.md",
-    "source/_posts/项目开发/在校学生表和开课明细表的Exel导入的格式.md",
-    "source/_posts/数据库/MongoDB基础语法.md",
-    "source/_posts/数据库/SQL进阶.md",
-    "source/_posts/数据库/MySQL基础.md",
-    "source/_posts/数学建模/仿真复习.md",
-    "source/_posts/数学建模/Matlab.md",
-    "source/_posts/碎碎念/写了三年博客，有一些想说的话.md",
-    "source/_posts/orginone实习经历/orginone——用户手册（沟通+存储+办事）.md",
-    "source/_posts/计算机语言知识库/Javascript.md",
-    "source/_posts/计算机语言知识库/JAVA基础速查速记.md",
-    "source/_posts/计算机语言知识库/TypeScript基础入门.md",
-    "source/_posts/博客搭建与配置/hexo标签外挂.md",
     "public/img/post_cover3.jpg",
     "public/img/avatar.png",
     "public/img/post_cover2.jpg",
@@ -240,7 +241,6 @@
     "public/img/post_cover1.jpg",
     "public/img/alipay.jpg",
     "public/tags/java/index.html",
-    "public/tags/云日志/index.html",
     "未命名 3.canvas",
     "未命名 2.canvas",
     "未命名 1.canvas",
