@@ -28,7 +28,6 @@ function postTabs (args, content) {
   while(tabTitleMatch = regex.exec(content)){
     tabTitles.push(tabTitleMatch[1])
   }
-  console.log(tabTitles.join(','))
 
   //获取tab的内容
   const regex2 = /<!--\s*tab (.*?)\s*-->([\s\S]*?)<!--\s*endtab\s*-->/g;
@@ -38,7 +37,6 @@ function postTabs (args, content) {
   while ((tabContentMatch = regex2.exec(content)) !== null) {
     tabContents.push(tabContentMatch[2]);
   }
-  console.log(tabContents.join(';'))
 
   for (let i = 0; i < tabTitles.length; i += 1) {
     matches.push(tabTitles[i])
