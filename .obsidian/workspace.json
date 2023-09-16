@@ -13,13 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/数据库/MongoDB基础语法.md",
+                "file": "source/_posts/orginone实习经历/orginone功能开发——应用开发手册.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "33a0e3902a640191",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.13"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/_posts/数据库/MongoDB基础语法.md"
+                "file": "source/_posts/orginone实习经历/orginone功能开发——应用开发手册.md"
               }
             }
           },
@@ -103,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/数据库/MongoDB基础语法.md",
+                "file": "source/_posts/orginone实习经历/orginone功能开发——应用开发手册.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/_posts/数据库/MongoDB基础语法.md",
+                "file": "source/_posts/orginone实习经历/orginone功能开发——应用开发手册.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,8 +204,15 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "73dba0e18773fbbd",
+  "active": "33a0e3902a640191",
   "lastOpenFiles": [
+    "source/_posts/orginone实习经历/orginone——用户手册（沟通+存储+办事）.md",
+    "source/_posts/orginone实习经历/orginone功能开发——应用开发手册.md",
+    "source/_posts/orginone实习经历/orginone平台解析——沟通和储存.md",
+    "source/_posts/orginone实习经历/orginone平台解析——anystore的api.md",
+    "source/_posts/orginone实习经历/orginone平台解析——SignalR通信.md",
+    "source/_posts/数据库/MongoDB基础语法.md",
+    "public/index.html",
     "themes/butterfly/_config.yml~",
     "db.json",
     "public/img/archive.png",
@@ -213,15 +231,12 @@
     "public/2023/08/29/项目开发/高校生均成本核算系统/index.html",
     "public/2023/08/07/orginone实习经历/orginone功能开发——应用开发手册/index.html",
     "public/2023/07/23/orginone实习经历/orginone平台解析——anystore的api/index.html",
-    "public/2023/07/31/orginone实习经历/orginone——用户手册（沟通+存储+办事）/index.html",
-    "public/2023/09/07/计算机语言知识库/Go语言基础入门/index.html",
     "public/img/404.jpg",
     "node_modules/hexo-filter-gitcalendar/README.md",
     "source/_posts/数据库/MySQL基础.md",
     "source/_posts/前端学习/VUE.md",
     "source/_posts/前端学习/清除浮动的三种常用方式.md",
     "source/_posts/前端学习/前端鉴权.md",
-    "source/_posts/数据库/MongoDB基础语法.md",
     "source/_posts/数据库/SQL进阶.md",
     "source/_posts/前端学习/React基础知识入门.md",
     "source/_posts/计算机语言知识库/CSS.md",
@@ -237,10 +252,6 @@
     "source/_posts/计算机基础/计算机网络.md",
     "source/_posts/计算机基础/软件工程.md",
     "source/_posts/计算机基础/git命令.md",
-    "source/_posts/计算机基础/UML.md",
-    "source/_posts/计算机语言知识库/Go语言基础入门.md",
-    "source/_posts/orginone实习经历/orginone功能开发——应用开发手册.md",
-    "source/_posts/orginone实习经历/orginone平台解析——沟通和储存.md",
     "未命名 3.canvas",
     "未命名 2.canvas",
     "未命名 1.canvas",
