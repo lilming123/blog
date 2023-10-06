@@ -11,9 +11,11 @@
             "id": "d7564ffade92670f",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2023-09-23 19.38.14.excalidraw.md"
+                "file": "source/_posts/项目开发/高校生均成本核算系统.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -91,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2023-09-23 19.38.14.excalidraw.md"
+                "file": "source/_posts/项目开发/高校生均成本核算系统.md"
               }
             }
           },
@@ -101,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2023-09-23 19.38.14.excalidraw.md",
+                "file": "source/_posts/项目开发/高校生均成本核算系统.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2023-09-23 19.38.14.excalidraw.md",
+                "file": "source/_posts/项目开发/高校生均成本核算系统.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,8 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.5,
-    "collapsed": true
+    "width": 274.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,9 +194,16 @@
   },
   "active": "d7564ffade92670f",
   "lastOpenFiles": [
+    "source/_posts/项目开发/基于uniapp的天气播报微信小程序.md",
+    "source/_posts/项目开发/面向制造业企业的进销存与成本管理系统.md",
+    "source/_posts/项目开发/在校学生表和开课明细表的Exel导入的格式.md",
+    "source/_posts/项目开发/Springboot后端 + 前端部署流程.md",
+    "source/_posts/计算机语言知识库/TypeScript基础入门.md",
+    "source/_posts/数据库/MySQL基础.md",
+    "source/_posts/踩坑记录/React路由踩坑.md",
+    "Excalidraw/Drawing 2023-09-23 19.38.14.excalidraw.md",
     "Excalidraw/Drawing 2023-09-23 19.51.10.excalidraw.md",
     "Excalidraw/Drawing 2023-07-11 09.44.13.excalidraw.md",
-    "Excalidraw/Drawing 2023-09-23 19.38.14.excalidraw.md",
     "source/_posts/算法学习/Drawing 2023-09-23 19.49.24.excalidraw.md",
     "source/_posts/算法学习/Drawing 2023-09-23 19.52.32.excalidraw.md",
     "source/_posts/算法学习/红黑树前篇——234树.md",
@@ -208,7 +216,6 @@
     "source/_posts/().md",
     "source/_posts/未命名.md",
     "source/_posts/算法学习",
-    "source/_posts/数据库/MySQL基础.md",
     "source/_posts/数据库/Redis.md",
     "source/_posts/数据库/MongoDB基础语法.md",
     "source/_posts/博客搭建与配置/hexo标签外挂.md",
@@ -233,12 +240,6 @@
     "public/2023/09/11/数据库/MongoDB基础语法/index.html",
     "public/2023/07/31/orginone实习经历/orginone——用户手册（沟通+存储+办事）/index.html",
     "source/_posts/orginone实习经历/orginone——用户手册（沟通+存储+办事）.md",
-    "source/_posts/orginone实习经历/orginone平台解析——沟通和储存.md",
-    "source/_posts/orginone实习经历/orginone平台解析——anystore的api.md",
-    "source/_posts/orginone实习经历/orginone平台解析——SignalR通信.md",
-    "node_modules/hexo-filter-gitcalendar/README.md",
-    "source/_posts/前端学习/VUE.md",
-    "source/_posts/前端学习/清除浮动的三种常用方式.md",
     "未命名 3.canvas",
     "未命名 2.canvas",
     "未命名 1.canvas",
