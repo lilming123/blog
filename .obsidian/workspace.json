@@ -188,8 +188,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.5,
-    "collapsed": true
+    "width": 274.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,10 +207,11 @@
   },
   "active": "f9dfa0288ac0988b",
   "lastOpenFiles": [
+    "source/_posts/前端学习/TypeScript 中为对象动态添加属性.md",
+    "source/_posts/计算机语言知识库/TypeScript基础入门.md",
     "Excalidraw/Drawing 2023-10-09 11.06.49.excalidraw.md",
     "source/_posts/项目开发/orginone应用——安心屋业务逻辑.md",
     "source/_posts/数据库/Redis.md",
-    "source/_posts/计算机语言知识库/TypeScript基础入门.md",
     "source/_posts/算法学习/红黑树前篇——234树.md",
     "source/_posts/算法学习/红黑树——插入算法.md",
     "source/_posts/项目开发/高校生均成本核算系统.md",
@@ -235,7 +235,6 @@
     "source/_posts/未命名.md",
     "source/_posts/算法学习",
     "source/_posts/数据库/MongoDB基础语法.md",
-    "source/_posts/博客搭建与配置/hexo标签外挂.md",
     "db.json",
     "public/img/archive.png",
     "public/img/default.jpg",

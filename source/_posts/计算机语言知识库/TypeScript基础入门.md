@@ -947,3 +947,16 @@ padding(1, 1, 1, 1); // Okay: top, right, bottom, left
 padding(1, 1, 1); // Error: Not a part of the available overloads
 ```
 64 4 16 20 16 
+
+# 数组处理
+
+## map
+> 对数组的每一个元素进行操作
+
+## filter
+> 对数组的元素进行筛选
+
+
+## reduce
+> 按顺序对数组的元素进行操作，并将返回的结果传递到下一次
+
