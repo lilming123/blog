@@ -16,6 +16,9 @@ description:
 
 # 基础数据类型
 
+>和 JavaScript 一样，TypeScript 里的所有数字都是浮点数。这些浮点数的类型是 `number`。除了支持十进制和十六进制字面量，TypeScript 还支持 ECMAScript 2015中引入的二进制和八进制字面量。
+
+
 ```ts
 let a: string = "abc"
 let b: number = 123

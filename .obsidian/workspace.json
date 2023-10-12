@@ -23,9 +23,11 @@
             "id": "f9dfa0288ac0988b",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.4.14"
+                "file": "source/_posts/计算机语言知识库/TypeScript基础入门.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -104,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/_posts/项目开发/orginone应用——安心屋业务逻辑.md"
+                "file": "source/_posts/计算机语言知识库/TypeScript基础入门.md"
               }
             }
           },
@@ -114,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/项目开发/orginone应用——安心屋业务逻辑.md",
+                "file": "source/_posts/计算机语言知识库/TypeScript基础入门.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/_posts/项目开发/orginone应用——安心屋业务逻辑.md",
+                "file": "source/_posts/计算机语言知识库/TypeScript基础入门.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
