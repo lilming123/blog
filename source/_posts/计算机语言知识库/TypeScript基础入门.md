@@ -960,3 +960,19 @@ padding(1, 1, 1); // Error: Not a part of the available overloads
 ## reduce
 > 按顺序对数组的元素进行操作，并将返回的结果传递到下一次
 
+
+
+```vue
+<template>  
+{{arr}}
+</template>  
+<script lang="ts" setup>  
+  import { onMounted, ref } from 'vue';  
+  const arr = ref<number[]>([])
+  onMounted(() => {  
+	arr.value.push(1) // 在onMounted内部不触发更新
+  });  
+  arr.value.push(2) // 触发更新
+</script>
+```
+
