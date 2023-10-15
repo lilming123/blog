@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "cbf3183100d8b211",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -206,7 +216,7 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "f9dfa0288ac0988b",
+  "active": "cbf3183100d8b211",
   "lastOpenFiles": [
     "source/_posts/计算机语言知识库/TypeScript基础入门.md",
     "source/_posts/前端学习/TypeScript 中为对象动态添加属性.md",
