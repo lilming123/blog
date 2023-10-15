@@ -16,7 +16,7 @@ description:
 # 后端
 - 安装 jdk8
 - jar 包运行
-	- 查看 8080 端口占用：lsof -i:8080
+		- 查看 8080 端口占用：lsof -i:8080
 	- 杀死进程（PID）：kill -9 {PID}
 	- nohup 不中断运行：nohup java -jar xxx.jar >> log 2>&1 &
 	- 在 log 中查看日志
