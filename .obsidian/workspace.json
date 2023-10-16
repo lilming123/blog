@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/项目开发/Springboot后端 + 前端部署流程.md",
+                "file": "source/_posts/算法学习/红黑树——删除算法.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.50432205200195
+    "width": 245.50432205200195,
+    "collapsed": true
   },
   "right": {
     "id": "521105735f5a461b",
@@ -106,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/_posts/项目开发/Springboot后端 + 前端部署流程.md"
+                "file": "source/_posts/算法学习/红黑树——删除算法.md"
               }
             }
           },
@@ -116,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/项目开发/Springboot后端 + 前端部署流程.md",
+                "file": "source/_posts/算法学习/红黑树——删除算法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/_posts/项目开发/Springboot后端 + 前端部署流程.md",
+                "file": "source/_posts/算法学习/红黑树——删除算法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,7 +190,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.5
+    "width": 274.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,8 +208,9 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "c3a598d11d0c51b8",
+  "active": "f9dfa0288ac0988b",
   "lastOpenFiles": [
+    "source/_posts/项目开发/Springboot后端 + 前端部署流程.md",
     "source/_posts/计算机语言知识库/TypeScript基础入门.md",
     "source/_posts/前端学习/TypeScript 中为对象动态添加属性.md",
     "Excalidraw/Drawing 2023-10-09 11.06.49.excalidraw.md",
@@ -219,7 +222,6 @@
     "source/_posts/项目开发/基于uniapp的天气播报微信小程序.md",
     "source/_posts/项目开发/面向制造业企业的进销存与成本管理系统.md",
     "source/_posts/项目开发/在校学生表和开课明细表的Exel导入的格式.md",
-    "source/_posts/项目开发/Springboot后端 + 前端部署流程.md",
     "source/_posts/数据库/MySQL基础.md",
     "source/_posts/踩坑记录/React路由踩坑.md",
     "Excalidraw/Drawing 2023-09-23 19.38.14.excalidraw.md",
