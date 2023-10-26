@@ -14,6 +14,7 @@ description:
 javascript的语法比较简单，类似与python与C的结合，阅读文档自行了解：[javascript教程](https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
 
 # 数据类型深入
+## 字符串方法
 
 ## 数组
 > 数组是一种特殊的变量，它能够一次存放一个以上的值。
