@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/计算机语言知识库/Javascript.md",
+                "file": "source/_posts/计算机语言知识库/TypeScript基础入门.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/_posts/计算机语言知识库/Javascript.md"
+                "file": "source/_posts/计算机语言知识库/TypeScript基础入门.md"
               }
             }
           },
@@ -104,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/计算机语言知识库/Javascript.md",
+                "file": "source/_posts/计算机语言知识库/TypeScript基础入门.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/_posts/计算机语言知识库/Javascript.md",
+                "file": "source/_posts/计算机语言知识库/TypeScript基础入门.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,8 +194,8 @@
   },
   "active": "dc0ea82247530946",
   "lastOpenFiles": [
-    "source/_posts/计算机语言知识库/TypeScript基础入门.md",
     "source/_posts/计算机语言知识库/Javascript.md",
+    "source/_posts/计算机语言知识库/TypeScript基础入门.md",
     "source/_posts/计算机基础/git命令.md",
     "source/_posts/前端面试题整理.md",
     "source/_posts/算法学习/红黑树——删除算法.md",
