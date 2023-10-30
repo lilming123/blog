@@ -21,6 +21,7 @@ USE 数据库名称					--切换默认数据库
 DROP DATABASE 数据库名			--删除数据库
 ```
 # 数据类型
+
 基础的数据类型忽略，只用重点看下面两个数据类型
 ## enum单选
 ```sql
@@ -83,6 +84,7 @@ drop table if exists 表1，表2，表3
 ```
 # 增加记录insert
 ## 表设置
+
 | Datatype           |                                             |
 | ------------------ | ------------------------------------------- |
 | PK                 | 主键                                        |
@@ -250,22 +252,34 @@ where point between 1000 and 3000
 ### like
 
 - 操作符
-| like  ' ' | 等于引号里字符的记录 |
-| --- | --- |
-| % | 任意字符 |
-| _ | 一个字符 |
 
-- 例：
+| like  '  ' | 等于引号里字符的记录 |
+| ---------- | -------------------- |
+| %          | 任意字符             |
+| \_         | 一个字符             |
+| \[\]       | 在括号内的任意字符   |
+| \[^\]           |不是括号内的任意字符                      |
+
+例：
 ```sql
 SELECT * FROM Persons
-WHERE City LIKE '%lon%';
+WHERE City LIKE '%lon%'; -- 包括lon
+
 SELECT * FROM Persons
-WHERE City NOT LIKE '%lon%'
+WHERE City NOT LIKE '%lon%' -- 不包括lon
+
+SELECT * FROM Persons
+WHERE City LIKE 'lon[ea]' --lone 或者lona
+
+SELECT * FROM Persons
+WHERE City LIKE '[^a]%' -- 不是以a开头的
 ```
+
 <a name="QuG7X"></a>
 ### regexp
 
 - 常见正则表达式
+
 | regexp ' ' | 包含引号里字符的记录 |
 | --- | --- |
 | ^ | 以后面的字符开头的 |
@@ -344,13 +358,19 @@ union
 select name
 from shippers
 ```
-## 对查询结果排序
+## 对查询结果排序 order by
 
 
 |  |  |  |  |  |
 |:-:|:-:|:-:|:-:|:-:|
-|  |  |  |  |  |
-|  |  |  |  |  |
+|ASC|  |升序(默认)|  |  |
+|DESC|  |降序|  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
 
+
+
+# 对查询结果分组 group by
+
+# 对分组结果筛选 having
+与 where 类似,区别是 having 只能作用于 group by 后面
