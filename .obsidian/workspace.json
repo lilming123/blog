@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "07f347c8a8331b00",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "source/_posts/奥集能——聊天界面BUG统计.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/_posts/项目开发/Springboot后端 + 前端部署流程.md"
+                "file": "source/_posts/奥集能——聊天界面BUG统计.md"
               }
             }
           },
@@ -103,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/项目开发/Springboot后端 + 前端部署流程.md",
+                "file": "source/_posts/奥集能——聊天界面BUG统计.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/_posts/项目开发/Springboot后端 + 前端部署流程.md",
+                "file": "source/_posts/奥集能——聊天界面BUG统计.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,8 +205,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "dc0ea82247530946",
+  "active": "07f347c8a8331b00",
   "lastOpenFiles": [
+    "source/_posts/项目开发/Springboot后端 + 前端部署流程.md",
+    "source/_posts/奥集能——聊天界面BUG统计.md",
     "source/_posts/计算机基础/计算机网络.md",
     "source/_posts/计算机基础/软件工程.md",
     "source/_posts/计算机基础/git命令.md",
@@ -202,7 +217,6 @@
     "source/_posts/计算机语言知识库/Javascript.md",
     "source/_posts/前端面试题整理.md",
     "source/_posts/算法学习/红黑树——删除算法.md",
-    "source/_posts/项目开发/Springboot后端 + 前端部署流程.md",
     "source/_posts/前端学习/TypeScript 中为对象动态添加属性.md",
     "Excalidraw/Drawing 2023-10-09 11.06.49.excalidraw.md",
     "source/_posts/项目开发/orginone应用——安心屋业务逻辑.md",
@@ -220,7 +234,6 @@
     "source/_posts/算法学习/Drawing 2023-09-23 19.49.24.excalidraw.md",
     "source/_posts/算法学习/Drawing 2023-09-23 19.52.32.excalidraw.md",
     "Excalidraw/Drawing 2023-09-23 19.38.14.excalidraw.png",
-    "Excalidraw/Drawing 2023-09-23 19.39.08.excalidraw.md",
     "source/_posts/算法学习",
     "db.json",
     "public/img/archive.png",
