@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/计算机基础/git命令.md",
+                "file": "source/_posts/项目开发/Springboot后端 + 前端部署流程.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.50432205200195
+    "width": 203.5
   },
   "right": {
     "id": "521105735f5a461b",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/_posts/计算机基础/git命令.md"
+                "file": "source/_posts/项目开发/Springboot后端 + 前端部署流程.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/计算机基础/git命令.md",
+                "file": "source/_posts/项目开发/Springboot后端 + 前端部署流程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/_posts/计算机基础/git命令.md",
+                "file": "source/_posts/项目开发/Springboot后端 + 前端部署流程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,11 +207,11 @@
   },
   "active": "07f347c8a8331b00",
   "lastOpenFiles": [
+    "source/_posts/计算机基础/git命令.md",
     "source/_posts/奥集能——聊天界面BUG统计.md",
     "source/_posts/项目开发/Springboot后端 + 前端部署流程.md",
     "source/_posts/计算机基础/计算机网络.md",
     "source/_posts/计算机基础/软件工程.md",
-    "source/_posts/计算机基础/git命令.md",
     "source/_posts/数据库/MySQL基础.md",
     "source/_posts/计算机语言知识库/TypeScript基础入门.md",
     "source/_posts/计算机语言知识库/Javascript.md",
