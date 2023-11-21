@@ -46,6 +46,7 @@ git reset --hard HEAD                     -- 撤销所有未提交文件的修�
 git checkout HEAD 文件名                    --撤销所有未提交文件的修改内容
 git revert <commit>	                      -- 撤销提交
 ```
+## 
 <a name="tDAWL"></a>
 # 分支
 ## 添加远程分支
