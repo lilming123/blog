@@ -47,9 +47,27 @@ git checkout HEAD 文件名                    --撤销所有未提交文件的�
 git revert <commit>	                      -- 撤销提交
 ```
 ## 合并多次提交
+例如我要合并前两个提交
 ```bash
-
+git rebase -i HEAD~3
 ```
+执行了 rebase 命令之后，会弹出一个窗口
+```
+pick 3ca6ec3   '注释**********'
+ 
+pick 1b40566   '注释*********'
+ 
+pick 53f244a   '注释**********'
+```
+将除了第一个的 pick，其他都改为 s 或 squash
+```
+pick 3ca6ec3   '注释**********'
+ 
+spick 1b40566   '注释*********'
+ 
+spick 53f244a   '注释**********'
+```
+**这时候，需要强制push上去  git push -f**
 <a name="tDAWL"></a>
 # 分支
 ## 添加远程分支
