@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "dc5ef5801bf32560",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "source/_posts/Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "07f347c8a8331b00",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/_posts/计算机基础/git命令.md"
+                "file": "source/_posts/Untitled.md"
               }
             }
           },
@@ -115,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/计算机基础/git命令.md",
+                "file": "source/_posts/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/_posts/计算机基础/git命令.md",
+                "file": "source/_posts/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,14 +217,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "dc0ea82247530946",
+  "active": "dc5ef5801bf32560",
   "lastOpenFiles": [
+    "source/_posts/计算机基础/git命令.md",
+    "source/_posts/Untitled.md",
     "source/_posts/前端面试题整理.md",
     "Untitled.canvas",
     "source/_posts/2023-11-23.md",
     "source/_posts/项目开发/Springboot后端 + 前端部署流程.md",
     "source/_posts/计算机语言知识库/TypeScript基础入门.md",
-    "source/_posts/计算机基础/git命令.md",
     "source/_posts/奥集能——聊天界面BUG统计.md",
     "source/_posts/计算机基础/计算机网络.md",
     "source/_posts/计算机基础/软件工程.md",

@@ -51,6 +51,12 @@ git revert <commit>	                      -- 撤销提交
 ```bash
 git rebase -i HEAD~3
 ```
+1. 指名要合并的版本之前的版本号
+    
+    git rebase -i 3a4226b
+    
+    请注意 `3a4226b` 这个版本是不参与合并的，可以把它当做一个坐标
+
 执行了 rebase 命令之后，会弹出一个窗口
 ```
 pick 3ca6ec3   '注释**********'
