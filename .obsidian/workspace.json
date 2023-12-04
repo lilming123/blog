@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/_posts/Untitled.md"
+                "file": "source/_posts/计算机基础/git命令.md"
               }
             }
           },
@@ -128,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/Untitled.md",
+                "file": "source/_posts/计算机基础/git命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/_posts/Untitled.md",
+                "file": "source/_posts/计算机基础/git命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,10 +216,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "dc5ef5801bf32560",
+  "active": "dc0ea82247530946",
   "lastOpenFiles": [
-    "source/_posts/计算机基础/git命令.md",
     "source/_posts/Untitled.md",
+    "source/_posts/计算机基础/git命令.md",
     "source/_posts/前端面试题整理.md",
     "Untitled.canvas",
     "source/_posts/2023-11-23.md",
