@@ -30,6 +30,9 @@ git init                    -- 初始化本地仓库
 git status               --查询本地库状态
 ```
 > 会建立并转到master分支下
+
+# 更新代码
+
 <a name="dGPp5"></a>
 # 提交代码
 ## 提交 
