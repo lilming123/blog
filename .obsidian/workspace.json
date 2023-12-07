@@ -4,40 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1ed150e49b226a7f",
+        "id": "d5372fab7b7d3ead",
         "type": "tabs",
         "children": [
           {
-            "id": "dc0ea82247530946",
+            "id": "c54e4ad5aced1083",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/计算机基础/git命令.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dc5ef5801bf32560",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "source/_posts/Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "07f347c8a8331b00",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "source/_posts/计算机语言知识库/TypeScript基础入门.md",
+                "file": "source/_posts/计算机基础/UML.md",
                 "mode": "source",
                 "source": false
               }
@@ -72,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "f",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 203.5
+    "width": 399.5
   },
   "right": {
     "id": "521105735f5a461b",
@@ -117,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/_posts/计算机基础/git命令.md"
+                "file": "source/_posts/计算机基础/UML.md"
               }
             }
           },
@@ -127,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/计算机基础/git命令.md",
+                "file": "source/_posts/计算机基础/UML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/_posts/计算机基础/git命令.md",
+                "file": "source/_posts/计算机基础/UML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -216,16 +192,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "dc0ea82247530946",
+  "active": "c54e4ad5aced1083",
   "lastOpenFiles": [
-    "source/_posts/Untitled.md",
     "source/_posts/计算机基础/git命令.md",
-    "source/_posts/前端面试题整理.md",
-    "Untitled.canvas",
+    "source/_posts/计算机基础/UML.md",
+    "source/_posts/计算机语言知识库/Go语言基础入门.md",
+    "source/_posts/Untitled.md",
     "source/_posts/2023-11-23.md",
+    "source/_posts/前端面试题整理.md",
+    "source/_posts/奥集能——聊天界面BUG统计.md",
+    "Untitled.canvas",
     "source/_posts/项目开发/Springboot后端 + 前端部署流程.md",
     "source/_posts/计算机语言知识库/TypeScript基础入门.md",
-    "source/_posts/奥集能——聊天界面BUG统计.md",
     "source/_posts/计算机基础/计算机网络.md",
     "source/_posts/计算机基础/软件工程.md",
     "source/_posts/数据库/MySQL基础.md",
@@ -243,8 +221,6 @@
     "source/_posts/项目开发/在校学生表和开课明细表的Exel导入的格式.md",
     "source/_posts/踩坑记录/React路由踩坑.md",
     "Excalidraw/Drawing 2023-09-23 19.38.14.excalidraw.md",
-    "Excalidraw/Drawing 2023-09-23 19.51.10.excalidraw.md",
-    "Excalidraw/Drawing 2023-07-11 09.44.13.excalidraw.md",
     "Excalidraw/Drawing 2023-09-23 19.38.14.excalidraw.png",
     "source/_posts/算法学习",
     "db.json",
