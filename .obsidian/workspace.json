@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/踩坑记录/eden.proxy.ts没有生效.md",
+                "file": "source/_posts/计算机基础/git命令.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/_posts/踩坑记录/eden.proxy.ts没有生效.md"
+                "file": "source/_posts/计算机基础/git命令.md"
               }
             }
           },
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/踩坑记录/eden.proxy.ts没有生效.md",
+                "file": "source/_posts/计算机基础/git命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/_posts/踩坑记录/eden.proxy.ts没有生效.md",
+                "file": "source/_posts/计算机基础/git命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,10 +192,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c54e4ad5aced1083",
+  "active": "c3a598d11d0c51b8",
   "lastOpenFiles": [
-    "source/_posts/踩坑记录/分支合并把之前的提交覆盖了.md",
     "source/_posts/踩坑记录/eden.proxy.ts没有生效.md",
+    "source/_posts/踩坑记录/分支合并把之前的提交覆盖了.md",
     "source/_posts/计算机基础/git命令.md",
     "source/_posts/计算机基础/UML.md",
     "source/_posts/计算机语言知识库/Go语言基础入门.md",
