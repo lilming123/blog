@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "05ba9db4a7ba9bb1",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.3"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +59,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "f",
+                "query": "居中",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +84,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -167,7 +179,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -192,7 +206,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c54e4ad5aced1083",
+  "active": "05ba9db4a7ba9bb1",
   "lastOpenFiles": [
     "source/_posts/计算机语言知识库/Go语言基础入门.md",
     "source/_posts/计算机基础/git命令.md",
