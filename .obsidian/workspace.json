@@ -23,9 +23,11 @@
             "id": "05ba9db4a7ba9bb1",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.5.3"
+                "file": "source/_posts/计算机基础/git命令.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -84,8 +86,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
