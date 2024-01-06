@@ -11,28 +11,13 @@
             "id": "c54e4ad5aced1083",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "source/_posts/计算机基础/git命令.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "05ba9db4a7ba9bb1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "source/_posts/计算机语言知识库/Go语言基础入门.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2024-01-06 15.47.30.excalidraw.md"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +75,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 399.5
+    "width": 204.5
   },
   "right": {
     "id": "521105735f5a461b",
@@ -106,7 +91,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/_posts/计算机语言知识库/Go语言基础入门.md"
+                "file": "Excalidraw/Drawing 2024-01-06 15.47.30.excalidraw.md"
               }
             }
           },
@@ -116,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/计算机语言知识库/Go语言基础入门.md",
+                "file": "Excalidraw/Drawing 2024-01-06 15.47.30.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/_posts/计算机语言知识库/Go语言基础入门.md",
+                "file": "Excalidraw/Drawing 2024-01-06 15.47.30.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +175,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,15 +193,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "05ba9db4a7ba9bb1",
+  "active": "c54e4ad5aced1083",
   "lastOpenFiles": [
-    "source/_posts/计算机语言知识库/JAVA基础速查速记.md",
+    "source/_posts/计算机基础/git命令.md",
+    "Excalidraw/Drawing 2024-01-06 15.47.30.excalidraw.md",
+    "Excalidraw/Drawing 2024-01-06 15.19.43.excalidraw.md",
     "source/_posts/计算机语言知识库/Go语言基础入门.md",
+    "source/_posts/计算机语言知识库/JAVA基础速查速记.md",
     "source/_posts/计算机语言知识库/TypeScript基础入门.md",
     "source/_posts/踩坑记录/eden.proxy.ts没有生效.md",
     "source/_posts/踩坑记录/React路由踩坑.md",
     "source/_posts/踩坑记录/分支合并把之前的提交覆盖了.md",
-    "source/_posts/计算机基础/git命令.md",
     "source/_posts/计算机基础/UML.md",
     "source/_posts/Untitled.md",
     "source/_posts/2023-11-23.md",
@@ -234,8 +222,6 @@
     "source/_posts/数据库/Redis.md",
     "source/_posts/算法学习/红黑树前篇——234树.md",
     "source/_posts/算法学习/红黑树——插入算法.md",
-    "source/_posts/项目开发/高校生均成本核算系统.md",
-    "source/_posts/项目开发/基于uniapp的天气播报微信小程序.md",
     "Excalidraw/Drawing 2023-09-23 19.38.14.excalidraw.png",
     "source/_posts/算法学习",
     "db.json",
