@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/数据库/MySQL基础.md",
+                "file": "source/_posts/计算机基础/git命令.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/_posts/数据库/MySQL基础.md"
+                "file": "source/_posts/计算机基础/git命令.md"
               }
             }
           },
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/数据库/MySQL基础.md",
+                "file": "source/_posts/计算机基础/git命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/_posts/数据库/MySQL基础.md",
+                "file": "source/_posts/计算机基础/git命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,6 +196,7 @@
   },
   "active": "c54e4ad5aced1083",
   "lastOpenFiles": [
+    "source/_posts/数据库/MySQL基础.md",
     "source/_posts/数据库/MongoDB基础语法.md",
     "Excalidraw/Drawing 2024-01-06 15.47.30.excalidraw.md",
     "source/_posts/计算机基础/git命令.md",
@@ -215,7 +216,6 @@
     "source/_posts/项目开发/Springboot后端 + 前端部署流程.md",
     "source/_posts/计算机基础/计算机网络.md",
     "source/_posts/计算机基础/软件工程.md",
-    "source/_posts/数据库/MySQL基础.md",
     "source/_posts/计算机语言知识库/Javascript.md",
     "source/_posts/算法学习/红黑树——删除算法.md",
     "source/_posts/前端学习/TypeScript 中为对象动态添加属性.md",

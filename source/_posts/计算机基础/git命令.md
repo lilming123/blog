@@ -52,7 +52,7 @@ git revert <commit>	                      -- 撤销提交
 ## 合并多次提交
 例如我要合并前两个提交
 ```bash
-	git rebase -i HEAD~3
+		git rebase -i HEAD~3
 ```
 1. 指名要合并的版本之前的版本号
     
