@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d5372fab7b7d3ead",
+        "id": "828e1561003fd227",
         "type": "tabs",
         "children": [
           {
-            "id": "c54e4ad5aced1083",
+            "id": "345854bc8dff8150",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "source/_posts/踩坑记录/eden.proxy.ts没有生效.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2024-01-16 21.28.43.excalidraw.md"
               }
             }
           }
@@ -93,7 +91,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/_posts/踩坑记录/eden.proxy.ts没有生效.md"
+                "file": "Excalidraw/Drawing 2024-01-16 21.28.43.excalidraw.md"
               }
             }
           },
@@ -103,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/踩坑记录/eden.proxy.ts没有生效.md",
+                "file": "Excalidraw/Drawing 2024-01-16 21.28.43.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/_posts/踩坑记录/eden.proxy.ts没有生效.md",
+                "file": "Excalidraw/Drawing 2024-01-16 21.28.43.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,11 +193,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c54e4ad5aced1083",
+  "active": "345854bc8dff8150",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-01-16 21.28.43.excalidraw.md",
+    "source/_posts/踩坑记录/eden.proxy.ts没有生效.md",
     "source/_posts/踩坑记录/分支合并把之前的提交覆盖了.md",
     "source/_posts/踩坑记录/React路由踩坑.md",
-    "source/_posts/踩坑记录/eden.proxy.ts没有生效.md",
     "source/_posts/计算机语言知识库/Go语言基础入门.md",
     "source/_posts/计算机基础/git命令.md",
     "source/_posts/数据库/MySQL基础.md",
@@ -223,7 +222,6 @@
     "Excalidraw/Drawing 2023-10-09 11.06.49.excalidraw.md",
     "source/_posts/项目开发/orginone应用——安心屋业务逻辑.md",
     "source/_posts/数据库/Redis.md",
-    "source/_posts/算法学习/红黑树前篇——234树.md",
     "Excalidraw/Drawing 2023-09-23 19.38.14.excalidraw.png",
     "source/_posts/算法学习",
     "db.json",
