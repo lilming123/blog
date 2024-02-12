@@ -18,7 +18,7 @@
     "themes/"
   ],
   "useMarkdownLinks": true,
-  "vimMode": true,
+  "vimMode": false,
   "strictLineBreaks": false,
   "livePreview": true
 }

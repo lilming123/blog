@@ -9,6 +9,6 @@
   "obsidian-emoji-toolbar",
   "mermaid-tools",
   "obsidian-pandoc",
-  "templater-obsidian",
-  "obsidian-image-auto-upload-plugin"
+  "obsidian-image-auto-upload-plugin",
+  "templater-obsidian"
 ]

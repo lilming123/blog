@@ -57,5 +57,21 @@
     }
   ],
   "obsidian-excalidraw-plugin:save": [],
-  "workspace:new-tab": []
+  "workspace:new-tab": [],
+  "templater-obsidian:replace-in-file-templater": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "R"
+    }
+  ],
+  "templater-obsidian:insert-templater": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "W"
+    }
+  ]
 }
