@@ -14,7 +14,7 @@ description:
 - mysql 版本:5.7 以上
 - 不区分大小写：在\[mysqlid\]下加上 `lower_case_table_names=1`
 # 后端
-- 安装 jdk8
+- 安装 jdk17: https://juejin.cn/post/7299477531640463423
 - jar 包运行
 		- 查看 8080 端口占用：lsof -i:8080
 	- 杀死进程（PID）：kill -9 {PID}
