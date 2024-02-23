@@ -16,8 +16,19 @@
                 "file": "Excalidraw/Drawing 2024-02-22 16.15.32.excalidraw.md"
               }
             }
+          },
+          {
+            "id": "601059558b3703d3",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.8"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -193,7 +204,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "75d46865fd5f82f0",
+  "active": "601059558b3703d3",
   "lastOpenFiles": [
     "source/_posts/项目开发/Springboot后端 + 前端部署流程.md",
     "Excalidraw/Drawing 2024-02-22 16.15.32.excalidraw.md",
