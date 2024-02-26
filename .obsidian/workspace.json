@@ -21,10 +21,8 @@
             "id": "601059558b3703d3",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.8"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -101,9 +99,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-02-22 16.15.32.excalidraw.md"
-              }
+              "state": {}
             }
           },
           {
@@ -112,7 +108,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-02-22 16.15.32.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +124,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-02-22 16.15.32.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,9 +200,10 @@
   },
   "active": "601059558b3703d3",
   "lastOpenFiles": [
+    "source/_posts/项目开发/服务外包大赛——大学迎新App.md",
+    "source/_posts/前端学习/未命名.md",
     "source/_posts/项目开发/Springboot后端 + 前端部署流程.md",
     "Excalidraw/Drawing 2024-02-22 16.15.32.excalidraw.md",
-    "source/_posts/项目开发/服务外包大赛——大学迎新App.md",
     "source/_posts/static/服务外包大赛——大学迎新App 2024-02-10 21.22.12.excalidraw.md",
     "source/_posts/项目开发/高校生均成本核算系统.md",
     "source/_posts/static/服务外包大赛——大学迎新App 2024-02-10 21.21.57.excalidraw.md",
@@ -231,7 +226,6 @@
     "source/_posts/踩坑记录/eden.proxy.ts没有生效.md",
     "source/_posts/踩坑记录/分支合并把之前的提交覆盖了.md",
     "source/_posts/踩坑记录/React路由踩坑.md",
-    "source/_posts/计算机基础/git命令.md",
     "Untitled.canvas",
     "Excalidraw/Drawing 2023-09-23 19.38.14.excalidraw.png",
     "source/_posts/算法学习",
