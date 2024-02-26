@@ -21,8 +21,12 @@
             "id": "601059558b3703d3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "source/_posts/学习/考研复习计划.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -99,7 +103,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "source/_posts/学习/考研复习计划.md"
+              }
             }
           },
           {
@@ -108,6 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "source/_posts/学习/考研复习计划.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,6 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "source/_posts/学习/考研复习计划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,6 +208,10 @@
   },
   "active": "601059558b3703d3",
   "lastOpenFiles": [
+    "source/_posts/前端学习/React状态管理——Redux.md",
+    "source/_posts/学习/考研复习计划.md",
+    "source/_posts/学习",
+    "source/_posts/前端学习/React基础知识入门.md",
     "source/_posts/项目开发/服务外包大赛——大学迎新App.md",
     "source/_posts/前端学习/未命名.md",
     "source/_posts/项目开发/Springboot后端 + 前端部署流程.md",
@@ -223,9 +235,6 @@
     "source/_posts/Untitled.md",
     "source/_posts/计算机语言知识库/Go语言基础入门.md",
     "Excalidraw/Drawing 2024-01-16 21.28.43.excalidraw.md",
-    "source/_posts/踩坑记录/eden.proxy.ts没有生效.md",
-    "source/_posts/踩坑记录/分支合并把之前的提交覆盖了.md",
-    "source/_posts/踩坑记录/React路由踩坑.md",
     "Untitled.canvas",
     "Excalidraw/Drawing 2023-09-23 19.38.14.excalidraw.png",
     "source/_posts/算法学习",
@@ -246,7 +255,6 @@
     "public/2023/07/04/orginone实习经历/orginone平台解析——SignalR通信/index.html",
     "public/2023/09/10/碎碎念/写了三年博客，有一些想说的话/index.html",
     "public/2023/09/11/数据库/MongoDB基础语法/index.html",
-    "public/2023/07/31/orginone实习经历/orginone——用户手册（沟通+存储+办事）/index.html",
     "未命名 3.canvas",
     "未命名 2.canvas",
     "未命名 1.canvas",
