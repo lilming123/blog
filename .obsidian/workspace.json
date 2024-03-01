@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/前端学习/React奇巧淫技——组件hook封装，统一暴露方法.md",
+                "file": "source/_posts/前端学习/React状态管理——Redux.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/_posts/前端学习/React奇巧淫技——组件hook封装，统一暴露方法.md"
+                "file": "source/_posts/前端学习/React状态管理——Redux.md"
               }
             }
           },
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/前端学习/React奇巧淫技——组件hook封装，统一暴露方法.md",
+                "file": "source/_posts/前端学习/React状态管理——Redux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/_posts/前端学习/React奇巧淫技——组件hook封装，统一暴露方法.md",
+                "file": "source/_posts/前端学习/React状态管理——Redux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
