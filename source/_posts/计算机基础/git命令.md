@@ -19,7 +19,7 @@ git config          --global user.email 邮箱
 cat ~/.gitconfig
 ```
 <a name="UrEas"></a>
-## 拉取代码
+出## 拉取代码
 ```shell
 git clone 远程仓库地址
 ```
