@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/计算机基础/git命令.md",
+                "file": "source/_posts/计算机语言知识库/TypeScript基础入门.md",
                 "mode": "source",
                 "source": false
               }
@@ -59,7 +59,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "lower_case_table_names",
+                "query": "react",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +84,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -104,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/_posts/计算机基础/git命令.md"
+                "file": "source/_posts/计算机语言知识库/TypeScript基础入门.md"
               }
             }
           },
@@ -114,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/计算机基础/git命令.md",
+                "file": "source/_posts/计算机语言知识库/TypeScript基础入门.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/_posts/计算机基础/git命令.md",
+                "file": "source/_posts/计算机语言知识库/TypeScript基础入门.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,13 +207,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "601059558b3703d3",
+  "active": "5a45f54e1d31f501",
   "lastOpenFiles": [
+    "source/_posts/计算机语言知识库/深入理解TypeScript.md",
+    "source/_posts/学习/考研复习计划.md",
+    "source/_posts/计算机基础/git命令.md",
     "source/_posts/前端学习/React状态管理——Redux.md",
     "source/_posts/前端学习/React奇巧淫技——Suspense.md",
     "source/_posts/前端学习/React奇巧淫技——组件hook封装，统一暴露方法.md",
     "source/_posts/前端学习/React奇巧淫技——.md",
-    "source/_posts/学习/考研复习计划.md",
     "source/_posts/学习",
     "source/_posts/前端学习/React基础知识入门.md",
     "source/_posts/项目开发/服务外包大赛——大学迎新App.md",
@@ -233,8 +236,6 @@
     "source/_posts/未命名.md",
     "scaffolds/post.md",
     "source/_posts/项目开发/Untitled.md",
-    "source/_posts/Untitled 1.md",
-    "source/_posts/Untitled.md",
     "Untitled.canvas",
     "Excalidraw/Drawing 2023-09-23 19.38.14.excalidraw.png",
     "source/_posts/算法学习",

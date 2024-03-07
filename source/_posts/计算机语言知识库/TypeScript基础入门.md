@@ -7,9 +7,6 @@ categories: [计算机语言知识库]
 keywords:
 description: 
 ---
-
-
-
 # 前言
 
 官方文档：[TypeScript中文网 ](https://www.tslang.cn/docs/home.html)
