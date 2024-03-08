@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/计算机语言知识库/TypeScript基础入门.md",
+                "file": "source/_posts/碎碎念/写了三年博客，有一些想说的话.md",
                 "mode": "source",
                 "source": false
               }
@@ -59,7 +59,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "react",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,8 +84,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -105,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/_posts/计算机语言知识库/TypeScript基础入门.md"
+                "file": "source/_posts/碎碎念/写了三年博客，有一些想说的话.md"
               }
             }
           },
@@ -115,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/计算机语言知识库/TypeScript基础入门.md",
+                "file": "source/_posts/碎碎念/写了三年博客，有一些想说的话.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/_posts/计算机语言知识库/TypeScript基础入门.md",
+                "file": "source/_posts/碎碎念/写了三年博客，有一些想说的话.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,8 +206,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5a45f54e1d31f501",
+  "active": "601059558b3703d3",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-02-22 16.15.32.excalidraw.md",
+    "source/_posts/碎碎念/写了三年博客，有一些想说的话.md",
+    "scaffolds/post.md",
+    "source/_posts/学习/日常学习工作流 - CS自学指南.md",
+    "source/_posts/数据库/MongoDB基础语法.md",
+    "source/_posts/数学建模/仿真复习.md",
+    "source/_posts/日常学习工作流 - CS自学指南.md",
+    "source/_posts/计算机语言知识库/TypeScript基础入门.md",
     "source/_posts/计算机语言知识库/深入理解TypeScript.md",
     "source/_posts/学习/考研复习计划.md",
     "source/_posts/计算机基础/git命令.md",
@@ -220,7 +227,6 @@
     "source/_posts/前端学习/React基础知识入门.md",
     "source/_posts/项目开发/服务外包大赛——大学迎新App.md",
     "source/_posts/项目开发/Springboot后端 + 前端部署流程.md",
-    "Excalidraw/Drawing 2024-02-22 16.15.32.excalidraw.md",
     "source/_posts/static/服务外包大赛——大学迎新App 2024-02-10 21.22.12.excalidraw.md",
     "source/_posts/项目开发/高校生均成本核算系统.md",
     "source/_posts/static/服务外包大赛——大学迎新App 2024-02-10 21.21.57.excalidraw.md",
@@ -229,13 +235,6 @@
     "Excalidraw/Drawing 2024-02-10 20.49.43.excalidraw.md",
     "source/_posts/项目开发/服务外包大赛——迎新.md",
     "source/_posts/项目开发/服务外包大赛——校园迎新app.md",
-    "source/_posts/项目开发/中医药食堂管理.md",
-    "source/_posts/项目开发/orginone应用——安心屋业务逻辑.md",
-    "source/_posts/项目开发/面向制造业企业的进销存与成本管理系统.md",
-    "source/_posts/项目开发/在校学生表和开课明细表的Exel导入的格式.md",
-    "source/_posts/未命名.md",
-    "scaffolds/post.md",
-    "source/_posts/项目开发/Untitled.md",
     "Untitled.canvas",
     "Excalidraw/Drawing 2023-09-23 19.38.14.excalidraw.png",
     "source/_posts/算法学习",
